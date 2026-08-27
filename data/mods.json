@@ -2,9 +2,9 @@
   "$schema": "https://bravofiveniner.com/schema/mods.v1.json",
   "author": "BravoFiveNine",
   "authorWorkshopSearch": "https://reforger.armaplatform.com/workshop?search=BravoFiveNine",
-  "generatedAt": "2026-08-26T00:00:00.000Z",
-  "generatedBy": "seed (hand-verified from the public Workshop listing)",
-  "imagesRehosted": false,
+  "generatedAt": "2026-08-27T02:44:50.349Z",
+  "generatedBy": "scripts/sync-workshop.mjs",
+  "imagesRehosted": true,
   "categories": [
     {
       "id": "rifles",
@@ -40,10 +40,10 @@
     }
   ],
   "counts": {
-    "total": 28,
-    "withDetail": 4,
+    "total": 31,
+    "withDetail": 31,
     "byCategory": {
-      "rifles": 10,
+      "rifles": 13,
       "smg": 4,
       "shotguns": 2,
       "precision": 2,
@@ -51,525 +51,72 @@
       "core": 4,
       "audio": 2,
       "gameplay": 2
-    }
+    },
+    "totalDownloads": 1828488
   },
   "mods": [
     {
-      "id": "66C3068E893517D7",
-      "name": "BravoFiveNine - G3",
-      "slug": "66C3068E893517D7-BravoFiveNine-G3",
-      "workshopUrl": "https://reforger.armaplatform.com/workshop/66C3068E893517D7-BravoFiveNine-G3",
+      "id": "65276E2DDE189819",
+      "name": "B59 - BravoEFX",
+      "slug": "65276E2DDE189819-B59-BravoEFX",
+      "workshopUrl": "https://reforger.armaplatform.com/workshop/65276E2DDE189819-B59-BravoEFX",
       "author": "BravoFiveNine",
-      "category": "rifles",
-      "categoryLabel": "Battle rifles & carbines",
-      "rating": 64,
-      "version": "0.0.27",
+      "category": "audio",
+      "categoryLabel": "Sound & effects",
+      "featured": null,
+      "rating": 92,
+      "version": "1.0.28",
       "gameVersion": "1.7.0.54",
-      "sizeLabel": "100.11 MB",
-      "sizeBytes": 104972943,
-      "downloads": 39994,
-      "created": "2025-11-01",
-      "updated": "2026-07-26",
+      "sizeLabel": "1.30 MB",
+      "sizeBytes": 1363149,
+      "downloads": 281984,
+      "created": "2025-04-20",
+      "updated": "2026-07-30",
       "license": {
-        "name": "Arma Public License No Derivatives (APL-ND)",
-        "short": "APL-ND"
+        "name": "Arma Public License Share Alike (APL-SA)",
+        "short": "APL-SA"
       },
-      "summary": "A G3 family pack — G3, G3SG/1, HK51, HK51 polymer, PSG-1 and the Swedish AK4, with matching handguards, rails and 7.62x51 magazines.",
-      "description": "Prefabs: Rifle_AK4_base, Rifle_G3, Rifle_G3SG, Rifle_HK51, Rifle_HK51_D, Rifle_PSG. Handguards for each variant plus G3 and PSG optic rails.",
+      "summary": "Weapon Components for Animations\n- Ironsight flipping\n- Dynamic maggazine dropping and attaching.",
+      "description": "Animation variable to dynamically hide/transform flip ironsights, move optics, and muzzle devices.",
       "tags": [
-        "G3",
-        "G3SG",
-        "HK51",
-        "PSG-1",
         "WEAPONS"
       ],
-      "dependencies": [
-        "WCS_Attachments",
-        "WCS_Scopes",
-        "Attachment Framework",
-        "B59 Attachments",
-        "B59 - SoundFX",
-        "Attachment Framework-Core",
-        "B59 - BravoCore",
-        "WCS_Weapon_Scripts"
-      ],
+      "dependencies": [],
       "images": [
         {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/a005/5931a509bc5cc528cd34f0655f8a726aa7aa475eb85d77cd2e50d0cc2a5a/46932.jpg",
-          "local": "/mods/66C3068E893517D7/00.webp",
-          "thumb": "/mods/66C3068E893517D7/00-640.webp",
-          "width": null,
-          "height": null
+          "source": "https://ar-gcp-cdn.bistudio.com/image/d529/bd68b8b4c42a482289343caf5cae8f1dbc0e0c1eceb631fe7dbec7e85ebc/56686.jpg",
+          "hash": "eb69244fa865",
+          "local": "/mods/65276E2DDE189819/00-eb69244fa865.webp",
+          "thumb": "/mods/65276E2DDE189819/00-eb69244fa865-640.webp",
+          "width": 1448,
+          "height": 1086
         },
         {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/f0ad/8dadc3029ebbcd8ce8b9cfaf3bf62407ee23eac1eb11e0b505205ae7f945/9701.jpg",
-          "local": "/mods/66C3068E893517D7/01.webp",
-          "thumb": "/mods/66C3068E893517D7/01-640.webp",
-          "width": null,
-          "height": null
+          "source": "https://ar-gcp-cdn.bistudio.com/image/c40b/aa0319da0938204dbdef17538f0312d20d7d1d308815dab61aea2bf08ba6/38619.jpg",
+          "hash": "3905b666e10f",
+          "local": "/mods/65276E2DDE189819/01-3905b666e10f.webp",
+          "thumb": "/mods/65276E2DDE189819/01-3905b666e10f-640.webp",
+          "width": 1152,
+          "height": 648
         },
         {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/e77d/399aed56340e6b5c5848a9d58e48d3f51b9f78e47900fb19c401c5d9232f/9605.jpg",
-          "local": "/mods/66C3068E893517D7/02.webp",
-          "thumb": "/mods/66C3068E893517D7/02-640.webp",
-          "width": null,
-          "height": null
+          "source": "https://ar-gcp-cdn.bistudio.com/image/a374/30112f11a216fda0c28d41bea534b232b04d7ee126053e99f28c0498c606/13712.jpg",
+          "hash": "83e73b05725c",
+          "local": "/mods/65276E2DDE189819/02-83e73b05725c.webp",
+          "thumb": "/mods/65276E2DDE189819/02-83e73b05725c-640.webp",
+          "width": 576,
+          "height": 324
         },
         {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/7e4f/c4c8a22895c03f87e7314725ec8b449bcec10483d073d4e250af46e88157/9708.jpg",
-          "local": "/mods/66C3068E893517D7/03.webp",
-          "thumb": "/mods/66C3068E893517D7/03-640.webp",
-          "width": null,
-          "height": null
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/ad9e/eefdd89d0641c206aae5a980f4645c42dc5fd6ee42b047a09a6ce39c774d/14469.jpg",
-          "local": "/mods/66C3068E893517D7/04.webp",
-          "thumb": "/mods/66C3068E893517D7/04-640.webp",
-          "width": null,
-          "height": null
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/4593/76fbf3325c84e09f8753d664791966c30499e46c0ea92dda220d7597acfd/14038.jpg",
-          "local": "/mods/66C3068E893517D7/05.webp",
-          "thumb": "/mods/66C3068E893517D7/05-640.webp",
-          "width": null,
-          "height": null
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/8df8/22be086e90289149292484bb8f303c4b0169f7262eacbe5f140ac3ce30c1/10144.jpg",
-          "local": "/mods/66C3068E893517D7/06.webp",
-          "thumb": "/mods/66C3068E893517D7/06-640.webp",
-          "width": null,
-          "height": null
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/6ef8/39cc3425411be849bc61d2646077aa0845edc13110f02c49fbc2285efcbb/9302.jpg",
-          "local": "/mods/66C3068E893517D7/07.webp",
-          "thumb": "/mods/66C3068E893517D7/07-640.webp",
-          "width": null,
-          "height": null
+          "source": "https://ar-gcp-cdn.bistudio.com/image/8c8f/994ef9f1e4e252b495cda678e7027efb3d08753e039177823bffbcf272bc/5111.jpg",
+          "hash": "9de0b02489c5",
+          "local": "/mods/65276E2DDE189819/03-9de0b02489c5.webp",
+          "thumb": "/mods/65276E2DDE189819/03-9de0b02489c5-640.webp",
+          "width": 288,
+          "height": 162
         }
       ],
-      "detailSynced": true,
-      "featured": 3
-    },
-    {
-      "id": "651D71B6C09E3A84",
-      "name": "B59 - FAL",
-      "slug": "651D71B6C09E3A84-B59-FAL",
-      "workshopUrl": "https://reforger.armaplatform.com/workshop/651D71B6C09E3A84-B59-FAL",
-      "author": "BravoFiveNine",
-      "category": "rifles",
-      "categoryLabel": "Battle rifles & carbines",
-      "rating": 86,
-      "version": null,
-      "gameVersion": null,
-      "sizeLabel": "69.18 MB",
-      "sizeBytes": 72540488,
-      "downloads": null,
-      "created": null,
-      "updated": null,
-      "license": null,
-      "summary": null,
-      "description": null,
-      "tags": [],
-      "dependencies": [],
-      "images": [],
-      "detailSynced": false,
-      "featured": null
-    },
-    {
-      "id": "69DE1EC1C9B75262",
-      "name": "B59 - AR",
-      "slug": "69DE1EC1C9B75262-B59-AR",
-      "workshopUrl": "https://reforger.armaplatform.com/workshop/69DE1EC1C9B75262-B59-AR",
-      "author": "BravoFiveNine",
-      "category": "rifles",
-      "categoryLabel": "Battle rifles & carbines",
-      "rating": 100,
-      "version": null,
-      "gameVersion": null,
-      "sizeLabel": "113.69 MB",
-      "sizeBytes": 119212605,
-      "downloads": null,
-      "created": null,
-      "updated": null,
-      "license": null,
-      "summary": null,
-      "description": null,
-      "tags": [],
-      "dependencies": [],
-      "images": [],
-      "detailSynced": false,
-      "featured": null
-    },
-    {
-      "id": "69601094E34C9652",
-      "name": "B59 - AR10",
-      "slug": "69601094E34C9652-B59-AR10",
-      "workshopUrl": "https://reforger.armaplatform.com/workshop/69601094E34C9652-B59-AR10",
-      "author": "BravoFiveNine",
-      "category": "rifles",
-      "categoryLabel": "Battle rifles & carbines",
-      "rating": 86,
-      "version": null,
-      "gameVersion": null,
-      "sizeLabel": "44.94 MB",
-      "sizeBytes": 47123005,
-      "downloads": null,
-      "created": null,
-      "updated": null,
-      "license": null,
-      "summary": null,
-      "description": null,
-      "tags": [],
-      "dependencies": [],
-      "images": [],
-      "detailSynced": false,
-      "featured": null
-    },
-    {
-      "id": "69F686CFC9BB905F",
-      "name": "B59 - AR9",
-      "slug": "69F686CFC9BB905F-B59-AR9",
-      "workshopUrl": "https://reforger.armaplatform.com/workshop/69F686CFC9BB905F-B59-AR9",
-      "author": "BravoFiveNine",
-      "category": "rifles",
-      "categoryLabel": "Battle rifles & carbines",
-      "rating": 0,
-      "version": null,
-      "gameVersion": null,
-      "sizeLabel": "15.54 MB",
-      "sizeBytes": 16294871,
-      "downloads": null,
-      "created": null,
-      "updated": null,
-      "license": null,
-      "summary": null,
-      "description": null,
-      "tags": [],
-      "dependencies": [],
-      "images": [],
-      "detailSynced": false,
-      "featured": null
-    },
-    {
-      "id": "69F68714C36FB183",
-      "name": "B59 - MK12",
-      "slug": "69F68714C36FB183-B59-MK12",
-      "workshopUrl": "https://reforger.armaplatform.com/workshop/69F68714C36FB183-B59-MK12",
-      "author": "BravoFiveNine",
-      "category": "rifles",
-      "categoryLabel": "Battle rifles & carbines",
-      "rating": 100,
-      "version": null,
-      "gameVersion": null,
-      "sizeLabel": "8.65 MB",
-      "sizeBytes": 9070182,
-      "downloads": null,
-      "created": null,
-      "updated": null,
-      "license": null,
-      "summary": null,
-      "description": null,
-      "tags": [],
-      "dependencies": [],
-      "images": [],
-      "detailSynced": false,
-      "featured": null
-    },
-    {
-      "id": "671CCCD3C4194FA6",
-      "name": "Armaconflict.com M4 M16",
-      "slug": "671CCCD3C4194FA6-Armaconflict.comM4M16",
-      "workshopUrl": "https://reforger.armaplatform.com/workshop/671CCCD3C4194FA6-Armaconflict.comM4M16",
-      "author": "BravoFiveNine",
-      "category": "rifles",
-      "categoryLabel": "Battle rifles & carbines",
-      "rating": 40,
-      "version": null,
-      "gameVersion": null,
-      "sizeLabel": "283.93 MB",
-      "sizeBytes": 297722184,
-      "downloads": null,
-      "created": null,
-      "updated": null,
-      "license": null,
-      "summary": null,
-      "description": null,
-      "tags": [],
-      "dependencies": [],
-      "images": [],
-      "detailSynced": false,
-      "featured": null
-    },
-    {
-      "id": "64D81B5099CCA662",
-      "name": "Armaconflict.com - SCAR",
-      "slug": "64D81B5099CCA662-Armaconflict.com-SCAR",
-      "workshopUrl": "https://reforger.armaplatform.com/workshop/64D81B5099CCA662-Armaconflict.com-SCAR",
-      "author": "BravoFiveNine",
-      "category": "rifles",
-      "categoryLabel": "Battle rifles & carbines",
-      "rating": 65,
-      "version": null,
-      "gameVersion": null,
-      "sizeLabel": "123.83 MB",
-      "sizeBytes": 129845166,
-      "downloads": null,
-      "created": null,
-      "updated": null,
-      "license": null,
-      "summary": null,
-      "description": null,
-      "tags": [],
-      "dependencies": [],
-      "images": [],
-      "detailSynced": false,
-      "featured": null
-    },
-    {
-      "id": "6713491DFC06B4C5",
-      "name": "ArmaConflict - XM177E2 Addons",
-      "slug": "6713491DFC06B4C5-ArmaConflict-XM177E2Addons",
-      "workshopUrl": "https://reforger.armaplatform.com/workshop/6713491DFC06B4C5-ArmaConflict-XM177E2Addons",
-      "author": "BravoFiveNine",
-      "category": "rifles",
-      "categoryLabel": "Battle rifles & carbines",
-      "rating": 86,
-      "version": null,
-      "gameVersion": null,
-      "sizeLabel": "17.18 MB",
-      "sizeBytes": 18014536,
-      "downloads": null,
-      "created": null,
-      "updated": null,
-      "license": null,
-      "summary": null,
-      "description": null,
-      "tags": [],
-      "dependencies": [],
-      "images": [],
-      "detailSynced": false,
-      "featured": null
-    },
-    {
-      "id": "69CC4B43A3C97827",
-      "name": "B59 - A-602 Klyk",
-      "slug": "69CC4B43A3C97827-B59-A-602Klyk",
-      "workshopUrl": "https://reforger.armaplatform.com/workshop/69CC4B43A3C97827-B59-A-602Klyk",
-      "author": "BravoFiveNine",
-      "category": "rifles",
-      "categoryLabel": "Battle rifles & carbines",
-      "rating": 75,
-      "version": null,
-      "gameVersion": null,
-      "sizeLabel": "11.68 MB",
-      "sizeBytes": 12247368,
-      "downloads": null,
-      "created": null,
-      "updated": null,
-      "license": null,
-      "summary": null,
-      "description": null,
-      "tags": [],
-      "dependencies": [],
-      "images": [],
-      "detailSynced": false,
-      "featured": null
-    },
-    {
-      "id": "64515006D4EC4776",
-      "name": "B59 - Mp5",
-      "slug": "64515006D4EC4776-B59-Mp5",
-      "workshopUrl": "https://reforger.armaplatform.com/workshop/64515006D4EC4776-B59-Mp5",
-      "author": "BravoFiveNine",
-      "category": "smg",
-      "categoryLabel": "Submachine guns",
-      "rating": 76,
-      "version": "1.0.37",
-      "gameVersion": "1.8.0.10",
-      "sizeLabel": "81.53 MB",
-      "sizeBytes": 85490401,
-      "downloads": 143299,
-      "created": "2025-01-18",
-      "updated": "2026-08-16",
-      "license": {
-        "name": "Arma Public License No Derivatives (APL-ND)",
-        "short": "APL-ND"
-      },
-      "summary": "MP5A4 with Surefire handguard, MP5SD with collapsible stock, MP510 and MP5K — custom animations, custom sound, free to use as a dependency.",
-      "description": "Weapon classnames: mp5_01_Base, mp510, mp5k, mp5_sd. Modifications allowed — restat, retexture, add attachments or change sounds and redistribute, so long as this mod stays a dependency.",
-      "tags": [
-        "B59",
-        "MP5",
-        "MP510",
-        "MP5A4",
-        "MP5K",
-        "MP5SD",
-        "SMG",
-        "WEAPONS"
-      ],
-      "dependencies": [
-        "TacticalAnimationOverhaul TEST",
-        "Attachment Framework",
-        "B59 Attachments",
-        "ARMA-RY CORE",
-        "ARMA-RY CLAW MOUNT",
-        "B59 - SoundFX",
-        "Attachment Framework-Core",
-        "B59 - BravoCore"
-      ],
-      "images": [
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/3366/70443333a051d55714cc06b0882d02fabf2ff3bcf0448dde35e5017a33f6/104858.jpg",
-          "local": "/mods/64515006D4EC4776/00.webp",
-          "thumb": "/mods/64515006D4EC4776/00-640.webp",
-          "width": null,
-          "height": null
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/aecb/eb8093b84ba3338f178e1abac7150118142f98cabef59769fab46e70c2ca/15772.jpg",
-          "local": "/mods/64515006D4EC4776/01.webp",
-          "thumb": "/mods/64515006D4EC4776/01-640.webp",
-          "width": null,
-          "height": null
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/d9c8/e00bdc51a62fb43c9e5fbdbc65167395df8422a7e1ecfa4e7cc41bf382af/14186.jpg",
-          "local": "/mods/64515006D4EC4776/02.webp",
-          "thumb": "/mods/64515006D4EC4776/02-640.webp",
-          "width": null,
-          "height": null
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/0455/843696d88083d282a7f50b91a1d001e3617a62f144b858bb1d0a74d1dec1/15025.jpg",
-          "local": "/mods/64515006D4EC4776/03.webp",
-          "thumb": "/mods/64515006D4EC4776/03-640.webp",
-          "width": null,
-          "height": null
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/ffd3/86870d0d1a8b548fb2b4d3ebedb91b59531c4f5c98fe89a1bcc4573fc504/14789.jpg",
-          "local": "/mods/64515006D4EC4776/04.webp",
-          "thumb": "/mods/64515006D4EC4776/04-640.webp",
-          "width": null,
-          "height": null
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/f13f/68addeba2ae45c697da18890872841b2559888e0ed5b7cd4b2c617e0f9bd/15219.jpg",
-          "local": "/mods/64515006D4EC4776/05.webp",
-          "thumb": "/mods/64515006D4EC4776/05-640.webp",
-          "width": null,
-          "height": null
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/478e/5db364254007569826e50129d119e27eb78436b175ddbd1736fdc5639ceb/15943.jpg",
-          "local": "/mods/64515006D4EC4776/06.webp",
-          "thumb": "/mods/64515006D4EC4776/06-640.webp",
-          "width": null,
-          "height": null
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/225e/ebbf72880c96a8fddbbddb8c73525fbe1b173ae1f8ea1913a29832d24b1c/14987.jpg",
-          "local": "/mods/64515006D4EC4776/07.webp",
-          "thumb": "/mods/64515006D4EC4776/07-640.webp",
-          "width": null,
-          "height": null
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/9ae0/7197eb8d6b9e68265c16c5dbc02c239ef4392b2ff66f7a41c752113b43fa/14298.jpg",
-          "local": "/mods/64515006D4EC4776/08.webp",
-          "thumb": "/mods/64515006D4EC4776/08-640.webp",
-          "width": null,
-          "height": null
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/c289/32dcc1f5069e3fd68f2f48e18342ea61b68635b166cca7742f81bc27953f/15651.jpg",
-          "local": "/mods/64515006D4EC4776/09.webp",
-          "thumb": "/mods/64515006D4EC4776/09-640.webp",
-          "width": null,
-          "height": null
-        }
-      ],
-      "detailSynced": true,
-      "featured": 2
-    },
-    {
-      "id": "69F60DF1F74542C1",
-      "name": "B59 - MP5K",
-      "slug": "69F60DF1F74542C1-B59-MP5K",
-      "workshopUrl": "https://reforger.armaplatform.com/workshop/69F60DF1F74542C1-B59-MP5K",
-      "author": "BravoFiveNine",
-      "category": "smg",
-      "categoryLabel": "Submachine guns",
-      "rating": 0,
-      "version": null,
-      "gameVersion": null,
-      "sizeLabel": "42.40 MB",
-      "sizeBytes": 44459622,
-      "downloads": null,
-      "created": null,
-      "updated": null,
-      "license": null,
-      "summary": null,
-      "description": null,
-      "tags": [],
-      "dependencies": [],
-      "images": [],
-      "detailSynced": false,
-      "featured": null
-    },
-    {
-      "id": "69FE8761C699DC56",
-      "name": "B59 - MP5 - FDE",
-      "slug": "69FE8761C699DC56-B59-MP5-FDE",
-      "workshopUrl": "https://reforger.armaplatform.com/workshop/69FE8761C699DC56-B59-MP5-FDE",
-      "author": "BravoFiveNine",
-      "category": "smg",
-      "categoryLabel": "Submachine guns",
-      "rating": 0,
-      "version": null,
-      "gameVersion": null,
-      "sizeLabel": "143.97 MB",
-      "sizeBytes": 150963487,
-      "downloads": null,
-      "created": null,
-      "updated": null,
-      "license": null,
-      "summary": null,
-      "description": null,
-      "tags": [],
-      "dependencies": [],
-      "images": [],
-      "detailSynced": false,
-      "featured": null
-    },
-    {
-      "id": "69FE7241D54309E3",
-      "name": "B59 - MP5K - FDE",
-      "slug": "69FE7241D54309E3-B59-MP5K-FDE",
-      "workshopUrl": "https://reforger.armaplatform.com/workshop/69FE7241D54309E3-B59-MP5K-FDE",
-      "author": "BravoFiveNine",
-      "category": "smg",
-      "categoryLabel": "Submachine guns",
-      "rating": 0,
-      "version": null,
-      "gameVersion": null,
-      "sizeLabel": "70.82 MB",
-      "sizeBytes": 74260152,
-      "downloads": null,
-      "created": null,
-      "updated": null,
-      "license": null,
-      "summary": null,
-      "description": null,
-      "tags": [],
-      "dependencies": [],
-      "images": [],
-      "detailSynced": false,
-      "featured": null
+      "detailSynced": true
     },
     {
       "id": "658B2B37C2C82AAE",
@@ -579,20 +126,21 @@
       "author": "BravoFiveNine",
       "category": "shotguns",
       "categoryLabel": "Shotguns",
+      "featured": 1,
       "rating": 88,
       "version": "1.0.45",
       "gameVersion": "1.7.0.54",
       "sizeLabel": "133.28 MB",
       "sizeBytes": 139754209,
-      "downloads": 158581,
+      "downloads": 158696,
       "created": "2025-06-07",
       "updated": "2026-08-12",
       "license": {
         "name": "Arma Public License Share Alike (APL-SA)",
         "short": "APL-SA"
       },
-      "summary": "Seven shotguns for Reforger — 870 MCS, M1014, KS-23, USAS-12, Saiga-12 and SPAS-12, built on Chungus Shotguns for the pump and break action.",
-      "description": "Config-change mods for damage values are permitted, as are derivative mods for parts like handguards and magazines. Saiga handguard thanks to McTiddies4Lunch3.",
+      "summary": "850MCS, m1014, KS23, USAS-12, KS23, Saiga-12, SPAS-12. Uses BigChungus' mod as a base for the functionality.",
+      "description": "You have permission to make config change mods for damage values, or make derivative mods for items like new handguards and magazines.\nSaiga handguard thanks to McTiddies4Lunch3\nAkinaro: https://www.cgtrader.com/designers/Akinaro\n* Muzzle break\nM1014: https://www.cgtrader.com/designers/Armory3D\n870 MCS: https://www.cgtrader.com/designers/Tiggis\nKS23 : https://www.cgtrader.com/designers/cgtdg\nUSAS-12: https://www.cgtrader.com/designers/luchadordev",
       "tags": [
         "870",
         "KS23",
@@ -617,125 +165,215 @@
       ],
       "images": [
         {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/0653/f18d9bdfaab001a49298f55253855bac0a5a0d6a690effc649ccc6a803f1/266642.jpg",
+          "hash": "9c0886b58c83",
+          "local": "/mods/658B2B37C2C82AAE/00-9c0886b58c83.webp",
+          "thumb": "/mods/658B2B37C2C82AAE/00-9c0886b58c83-640.webp",
+          "width": 1600,
+          "height": 852
+        },
+        {
           "source": "https://ar-gcp-cdn.bistudio.com/image/d1d6/4d8d59f93a90df79dcf86a09b92ccfb2499ff665a139caaf263c2513e230/115292.jpg",
-          "local": "/mods/658B2B37C2C82AAE/00.webp",
-          "thumb": "/mods/658B2B37C2C82AAE/00-640.webp",
-          "width": null,
-          "height": null
+          "hash": "f0f3e98c4980",
+          "local": "/mods/658B2B37C2C82AAE/01-f0f3e98c4980.webp",
+          "thumb": "/mods/658B2B37C2C82AAE/01-f0f3e98c4980-640.webp",
+          "width": 1152,
+          "height": 648
         },
         {
           "source": "https://ar-gcp-cdn.bistudio.com/image/f244/a27160093eb6e83b8f94a23e1e8327504c1a56b16a7ef64ff6a7029f5f9f/15372.jpg",
-          "local": "/mods/658B2B37C2C82AAE/01.webp",
-          "thumb": "/mods/658B2B37C2C82AAE/01-640.webp",
-          "width": null,
-          "height": null
+          "hash": "9a19699823de",
+          "local": "/mods/658B2B37C2C82AAE/02-9a19699823de.webp",
+          "thumb": "/mods/658B2B37C2C82AAE/02-9a19699823de-640.webp",
+          "width": 388,
+          "height": 218
         },
         {
           "source": "https://ar-gcp-cdn.bistudio.com/image/1d29/e5a3a1f7cb37740de51a51c3eb187f4672ba6702cd58ebee62661f9adf6c/16128.jpg",
-          "local": "/mods/658B2B37C2C82AAE/02.webp",
-          "thumb": "/mods/658B2B37C2C82AAE/02-640.webp",
-          "width": null,
-          "height": null
+          "hash": "6fb7de079506",
+          "local": "/mods/658B2B37C2C82AAE/03-6fb7de079506.webp",
+          "thumb": "/mods/658B2B37C2C82AAE/03-6fb7de079506-640.webp",
+          "width": 388,
+          "height": 218
         },
         {
           "source": "https://ar-gcp-cdn.bistudio.com/image/33dc/05c9bf23e8d9ea1dd8aab0f06356cee51c74be6e195cbf16c56cf96439d5/15314.jpg",
-          "local": "/mods/658B2B37C2C82AAE/03.webp",
-          "thumb": "/mods/658B2B37C2C82AAE/03-640.webp",
-          "width": null,
-          "height": null
+          "hash": "a932b0ca8082",
+          "local": "/mods/658B2B37C2C82AAE/04-a932b0ca8082.webp",
+          "thumb": "/mods/658B2B37C2C82AAE/04-a932b0ca8082-640.webp",
+          "width": 388,
+          "height": 218
         },
         {
           "source": "https://ar-gcp-cdn.bistudio.com/image/b288/1482de77257eeb218a8495e533963d3f95d70a60d83c56bc61417897de83/16472.jpg",
-          "local": "/mods/658B2B37C2C82AAE/04.webp",
-          "thumb": "/mods/658B2B37C2C82AAE/04-640.webp",
-          "width": null,
-          "height": null
+          "hash": "1d0ac83f11d2",
+          "local": "/mods/658B2B37C2C82AAE/05-1d0ac83f11d2.webp",
+          "thumb": "/mods/658B2B37C2C82AAE/05-1d0ac83f11d2-640.webp",
+          "width": 388,
+          "height": 218
         },
         {
           "source": "https://ar-gcp-cdn.bistudio.com/image/5bed/12f9d6b51d981304998bdd83e04e63585f8b348d83b5552834584a21ef23/16174.jpg",
-          "local": "/mods/658B2B37C2C82AAE/05.webp",
-          "thumb": "/mods/658B2B37C2C82AAE/05-640.webp",
-          "width": null,
-          "height": null
+          "hash": "8f0d89f3afd0",
+          "local": "/mods/658B2B37C2C82AAE/06-8f0d89f3afd0.webp",
+          "thumb": "/mods/658B2B37C2C82AAE/06-8f0d89f3afd0-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/76f4/81876e92fa71673099af8afabfba4839c377b2ad71c949d52a785185bd5a/32624.jpg",
+          "hash": "01f21cd5d71e",
+          "local": "/mods/658B2B37C2C82AAE/07-01f21cd5d71e.webp",
+          "thumb": "/mods/658B2B37C2C82AAE/07-01f21cd5d71e-640.webp",
+          "width": 576,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/15a8/687385bd6a38b88c04ee7f6aeab682fd5ed968ffa6aa3665fd0ceffb19d5/9444.jpg",
+          "hash": "f90809df352f",
+          "local": "/mods/658B2B37C2C82AAE/08-f90809df352f.webp",
+          "thumb": "/mods/658B2B37C2C82AAE/08-f90809df352f-640.webp",
+          "width": 288,
+          "height": 162
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/6950/d7f65aae20d7757f4c2d08db9298125e3bac0a0d7a33f2a72fad61819e91/270254.jpg",
+          "hash": "2bd03d65499b",
+          "local": "/mods/658B2B37C2C82AAE/09-2bd03d65499b.webp",
+          "thumb": "/mods/658B2B37C2C82AAE/09-2bd03d65499b-640.webp",
+          "width": 1600,
+          "height": 851
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/48a0/0fe576d1e3ddc8be35dde9194e223d7e3e5df37bf276ccc9f1713f18aa68/181828.jpg",
+          "hash": "eb8050d96fbd",
+          "local": "/mods/658B2B37C2C82AAE/10-eb8050d96fbd.webp",
+          "thumb": "/mods/658B2B37C2C82AAE/10-eb8050d96fbd-640.webp",
+          "width": 1480,
+          "height": 832
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/e537/72688a719b2db93f7863048d8585bf3ae13b8effd27151889245b21412f0/56186.jpg",
+          "hash": "301182511012",
+          "local": "/mods/658B2B37C2C82AAE/11-301182511012.webp",
+          "thumb": "/mods/658B2B37C2C82AAE/11-301182511012-640.webp",
+          "width": 776,
+          "height": 436
         }
       ],
-      "detailSynced": true,
-      "featured": 1
+      "detailSynced": true
     },
     {
-      "id": "69868426C52A6D1D",
-      "name": "B59 Shotguns - Launcher Slot",
-      "slug": "69868426C52A6D1D-B59Shotguns-LauncherSlot",
-      "workshopUrl": "https://reforger.armaplatform.com/workshop/69868426C52A6D1D-B59Shotguns-LauncherSlot",
+      "id": "64D81B5099CCA662",
+      "name": "Armaconflict.com - SCAR",
+      "slug": "64D81B5099CCA662-Armaconflict.com-SCAR",
+      "workshopUrl": "https://reforger.armaplatform.com/workshop/64D81B5099CCA662-Armaconflict.com-SCAR",
       "author": "BravoFiveNine",
-      "category": "shotguns",
-      "categoryLabel": "Shotguns",
-      "rating": 100,
-      "version": null,
-      "gameVersion": null,
-      "sizeLabel": "2.85 KB",
-      "sizeBytes": 2918,
-      "downloads": null,
-      "created": null,
-      "updated": null,
-      "license": null,
-      "summary": null,
-      "description": null,
-      "tags": [],
-      "dependencies": [],
-      "images": [],
-      "detailSynced": false,
-      "featured": null
-    },
-    {
-      "id": "64B84B2FAD84039E",
-      "name": "ArmaConflict.com - Snipers",
-      "slug": "64B84B2FAD84039E-ArmaConflict.com-Snipers",
-      "workshopUrl": "https://reforger.armaplatform.com/workshop/64B84B2FAD84039E-ArmaConflict.com-Snipers",
-      "author": "BravoFiveNine",
-      "category": "precision",
-      "categoryLabel": "Precision rifles",
-      "rating": 0,
-      "version": null,
-      "gameVersion": null,
-      "sizeLabel": "256.81 MB",
-      "sizeBytes": 269284803,
-      "downloads": null,
-      "created": null,
-      "updated": null,
-      "license": null,
-      "summary": null,
-      "description": null,
-      "tags": [],
-      "dependencies": [],
-      "images": [],
-      "detailSynced": false,
-      "featured": null
-    },
-    {
-      "id": "648911F6D87D80A7",
-      "name": "M21 with KAC Rail",
-      "slug": "648911F6D87D80A7-M21withKACRail",
-      "workshopUrl": "https://reforger.armaplatform.com/workshop/648911F6D87D80A7-M21withKACRail",
-      "author": "BravoFiveNine",
-      "category": "precision",
-      "categoryLabel": "Precision rifles",
-      "rating": 94,
-      "version": null,
-      "gameVersion": null,
-      "sizeLabel": "4.57 MB",
-      "sizeBytes": 4791992,
-      "downloads": null,
-      "created": null,
-      "updated": null,
-      "license": null,
-      "summary": null,
-      "description": null,
-      "tags": [],
-      "dependencies": [],
-      "images": [],
-      "detailSynced": false,
-      "featured": null
+      "category": "rifles",
+      "categoryLabel": "Battle rifles & carbines",
+      "featured": null,
+      "rating": 65,
+      "version": "0.0.52",
+      "gameVersion": "1.6.0.95",
+      "sizeLabel": "123.83 MB",
+      "sizeBytes": 129845166,
+      "downloads": 157335,
+      "created": "2025-03-17",
+      "updated": "2025-12-20",
+      "license": {
+        "name": "Arma Public License No Derivatives (APL-ND)",
+        "short": "APL-ND"
+      },
+      "summary": "FN SCAR17 and FNSCAR17 EGLM, FN SCAR16 and FNSCAR16 EGLM, FNSCAR20 with custom animations.\nBuilt for Arma Conflict Insurgency",
+      "description": "✅ You have my permission to:\nMake sound changes.\nMake weapon config changes.\n🟢 Weapons\nFNSCAR-MK17_MOD_0_Name\nFNSCAR-MK17_MOD_0_CQC_Name\nFNSCAR-MK17_MOD_0_EGLM_Name\nFNSCAR-MK16_MOD_0_Name\nFNSCAR-MK16_CQC_0_Name\nFNSCAR-MK16_MOD_0_EGLM_Name\nFNSCAR-MK20_MOD_0_SSR_Name\n🟣 Magazines\nAR-Magazine_FNSCAR17_AP_Name\nAR-Magazine_FNSCAR17_M80_Name\n🔵 Barrels\nFNSCAR-BARREL_13_Name\nFNSCAR-BARREL_16_Name\nFNSCAR_BARREL_20_NAME\n🔥 Muzzle Devices / Flash Hiders / Suppressors\nFNSCAR-FLASHSUPPRESSOR_Name\nFNSCAR-MK20_FLASHSUPPRESSOR_Name\n🟠 Stocks\nFNSCAR-MK17_STOCK_NAME\nFNSCAR-MK20_STOCK_NAME\n🟡 Upper Receivers\nFNSCAR-MK17_UPPER_RECIEVER\nFNSCAR-MK20_UPPER_RECIEVER_NAME\n🟤 Sights / Iron Sights / Front Sights\nFNSCAR-MK17_IRONSIGHT_NAME\nFNSCAR-MK17_FRONTSIGHT_NAME\n⚫ Rail Covers\nFNSCAR-RAILCOVER_3RIB_NAME\nFNSCAR-RAILCOVER_6RIB\n📌 Underbarrel Grenade Launcher\nUGL-FN40GL_Name\n✅ Sources\nFNSCAR Model:\nHowel Ganuchaud → https://www.cgtrader.com/designers/defcon44\nhttps://www.cgtrader.com/3d-models/military/gun/fn-scar-l-eglm\nFNSCAR20 Parts:\nModel: https://www.cgtrader.com/designers/mr-macbeth\nRexture done by ŁDMØØŞËĶĨÇĶ🫎\nRail Cover Models:\nTurbojet 3d → https://www.cgtrader.com/designers/turbojet-3d\nGrippod Model:\nBravoFiveNiner\nLeaf Sight:\nModel by Bulletcraft: https://www.cgtrader.com/designers/bulletcraft\nFNSCAR SC Upper and Stock Model by Tran Tien ****:\nhttps://www.artstation.com/marketplace/p/BLpOm/cad-fn-scar-sc",
+      "tags": [
+        "16",
+        "17",
+        "EGLM",
+        "FN",
+        "FN40",
+        "FNSCAR",
+        "MK17",
+        "SC",
+        "SCAR",
+        "SCAR16",
+        "SCAR17",
+        "SCAR20",
+        "WEAPONS"
+      ],
+      "dependencies": [
+        "Attachment Framework",
+        "B59 - BravoEFX",
+        "B59 - SoundFX",
+        "Attachment Framework-Core"
+      ],
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/9d33/29cd25d13886382fedf4c2636886a8ca21dd3f9231e7141f08391368dc0c/153489.jpg",
+          "hash": "c76229005f57",
+          "local": "/mods/64D81B5099CCA662/00-c76229005f57.webp",
+          "thumb": "/mods/64D81B5099CCA662/00-c76229005f57-640.webp",
+          "width": 1600,
+          "height": 862
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/e704/a4fcdc3f8db2c6de4cf90f45ee3f23390290c39067dcd2aaf7c153e05d7d/70160.jpg",
+          "hash": "ede718a0f9b2",
+          "local": "/mods/64D81B5099CCA662/01-ede718a0f9b2.webp",
+          "thumb": "/mods/64D81B5099CCA662/01-ede718a0f9b2-640.webp",
+          "width": 1152,
+          "height": 648
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/7c98/608c9e0349e7262774eaeb5411f76c9ac9e2a8932756a5ec73fffc725b04/12033.jpg",
+          "hash": "dfe421e3d472",
+          "local": "/mods/64D81B5099CCA662/02-dfe421e3d472.webp",
+          "thumb": "/mods/64D81B5099CCA662/02-dfe421e3d472-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/2fca/e1463788e08a4f3d67e884eb9a6d8c182c4485d3ea22b41151dbc39d1435/23858.jpg",
+          "hash": "847dab5471ff",
+          "local": "/mods/64D81B5099CCA662/03-847dab5471ff.webp",
+          "thumb": "/mods/64D81B5099CCA662/03-847dab5471ff-640.webp",
+          "width": 576,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/b8ca/60e91041c3b6ec7cff31ec1a59f4a1ddc149a1a6463feede790f50befca8/8120.jpg",
+          "hash": "4126d5198430",
+          "local": "/mods/64D81B5099CCA662/04-4126d5198430.webp",
+          "thumb": "/mods/64D81B5099CCA662/04-4126d5198430-640.webp",
+          "width": 288,
+          "height": 162
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/b02c/71b2c9a42a339cb939b98aedb6799be7bc28183df5ebc7a38148b54e8ff0/135148.jpg",
+          "hash": "ef4bf77b8ccf",
+          "local": "/mods/64D81B5099CCA662/05-ef4bf77b8ccf.webp",
+          "thumb": "/mods/64D81B5099CCA662/05-ef4bf77b8ccf-640.webp",
+          "width": 1600,
+          "height": 864
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/486d/8980e5dc91b1010a352b0a994bf9c1dcac7ba27f3995c085e05627b34593/92274.jpg",
+          "hash": "d6883488c0a1",
+          "local": "/mods/64D81B5099CCA662/06-d6883488c0a1.webp",
+          "thumb": "/mods/64D81B5099CCA662/06-d6883488c0a1-640.webp",
+          "width": 1480,
+          "height": 832
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/e29f/a917d28fc54609cb729e0b99d7fefd233b3ffc9c43ae805f973161159ce1/34232.jpg",
+          "hash": "7112ec8f0a46",
+          "local": "/mods/64D81B5099CCA662/07-7112ec8f0a46.webp",
+          "thumb": "/mods/64D81B5099CCA662/07-7112ec8f0a46-640.webp",
+          "width": 776,
+          "height": 436
+        }
+      ],
+      "detailSynced": true
     },
     {
       "id": "654A6C52F721C8C4",
@@ -745,47 +383,102 @@
       "author": "BravoFiveNine",
       "category": "support",
       "categoryLabel": "Support weapons",
+      "featured": null,
       "rating": 88,
-      "version": null,
-      "gameVersion": null,
+      "version": "0.0.55",
+      "gameVersion": "1.8.0.10",
       "sizeLabel": "34.08 MB",
       "sizeBytes": 35735470,
-      "downloads": null,
-      "created": null,
-      "updated": null,
-      "license": null,
-      "summary": null,
-      "description": null,
-      "tags": [],
-      "dependencies": [],
-      "images": [],
-      "detailSynced": false,
-      "featured": null
-    },
-    {
-      "id": "6953480868ED0E40",
-      "name": "OldGuys No Supressor Mk46",
-      "slug": "6953480868ED0E40-OldGuysNoSupressorMk46",
-      "workshopUrl": "https://reforger.armaplatform.com/workshop/6953480868ED0E40-OldGuysNoSupressorMk46",
-      "author": "BravoFiveNine",
-      "category": "support",
-      "categoryLabel": "Support weapons",
-      "rating": 0,
-      "version": null,
-      "gameVersion": null,
-      "sizeLabel": "746.18 KB",
-      "sizeBytes": 764088,
-      "downloads": null,
-      "created": null,
-      "updated": null,
-      "license": null,
-      "summary": null,
-      "description": null,
-      "tags": [],
-      "dependencies": [],
-      "images": [],
-      "detailSynced": false,
-      "featured": null
+      "downloads": 152296,
+      "created": "2025-05-07",
+      "updated": "2026-08-14",
+      "license": {
+        "name": "Arma Public License No Derivatives (APL-ND)",
+        "short": "APL-ND"
+      },
+      "summary": "Mk46 and MK48 Pack for US",
+      "description": "✅ You have my permission to:\nMake sound changes.\nMake weapon config changes.\n🟢 Weapons\nMG_M249 (overridden to have MK46 components)\nMG_MK48 (Seargent Rank Required)\n🟣 Magazines\nBOX_762X51_MK48_100rnd_ball\n🔵 Attachments\nmk46_components\nmk48_components\nmk46_top_rail\n✅ Sources\nBase M249 and Textures:\nBohemia Interactive\nRails Mount Section:\n8sianDude: https://www.cgtrader.com/designers/8siandude\nBufferTube:\nMattias H (Tiggis) → https://www.cgtrader.com/designers/tiggis\nMk48 Stock:\nFirearmscolelctive → https://www.cgtrader.com/designers/firearmscollective\nRail Covers:\nEuan Mitchell (Tigg) → https://gamebanana.com/members/1277445\nGrip Pod\njackblack1 → https://www.cgtrader.com/designers/jackblack1\nAdjusted textures and animations, MK48 magazine and MK46/MK48 addons:\nBravoFiveNiner",
+      "tags": [
+        "M249",
+        "MINIMI",
+        "MK46",
+        "MK48",
+        "WEAPONS"
+      ],
+      "dependencies": [
+        "TacticalAnimationOverhaul TEST",
+        "Attachment Framework",
+        "B59 - SoundFX",
+        "Attachment Framework-Core",
+        "B59 - BravoCore"
+      ],
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/f37a/920563e774b4d7c4e2d38778f12dc3069ccd5e6f3b60d000d59541e9a6dd/262573.jpg",
+          "hash": "53ec762a31e2",
+          "local": "/mods/654A6C52F721C8C4/00-53ec762a31e2.webp",
+          "thumb": "/mods/654A6C52F721C8C4/00-53ec762a31e2-640.webp",
+          "width": 1600,
+          "height": 822
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/411b/41e9444823bb51c1bba02c60bbb1ae20e7e0e00ef7742d99b627c1640d71/123438.jpg",
+          "hash": "a86bf7aba5fa",
+          "local": "/mods/654A6C52F721C8C4/01-a86bf7aba5fa.webp",
+          "thumb": "/mods/654A6C52F721C8C4/01-a86bf7aba5fa-640.webp",
+          "width": 1152,
+          "height": 648
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/6a60/ddfa05f5e703ae168b3a4f583c0d3a39b652857f9dfc37ec7f0e2ee5493f/17175.jpg",
+          "hash": "67bd9beb332d",
+          "local": "/mods/654A6C52F721C8C4/02-67bd9beb332d.webp",
+          "thumb": "/mods/654A6C52F721C8C4/02-67bd9beb332d-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/31f0/0661489161210c8c6f3750b710a20bbd3e09245b9a68f7cffc77bf1e2e88/36090.jpg",
+          "hash": "0300c5ccac89",
+          "local": "/mods/654A6C52F721C8C4/03-0300c5ccac89.webp",
+          "thumb": "/mods/654A6C52F721C8C4/03-0300c5ccac89-640.webp",
+          "width": 576,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/baf2/56bbf09f5e98df2723179248a36b754157f6cd8d99b55c085358bc23b53e/10455.jpg",
+          "hash": "9ec563ee75d2",
+          "local": "/mods/654A6C52F721C8C4/04-9ec563ee75d2.webp",
+          "thumb": "/mods/654A6C52F721C8C4/04-9ec563ee75d2-640.webp",
+          "width": 288,
+          "height": 162
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/15fe/20db880c0b4ac7ebbb9e8d6b22451f20ef60ea4d9e6a3bf579bdb0a9a074/275504.jpg",
+          "hash": "4a91bf5ad8d2",
+          "local": "/mods/654A6C52F721C8C4/05-4a91bf5ad8d2.webp",
+          "thumb": "/mods/654A6C52F721C8C4/05-4a91bf5ad8d2-640.webp",
+          "width": 1600,
+          "height": 857
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/f9d0/5adde423da2b679b7c048a0bc5c698e38754fad015a30f23f8ec215ee967/190133.jpg",
+          "hash": "b7663b6b71c7",
+          "local": "/mods/654A6C52F721C8C4/06-b7663b6b71c7.webp",
+          "thumb": "/mods/654A6C52F721C8C4/06-b7663b6b71c7-640.webp",
+          "width": 1480,
+          "height": 832
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/3960/4d196be486658b318826a6a40590cfec5ffb8ab7a26a2c2f8c3bd0be3df3/60794.jpg",
+          "hash": "97ccfd683a78",
+          "local": "/mods/654A6C52F721C8C4/07-97ccfd683a78.webp",
+          "thumb": "/mods/654A6C52F721C8C4/07-97ccfd683a78-640.webp",
+          "width": 776,
+          "height": 436
+        }
+      ],
+      "detailSynced": true
     },
     {
       "id": "65863EA3D8143FA6",
@@ -795,147 +488,545 @@
       "author": "BravoFiveNine",
       "category": "core",
       "categoryLabel": "Attachments & core",
+      "featured": null,
       "rating": 79,
-      "version": null,
-      "gameVersion": null,
-      "sizeLabel": "73.76 MB",
-      "sizeBytes": 77342966,
-      "downloads": null,
-      "created": null,
-      "updated": null,
-      "license": null,
-      "summary": null,
-      "description": null,
-      "tags": [],
+      "version": "1.0.34",
+      "gameVersion": "1.7.0.54",
+      "sizeLabel": "90.74 MB",
+      "sizeBytes": 95147786,
+      "downloads": 149847,
+      "created": "2025-10-31",
+      "updated": "2026-08-09",
+      "license": {
+        "name": "Arma Public License No Derivatives (APL-ND)",
+        "short": "APL-ND"
+      },
+      "summary": "Universal Attachments and Camos",
+      "description": "FDE Camo\nRail covers\nStocks\nIrons",
+      "tags": [
+        "ATTACHMENTS",
+        "WEAPONS"
+      ],
       "dependencies": [],
-      "images": [],
-      "detailSynced": false,
-      "featured": null
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/daf3/0bddb2b06d9271bf28035fcf97ee7669a0b3eae065cdc146ad277d5a3090/180908.jpg",
+          "hash": "12392621369d",
+          "local": "/mods/65863EA3D8143FA6/00-12392621369d.webp",
+          "thumb": "/mods/65863EA3D8143FA6/00-12392621369d-640.webp",
+          "width": 1600,
+          "height": 860
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/0191/444eddc57ead87374f71023941a46a1eb7751da050178df153eacf5ca04a/87238.jpg",
+          "hash": "6cab11f6e8c8",
+          "local": "/mods/65863EA3D8143FA6/01-6cab11f6e8c8.webp",
+          "thumb": "/mods/65863EA3D8143FA6/01-6cab11f6e8c8-640.webp",
+          "width": 1152,
+          "height": 648
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/1487/eeefe899a17d20fabdb5b79ea0855d9b8a61bc3fd0b8e079cbbbda4b92ed/12128.jpg",
+          "hash": "5ad97d6d52fb",
+          "local": "/mods/65863EA3D8143FA6/02-5ad97d6d52fb.webp",
+          "thumb": "/mods/65863EA3D8143FA6/02-5ad97d6d52fb-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/7043/46f6a0ccf670ee88ea35f106c1eca21a6754662032aef7e20ce6fc6af5f7/10887.jpg",
+          "hash": "05e6172ca027",
+          "local": "/mods/65863EA3D8143FA6/03-05e6172ca027.webp",
+          "thumb": "/mods/65863EA3D8143FA6/03-05e6172ca027-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/3aa4/bb197b61c28c5b350a21ffbc4a42d53def4d71c05a4cc7a83c09fa2ca664/11414.jpg",
+          "hash": "e776cfbd69a1",
+          "local": "/mods/65863EA3D8143FA6/04-e776cfbd69a1.webp",
+          "thumb": "/mods/65863EA3D8143FA6/04-e776cfbd69a1-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/092d/7c4be5fce53d166d2fa2a56b2402a79a847fc43824484427537bb6a97a6d/23979.jpg",
+          "hash": "c124ea7602bb",
+          "local": "/mods/65863EA3D8143FA6/05-c124ea7602bb.webp",
+          "thumb": "/mods/65863EA3D8143FA6/05-c124ea7602bb-640.webp",
+          "width": 576,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/4759/34f9cf9d12ab58f453b92d11251eaf92b62cc968bf64725c64052c050993/6719.jpg",
+          "hash": "1efc3781629e",
+          "local": "/mods/65863EA3D8143FA6/06-1efc3781629e.webp",
+          "thumb": "/mods/65863EA3D8143FA6/06-1efc3781629e-640.webp",
+          "width": 288,
+          "height": 162
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/b424/9d474a4cfc2d3cec68e24306d0d3dd703273c1972862af4f72c3b2e20509/200867.jpg",
+          "hash": "1a2a40110768",
+          "local": "/mods/65863EA3D8143FA6/07-1a2a40110768.webp",
+          "thumb": "/mods/65863EA3D8143FA6/07-1a2a40110768-640.webp",
+          "width": 1600,
+          "height": 917
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/d9cf/0b1897445143460497a39cef65860956ffa5ccd2ae6cb0a99359f4a9fead/148455.jpg",
+          "hash": "991934b49561",
+          "local": "/mods/65863EA3D8143FA6/08-991934b49561.webp",
+          "thumb": "/mods/65863EA3D8143FA6/08-991934b49561-640.webp",
+          "width": 1480,
+          "height": 832
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/f76d/8513efee502b5f7f1f38df6f1c300a0a7dbf606bb191bca4f688037e49b2/44190.jpg",
+          "hash": "3525c07d3948",
+          "local": "/mods/65863EA3D8143FA6/09-3525c07d3948.webp",
+          "thumb": "/mods/65863EA3D8143FA6/09-3525c07d3948-640.webp",
+          "width": 776,
+          "height": 436
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/342a/a981569dafcc6cd4d00d58c9f759e711775265cd0185a625462b405fd57b/227976.jpg",
+          "hash": "bd9b19d91db1",
+          "local": "/mods/65863EA3D8143FA6/10-bd9b19d91db1.webp",
+          "thumb": "/mods/65863EA3D8143FA6/10-bd9b19d91db1-640.webp",
+          "width": 1600,
+          "height": 854
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/0bce/71f4437173950058e82a0e02afbc4912f6e2c6a4ea906bd9f376f179ae70/148453.jpg",
+          "hash": "f67d6eb44101",
+          "local": "/mods/65863EA3D8143FA6/11-f67d6eb44101.webp",
+          "thumb": "/mods/65863EA3D8143FA6/11-f67d6eb44101-640.webp",
+          "width": 1480,
+          "height": 832
+        }
+      ],
+      "detailSynced": true
     },
     {
-      "id": "68C89DDCDD0AC147",
-      "name": "B59 - BravoCore",
-      "slug": "68C89DDCDD0AC147-B59-BravoCore",
-      "workshopUrl": "https://reforger.armaplatform.com/workshop/68C89DDCDD0AC147-B59-BravoCore",
+      "id": "648911F6D87D80A7",
+      "name": "M21 with KAC Rail",
+      "slug": "648911F6D87D80A7-M21withKACRail",
+      "workshopUrl": "https://reforger.armaplatform.com/workshop/648911F6D87D80A7-M21withKACRail",
       "author": "BravoFiveNine",
-      "category": "core",
-      "categoryLabel": "Attachments & core",
-      "rating": 67,
-      "version": null,
-      "gameVersion": null,
-      "sizeLabel": "8.53 MB",
-      "sizeBytes": 8944353,
-      "downloads": null,
-      "created": null,
-      "updated": null,
-      "license": null,
-      "summary": null,
-      "description": null,
-      "tags": [],
-      "dependencies": [],
-      "images": [],
-      "detailSynced": false,
-      "featured": null
+      "category": "precision",
+      "categoryLabel": "Precision rifles",
+      "featured": null,
+      "rating": 94,
+      "version": "1.0.15",
+      "gameVersion": "1.7.0.54",
+      "sizeLabel": "4.57 MB",
+      "sizeBytes": 4791992,
+      "downloads": 147236,
+      "created": "2025-02-04",
+      "updated": "2026-07-20",
+      "license": {
+        "name": "Arma Public License No Derivatives (APL-ND)",
+        "short": "APL-ND"
+      },
+      "summary": "Adds a KAC Rail to the M21 for modern optics.\nRifle_M21_KAC",
+      "description": "Credits:\nKAC Rail Model and Textures: https://www.cgtrader.com/designers/\n8siandude\nMk14 stock: https://www.cgtrader.com/designers/armory3d",
+      "tags": [
+        "KAC",
+        "M21",
+        "RAIL",
+        "WEAPONS"
+      ],
+      "dependencies": [
+        "Attachment Framework",
+        "B59 - BravoEFX",
+        "B59 Attachments",
+        "B59 - SoundFX",
+        "Attachment Framework-Core",
+        "B59 - BravoCore"
+      ],
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/b031/1dfe98753e98a0b5cf5c26a7a07031906f62c7736d479075c7e5057758ea/101601.jpg",
+          "hash": "8b1ff401a708",
+          "local": "/mods/648911F6D87D80A7/00-8b1ff401a708.webp",
+          "thumb": "/mods/648911F6D87D80A7/00-8b1ff401a708-640.webp",
+          "width": 1600,
+          "height": 863
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/7428/cfe855477ce7dbd17935cb50300e826755c7f720631aba5d948a41ebde79/44286.jpg",
+          "hash": "b03ac21ce34a",
+          "local": "/mods/648911F6D87D80A7/01-b03ac21ce34a.webp",
+          "thumb": "/mods/648911F6D87D80A7/01-b03ac21ce34a-640.webp",
+          "width": 1152,
+          "height": 648
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/e687/f08458385b40c07f58a06fd5b9a130c25d50c870232fbd82562053cb9fdf/11192.jpg",
+          "hash": "383f99b44afb",
+          "local": "/mods/648911F6D87D80A7/02-383f99b44afb.webp",
+          "thumb": "/mods/648911F6D87D80A7/02-383f99b44afb-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/171c/18346a4b216db3966735202c20418ffe4e8ddf779d20e10513271b027d60/10012.jpg",
+          "hash": "6cddc3972198",
+          "local": "/mods/648911F6D87D80A7/03-6cddc3972198.webp",
+          "thumb": "/mods/648911F6D87D80A7/03-6cddc3972198-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/97e4/4cc5abfbcf8f688c176fb6ead8b877f8d8ea109f94b4879eab94cf90d827/9935.jpg",
+          "hash": "bfec572fe788",
+          "local": "/mods/648911F6D87D80A7/04-bfec572fe788.webp",
+          "thumb": "/mods/648911F6D87D80A7/04-bfec572fe788-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/39fa/84c7ab8ac0a86acd2857ee65088c67bcdc3052fe46bec5a371ba9838f23c/14000.jpg",
+          "hash": "99fb21747b22",
+          "local": "/mods/648911F6D87D80A7/05-99fb21747b22.webp",
+          "thumb": "/mods/648911F6D87D80A7/05-99fb21747b22-640.webp",
+          "width": 576,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/3fc0/764de22fc1c48b20d5ec2a8005ed385c444d2a31383078f19e8fafe0aad4/4746.jpg",
+          "hash": "f035bcdb77f7",
+          "local": "/mods/648911F6D87D80A7/06-f035bcdb77f7.webp",
+          "thumb": "/mods/648911F6D87D80A7/06-f035bcdb77f7-640.webp",
+          "width": 288,
+          "height": 162
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/5948/4ab9a784b6e9dad1bc38dc74c910ace7c789a2bdda70c3637fdaa0e6ffb2/113271.jpg",
+          "hash": "801a68078b1b",
+          "local": "/mods/648911F6D87D80A7/07-801a68078b1b.webp",
+          "thumb": "/mods/648911F6D87D80A7/07-801a68078b1b-640.webp",
+          "width": 1600,
+          "height": 825
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/3e28/891fbf639554c50edbc5a14ffa29abc646004619aff7a91fe7e1f5f13597/83209.jpg",
+          "hash": "cb958d6c0988",
+          "local": "/mods/648911F6D87D80A7/08-cb958d6c0988.webp",
+          "thumb": "/mods/648911F6D87D80A7/08-cb958d6c0988-640.webp",
+          "width": 1480,
+          "height": 832
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/be50/0a8fe140bbff239091ff34b761322439f3ff1766419f8fe70a5f00c448e1/31901.jpg",
+          "hash": "6cf5adf74b3b",
+          "local": "/mods/648911F6D87D80A7/09-6cf5adf74b3b.webp",
+          "thumb": "/mods/648911F6D87D80A7/09-6cf5adf74b3b-640.webp",
+          "width": 776,
+          "height": 436
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/329d/19ab654f0cc2135bf7bee25a8a259ec8cafc5509418fe4d5fadda21d499e/97771.jpg",
+          "hash": "5d45b1f3ebdc",
+          "local": "/mods/648911F6D87D80A7/10-5d45b1f3ebdc.webp",
+          "thumb": "/mods/648911F6D87D80A7/10-5d45b1f3ebdc-640.webp",
+          "width": 1600,
+          "height": 834
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/0707/0635d72990a0c5efc370fc2b97d392fa5cb29617fb090f7d362dedb48afe/71012.jpg",
+          "hash": "57a018b30ef0",
+          "local": "/mods/648911F6D87D80A7/11-57a018b30ef0.webp",
+          "thumb": "/mods/648911F6D87D80A7/11-57a018b30ef0-640.webp",
+          "width": 1480,
+          "height": 832
+        }
+      ],
+      "detailSynced": true
     },
     {
-      "id": "69AD0E46F208250A",
-      "name": "B59 - Bravocore for WCS & RHS",
-      "slug": "69AD0E46F208250A-B59-BravocoreforWCS%2526RHS",
-      "workshopUrl": "https://reforger.armaplatform.com/workshop/69AD0E46F208250A-B59-BravocoreforWCS%2526RHS",
+      "id": "64515006D4EC4776",
+      "name": "B59 - Mp5",
+      "slug": "64515006D4EC4776-B59-Mp5",
+      "workshopUrl": "https://reforger.armaplatform.com/workshop/64515006D4EC4776-B59-Mp5",
       "author": "BravoFiveNine",
-      "category": "core",
-      "categoryLabel": "Attachments & core",
-      "rating": 0,
-      "version": null,
-      "gameVersion": null,
-      "sizeLabel": "445.88 KB",
-      "sizeBytes": 456581,
-      "downloads": null,
-      "created": null,
-      "updated": null,
-      "license": null,
-      "summary": null,
-      "description": null,
-      "tags": [],
-      "dependencies": [],
-      "images": [],
-      "detailSynced": false,
-      "featured": null
+      "category": "smg",
+      "categoryLabel": "Submachine guns",
+      "featured": 2,
+      "rating": 76,
+      "version": "1.0.39",
+      "gameVersion": "1.8.0.10",
+      "sizeLabel": "81.53 MB",
+      "sizeBytes": 85490401,
+      "downloads": 140671,
+      "created": "2025-01-18",
+      "updated": "2026-08-23",
+      "license": {
+        "name": "Arma Public License No Derivatives (APL-ND)",
+        "short": "APL-ND"
+      },
+      "summary": "A mod containing MP5A4 with Surefire Handgrip and MP5SD with collapsible stock, MP510,",
+      "description": "[Allow modifications]\nYou may use this as a dependency.\nYou may modify the stats, add/modify textures, add attachments, change sounds, etc.\nYou may redistribute your changes, such as fixes, retextures, etc so long as this mod is used as a dependency.\nWeapon Classnames:\nmp5_01_Base\nmp510\nmp5k\nmp5_sd",
+      "tags": [
+        "B59",
+        "MP5",
+        "MP510",
+        "MP5A4",
+        "MP5K",
+        "MP5SD",
+        "SMG",
+        "WEAPONS"
+      ],
+      "dependencies": [
+        "TacticalAnimationOverhaul TEST",
+        "Attachment Framework",
+        "B59 Attachments",
+        "ARMA-RY CORE",
+        "ARMA-RY CLAW MOUNT",
+        "B59 - SoundFX",
+        "Attachment Framework-Core",
+        "B59 - BravoCore"
+      ],
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/60b1/cb02bb1212c2f3f22820f6d031cd9016de2a6f44023042503dded64fa05c/227501.jpg",
+          "hash": "ba9a4643df9d",
+          "local": "/mods/64515006D4EC4776/00-ba9a4643df9d.webp",
+          "thumb": "/mods/64515006D4EC4776/00-ba9a4643df9d-640.webp",
+          "width": 1600,
+          "height": 820
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/3366/70443333a051d55714cc06b0882d02fabf2ff3bcf0448dde35e5017a33f6/104858.jpg",
+          "hash": "657518a3a437",
+          "local": "/mods/64515006D4EC4776/01-657518a3a437.webp",
+          "thumb": "/mods/64515006D4EC4776/01-657518a3a437-640.webp",
+          "width": 1152,
+          "height": 648
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/478e/5db364254007569826e50129d119e27eb78436b175ddbd1736fdc5639ceb/15943.jpg",
+          "hash": "9f3372745007",
+          "local": "/mods/64515006D4EC4776/02-9f3372745007.webp",
+          "thumb": "/mods/64515006D4EC4776/02-9f3372745007-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/ffd3/86870d0d1a8b548fb2b4d3ebedb91b59531c4f5c98fe89a1bcc4573fc504/14789.jpg",
+          "hash": "f01bef088080",
+          "local": "/mods/64515006D4EC4776/03-f01bef088080.webp",
+          "thumb": "/mods/64515006D4EC4776/03-f01bef088080-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/0455/843696d88083d282a7f50b91a1d001e3617a62f144b858bb1d0a74d1dec1/15025.jpg",
+          "hash": "3861525a6a78",
+          "local": "/mods/64515006D4EC4776/04-3861525a6a78.webp",
+          "thumb": "/mods/64515006D4EC4776/04-3861525a6a78-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/c289/32dcc1f5069e3fd68f2f48e18342ea61b68635b166cca7742f81bc27953f/15651.jpg",
+          "hash": "9bd489545db3",
+          "local": "/mods/64515006D4EC4776/05-9bd489545db3.webp",
+          "thumb": "/mods/64515006D4EC4776/05-9bd489545db3-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/f13f/68addeba2ae45c697da18890872841b2559888e0ed5b7cd4b2c617e0f9bd/15219.jpg",
+          "hash": "cd2d186888fd",
+          "local": "/mods/64515006D4EC4776/06-cd2d186888fd.webp",
+          "thumb": "/mods/64515006D4EC4776/06-cd2d186888fd-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/225e/ebbf72880c96a8fddbbddb8c73525fbe1b173ae1f8ea1913a29832d24b1c/14987.jpg",
+          "hash": "121d444d71d3",
+          "local": "/mods/64515006D4EC4776/07-121d444d71d3.webp",
+          "thumb": "/mods/64515006D4EC4776/07-121d444d71d3-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/9ae0/7197eb8d6b9e68265c16c5dbc02c239ef4392b2ff66f7a41c752113b43fa/14298.jpg",
+          "hash": "ea03c1cfd90a",
+          "local": "/mods/64515006D4EC4776/08-ea03c1cfd90a.webp",
+          "thumb": "/mods/64515006D4EC4776/08-ea03c1cfd90a-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/d9c8/e00bdc51a62fb43c9e5fbdbc65167395df8422a7e1ecfa4e7cc41bf382af/14186.jpg",
+          "hash": "964946158843",
+          "local": "/mods/64515006D4EC4776/09-964946158843.webp",
+          "thumb": "/mods/64515006D4EC4776/09-964946158843-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/aecb/eb8093b84ba3338f178e1abac7150118142f98cabef59769fab46e70c2ca/15772.jpg",
+          "hash": "0c58de75215c",
+          "local": "/mods/64515006D4EC4776/10-0c58de75215c.webp",
+          "thumb": "/mods/64515006D4EC4776/10-0c58de75215c-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/b003/07b9b869d776186f612bf8365a9f7cd1f7f20429b51b29b00e43831644d9/29777.jpg",
+          "hash": "d3795a8f20b7",
+          "local": "/mods/64515006D4EC4776/11-d3795a8f20b7.webp",
+          "thumb": "/mods/64515006D4EC4776/11-d3795a8f20b7-640.webp",
+          "width": 576,
+          "height": 324
+        }
+      ],
+      "detailSynced": true
     },
     {
-      "id": "69D24A8BF0C87396",
-      "name": "B59 - MP5 WCS-RHS Compat",
-      "slug": "69D24A8BF0C87396-B59-MP5WCS-RHSCompat",
-      "workshopUrl": "https://reforger.armaplatform.com/workshop/69D24A8BF0C87396-B59-MP5WCS-RHSCompat",
+      "id": "651D71B6C09E3A84",
+      "name": "B59 - FAL",
+      "slug": "651D71B6C09E3A84-B59-FAL",
+      "workshopUrl": "https://reforger.armaplatform.com/workshop/651D71B6C09E3A84-B59-FAL",
       "author": "BravoFiveNine",
-      "category": "core",
-      "categoryLabel": "Attachments & core",
-      "rating": 100,
-      "version": null,
-      "gameVersion": null,
-      "sizeLabel": "7.41 KB",
-      "sizeBytes": 7588,
-      "downloads": null,
-      "created": null,
-      "updated": null,
-      "license": null,
-      "summary": null,
-      "description": null,
-      "tags": [],
-      "dependencies": [],
-      "images": [],
-      "detailSynced": false,
-      "featured": null
-    },
-    {
-      "id": "66E0B5D0C13D2C00",
-      "name": "B59 - SoundFX",
-      "slug": "66E0B5D0C13D2C00-B59-SoundFX",
-      "workshopUrl": "https://reforger.armaplatform.com/workshop/66E0B5D0C13D2C00-B59-SoundFX",
-      "author": "BravoFiveNine",
-      "category": "audio",
-      "categoryLabel": "Sound & effects",
-      "rating": 80,
-      "version": null,
-      "gameVersion": null,
-      "sizeLabel": "7.63 MB",
-      "sizeBytes": 8000635,
-      "downloads": null,
-      "created": null,
-      "updated": null,
-      "license": null,
-      "summary": null,
-      "description": null,
-      "tags": [],
-      "dependencies": [],
-      "images": [],
-      "detailSynced": false,
-      "featured": null
-    },
-    {
-      "id": "65276E2DDE189819",
-      "name": "B59 - BravoEFX",
-      "slug": "65276E2DDE189819-B59-BravoEFX",
-      "workshopUrl": "https://reforger.armaplatform.com/workshop/65276E2DDE189819-B59-BravoEFX",
-      "author": "BravoFiveNine",
-      "category": "audio",
-      "categoryLabel": "Sound & effects",
-      "rating": 92,
-      "version": null,
-      "gameVersion": null,
-      "sizeLabel": "1.30 MB",
-      "sizeBytes": 1363149,
-      "downloads": null,
-      "created": null,
-      "updated": null,
-      "license": null,
-      "summary": null,
-      "description": null,
-      "tags": [],
-      "dependencies": [],
-      "images": [],
-      "detailSynced": false,
-      "featured": null
+      "category": "rifles",
+      "categoryLabel": "Battle rifles & carbines",
+      "featured": null,
+      "rating": 86,
+      "version": "1.0.51",
+      "gameVersion": "1.7.0.54",
+      "sizeLabel": "69.18 MB",
+      "sizeBytes": 72540488,
+      "downloads": 132048,
+      "created": "2025-04-20",
+      "updated": "2026-07-26",
+      "license": {
+        "name": "Arma Public License No Derivatives (APL-ND)",
+        "short": "APL-ND"
+      },
+      "summary": "L1A1, FN FAL with Wood Stock, SA-58 and SA-58 OSW all with custom animations.\nBuilt for originally Arma Conflict - Insurgency and Vietnam 67\nNow updated for WCS/RHS compatibility.",
+      "description": "✅ You have my permission to:\nMake sound changes.\nMake weapon config changes.\n🟢 Weapons\nFNFAL_Base\nFNFAL_SA58\nFNFAL_SA58_osw\nIncomplete Weapons\nFNFAL_GL\nFNFAL_SA58_GL\n🟣 Magazines\nMagazine_762x51_FNFAL_10rnd_M118\nMagazine_762x51_FNFAL_20rnd_M80\nMagazine_762x51_FNFAL_30rnd_M80\n🔵 Barrels\nfnfal_barrel_base\nfnfal_barrel_short\n🔥 Muzzle Devices / Flash Hiders / Suppressors\nFlashHider_FNFAL\nFNSCAR-MK20_FLASHSUPPRESSOR_Name\n🟠 Stocks\nfnfal_stock_base\nfnfal_stock_para\n⚫ Rail Covers\nFNSCAR-RAILCOVER_3RIB_NAME\nFNSCAR-RAILCOVER_6RIB\n📌 Underbarrel Grenade Launcher\nUGL_M203_long_fnfal\n✅ Sources\nFNFAL Model:\nStefan Engdahl → https://www.cgtrader.com/designers/steffe-engdahl\nhttps://www.cgtrader.com/3d-models/military/gun/pbr-fn-fal-g-series\nRIS Mount: BravoFiveNiner\nQuad Handguard: BravoFiveNiner\nCollapse Stock: BravoFiveNiner\nRail Cover Models:\nTurbojet 3d → https://www.cgtrader.com/designers/turbojet-3d\nVertical Grip Model:\nJackblack1 → https://www.cgtrader.com/designers/jackblack1\nhttps://www.cgtrader.com/3d-models/military/gun/grip-pod-fab-defense\nCharging Handle for L1a1 : LDMoose",
+      "tags": [
+        "FAL",
+        "FN",
+        "FNFAL",
+        "OSW",
+        "SA-58",
+        "SA58",
+        "WEAPONS"
+      ],
+      "dependencies": [
+        "TacticalAnimationOverhaul TEST",
+        "Attachment Framework",
+        "B59 Attachments",
+        "B59 - SoundFX",
+        "Attachment Framework-Core",
+        "B59 - BravoCore"
+      ],
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/0af7/d0fdef85be71d6332b52ae4e91dd6c08c6d3e3ea862125e1ac31dad82422/215153.jpg",
+          "hash": "18d2b4b43f9b",
+          "local": "/mods/651D71B6C09E3A84/00-18d2b4b43f9b.webp",
+          "thumb": "/mods/651D71B6C09E3A84/00-18d2b4b43f9b-640.webp",
+          "width": 1600,
+          "height": 813
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/8275/bfc33ccfd96fb2bb186c9c5c440d4d9ac516878a7b5aeaa2e3709cc42f9a/99728.jpg",
+          "hash": "39b101b22dd8",
+          "local": "/mods/651D71B6C09E3A84/01-39b101b22dd8.webp",
+          "thumb": "/mods/651D71B6C09E3A84/01-39b101b22dd8-640.webp",
+          "width": 1152,
+          "height": 648
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/1415/182bb78b01ebd09013c3135044edc3aa429128424b24edb745bb69f92b3a/14277.jpg",
+          "hash": "af2ef4abb3a6",
+          "local": "/mods/651D71B6C09E3A84/02-af2ef4abb3a6.webp",
+          "thumb": "/mods/651D71B6C09E3A84/02-af2ef4abb3a6-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/e1a1/7b8c6ed1c4bf03a84c958cdb51bc7e5443a096d2e9d4659800dd2b7a9ead/13862.jpg",
+          "hash": "99c376389bc2",
+          "local": "/mods/651D71B6C09E3A84/03-99c376389bc2.webp",
+          "thumb": "/mods/651D71B6C09E3A84/03-99c376389bc2-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/fe1d/b9d29ae58f1851eab47eb6eef0aafe04540d442b37a2943308d3071e885c/14150.jpg",
+          "hash": "370427547f3b",
+          "local": "/mods/651D71B6C09E3A84/04-370427547f3b.webp",
+          "thumb": "/mods/651D71B6C09E3A84/04-370427547f3b-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/1f05/74401cd4604f4b4925861f4f9a5c1e777b577e4098d970f519af0a04a94f/10317.jpg",
+          "hash": "d976feb26290",
+          "local": "/mods/651D71B6C09E3A84/05-d976feb26290.webp",
+          "thumb": "/mods/651D71B6C09E3A84/05-d976feb26290-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/7eaa/3de3787a0914c62284fbf519a0b5fc44c8b5b6e59e200949a638a9160230/13978.jpg",
+          "hash": "f3a473fcac9f",
+          "local": "/mods/651D71B6C09E3A84/06-f3a473fcac9f.webp",
+          "thumb": "/mods/651D71B6C09E3A84/06-f3a473fcac9f-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/d56e/b2aac05ae2911c7a578b57ad5a949bf20b526debfd7ba8fdf720a3123499/28524.jpg",
+          "hash": "51e73f076be7",
+          "local": "/mods/651D71B6C09E3A84/07-51e73f076be7.webp",
+          "thumb": "/mods/651D71B6C09E3A84/07-51e73f076be7-640.webp",
+          "width": 576,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/45ed/df0b4df66401f20a77e0d38b1781c07960b066e4d7900b1cbd950928dd28/8621.jpg",
+          "hash": "80379d1ee027",
+          "local": "/mods/651D71B6C09E3A84/08-80379d1ee027.webp",
+          "thumb": "/mods/651D71B6C09E3A84/08-80379d1ee027-640.webp",
+          "width": 288,
+          "height": 162
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/ee52/4a6f1c9315d50249ead8a14a98fb6a65b8679124b2b99c0221ecefa579bf/220051.jpg",
+          "hash": "ec27a282319a",
+          "local": "/mods/651D71B6C09E3A84/09-ec27a282319a.webp",
+          "thumb": "/mods/651D71B6C09E3A84/09-ec27a282319a-640.webp",
+          "width": 1600,
+          "height": 818
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/7789/729c05c442f29fb2475e199768356fbc23cc35f152239289efd50cd1f8cf/161820.jpg",
+          "hash": "8fae6c53220e",
+          "local": "/mods/651D71B6C09E3A84/10-8fae6c53220e.webp",
+          "thumb": "/mods/651D71B6C09E3A84/10-8fae6c53220e-640.webp",
+          "width": 1480,
+          "height": 832
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/047e/cf0068f8412c505c08964dd6e3dac84316d75ef894b19d0827071faa6e67/50272.jpg",
+          "hash": "18784553beb9",
+          "local": "/mods/651D71B6C09E3A84/11-18784553beb9.webp",
+          "thumb": "/mods/651D71B6C09E3A84/11-18784553beb9-640.webp",
+          "width": 776,
+          "height": 436
+        }
+      ],
+      "detailSynced": true
     },
     {
       "id": "65643574C746E825",
@@ -945,20 +1036,21 @@
       "author": "BravoFiveNine",
       "category": "gameplay",
       "categoryLabel": "Gameplay & tools",
+      "featured": null,
       "rating": 100,
       "version": "1.0.1",
       "gameVersion": "1.4.0.45",
       "sizeLabel": "8.58 MB",
       "sizeBytes": 8996782,
-      "downloads": 87005,
+      "downloads": 124496,
       "created": "2025-06-21",
       "updated": "2025-06-21",
       "license": {
         "name": "Arma Public License No Derivatives (APL-ND)",
         "short": "APL-ND"
       },
-      "summary": "Insurgent items for the FIA faction — cell-phone triggered C4 charges and a wearable explosive vest.",
-      "description": "Explicit permission granted to build derivatives (new explosive clothing) and to modify configurations such as explosion types or sounds. Cell phone and explosive model by TheeDots3d.",
+      "summary": "Armaconflict.com\n- Insurgent Items\nC4 explosives and Explosive Vest for FIA faction",
+      "description": "You have my explicit permission to use this mod as a derivative for other mods (like using the explosives to make other explosive clothing), modify configurations (such as explosions used, or sounds).\nCell phone and explosive model: TheeDots3d\nhttps://www.cgtrader.com/3d-models/electronics/other/remote-explosive-device-pbr-game-ready",
       "tags": [
         "ARMACONFLICT",
         "BOMB",
@@ -970,10 +1062,970 @@
         "VEST",
         "WEAPONS"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "Attachment Framework",
+        "NV-System",
+        "B59 - BravoEFX",
+        "Custom Gear Slots",
+        "Attachment Framework-Core"
+      ],
       "images": [],
-      "detailSynced": true,
-      "featured": null
+      "detailSynced": true
+    },
+    {
+      "id": "68C89DDCDD0AC147",
+      "name": "B59 - BravoCore",
+      "slug": "68C89DDCDD0AC147-B59-BravoCore",
+      "workshopUrl": "https://reforger.armaplatform.com/workshop/68C89DDCDD0AC147-B59-BravoCore",
+      "author": "BravoFiveNine",
+      "category": "core",
+      "categoryLabel": "Attachments & core",
+      "featured": null,
+      "rating": 86,
+      "version": "1.0.30",
+      "gameVersion": "1.7.0.54",
+      "sizeLabel": "9.91 MB",
+      "sizeBytes": 10391388,
+      "downloads": 107203,
+      "created": "2026-04-08",
+      "updated": "2026-08-11",
+      "license": {
+        "name": "Arma Public License Share Alike (APL-SA)",
+        "short": "APL-SA"
+      },
+      "summary": "Contains shared aimation assets for my mods.",
+      "description": "Weapon animations:\nFNSCAR16\nFNSCAR17\nAR15\nMp5\nACR\nG3\nFAL\nM1014\n870",
+      "tags": [
+        "ANIMATION",
+        "WEAPONS"
+      ],
+      "dependencies": [
+        "Attachment Framework",
+        "Attachment Framework-Core"
+      ],
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/59b0/81a15b8ff7b603b9844a3e0400b1a6b501f85bf3be3085b0cb7542d5be14/55197.jpg",
+          "hash": "9fbee438e4a3",
+          "local": "/mods/68C89DDCDD0AC147/00-9fbee438e4a3.webp",
+          "thumb": "/mods/68C89DDCDD0AC147/00-9fbee438e4a3-640.webp",
+          "width": 1448,
+          "height": 1086
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/efa0/e761f1d1987bcf2a6b35bd861e4b8cdca474972f7613eab7c63b23c16ff8/36086.jpg",
+          "hash": "291391e5b06b",
+          "local": "/mods/68C89DDCDD0AC147/01-291391e5b06b.webp",
+          "thumb": "/mods/68C89DDCDD0AC147/01-291391e5b06b-640.webp",
+          "width": 1152,
+          "height": 648
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/666c/25b53644a9b93aadc2aaa537a8736be0a2fc444474cb1db9e33b8eaeb449/12868.jpg",
+          "hash": "18b180a80caf",
+          "local": "/mods/68C89DDCDD0AC147/02-18b180a80caf.webp",
+          "thumb": "/mods/68C89DDCDD0AC147/02-18b180a80caf-640.webp",
+          "width": 576,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/edd7/52b37a5ff0aab628583bb2d7c90fe4a5c8afb86d8d7eadddb446da0a3c12/4370.jpg",
+          "hash": "b22bdda76754",
+          "local": "/mods/68C89DDCDD0AC147/03-b22bdda76754.webp",
+          "thumb": "/mods/68C89DDCDD0AC147/03-b22bdda76754-640.webp",
+          "width": 288,
+          "height": 162
+        }
+      ],
+      "detailSynced": true
+    },
+    {
+      "id": "66E0B5D0C13D2C00",
+      "name": "B59 - SoundFX",
+      "slug": "66E0B5D0C13D2C00-B59-SoundFX",
+      "workshopUrl": "https://reforger.armaplatform.com/workshop/66E0B5D0C13D2C00-B59-SoundFX",
+      "author": "BravoFiveNine",
+      "category": "audio",
+      "categoryLabel": "Sound & effects",
+      "featured": null,
+      "rating": 80,
+      "version": "1.0.16",
+      "gameVersion": "1.8.0.10",
+      "sizeLabel": "7.63 MB",
+      "sizeBytes": 8000635,
+      "downloads": 105041,
+      "created": "2025-11-16",
+      "updated": "2026-08-27",
+      "license": {
+        "name": "Arma Public License (APL)",
+        "short": "APL"
+      },
+      "summary": "Sound effects for B59/BravoFiveNiner mods",
+      "description": "G3 shot and reload sound effects.\nSCAR H shot sound effects.\nM4 shot sound effects.\nM249/M240B shot sound effects.\nMP5 shot sound effects.\nFAL shot sound effects.",
+      "tags": [
+        "EFFECTS"
+      ],
+      "dependencies": [],
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/8d1e/360fefee3c8f2465e1454707363415d3e8e802b833b7f1127187aad5a020/57868.jpg",
+          "hash": "c479df0e6434",
+          "local": "/mods/66E0B5D0C13D2C00/00-c479df0e6434.webp",
+          "thumb": "/mods/66E0B5D0C13D2C00/00-c479df0e6434-640.webp",
+          "width": 1448,
+          "height": 1086
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/273b/036e7bd20e47f00b2588184eed77a1d7147c1d9c57ea68da39f824286508/38769.jpg",
+          "hash": "d97aab87f98d",
+          "local": "/mods/66E0B5D0C13D2C00/01-d97aab87f98d.webp",
+          "thumb": "/mods/66E0B5D0C13D2C00/01-d97aab87f98d-640.webp",
+          "width": 1152,
+          "height": 648
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/6e67/285cb7709e8c6ce969dcba786e81b9a85e98c70fdd10bb510d9b4649b0ab/13887.jpg",
+          "hash": "ce34d0385371",
+          "local": "/mods/66E0B5D0C13D2C00/02-ce34d0385371.webp",
+          "thumb": "/mods/66E0B5D0C13D2C00/02-ce34d0385371-640.webp",
+          "width": 576,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/3d0e/e752a02e567f37946cbfab07a85b3d5730bd6b942eb45b1934ece910f8eb/4951.jpg",
+          "hash": "312671ec33fa",
+          "local": "/mods/66E0B5D0C13D2C00/03-312671ec33fa.webp",
+          "thumb": "/mods/66E0B5D0C13D2C00/03-312671ec33fa-640.webp",
+          "width": 288,
+          "height": 162
+        }
+      ],
+      "detailSynced": true
+    },
+    {
+      "id": "69601094E34C9652",
+      "name": "B59 - AR10",
+      "slug": "69601094E34C9652-B59-AR10",
+      "workshopUrl": "https://reforger.armaplatform.com/workshop/69601094E34C9652-B59-AR10",
+      "author": "BravoFiveNine",
+      "category": "rifles",
+      "categoryLabel": "Battle rifles & carbines",
+      "featured": null,
+      "rating": 86,
+      "version": "1.0.21",
+      "gameVersion": "1.8.0.10",
+      "sizeLabel": "43.95 MB",
+      "sizeBytes": 46084915,
+      "downloads": 55384,
+      "created": "2026-05-20",
+      "updated": "2026-08-14",
+      "license": {
+        "name": "Arma Public License No Derivatives (APL-ND)",
+        "short": "APL-ND"
+      },
+      "summary": "Semi-auto AR10, chambered in 308.",
+      "description": "✅ You have my permission to:\nMake sound changes.\nMake weapon config changes.\nAR10 Components and Rail Covers:\nMattias H (Tiggis) → https://www.cgtrader.com/designers/tiggis\nSuppressor:\nCannucciaStudio → https://www.cgtrader.com/designers/cannucciastudio",
+      "tags": [
+        "AR-10",
+        "AR10",
+        "M110",
+        "RSASS",
+        "SR-25",
+        "SR25",
+        "WEAPONS"
+      ],
+      "dependencies": [
+        "TacticalAnimationOverhaul TEST",
+        "Attachment Framework",
+        "B59 Attachments",
+        "B59 - SoundFX",
+        "Attachment Framework-Core",
+        "B59 - BravoCore"
+      ],
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/3c78/34b22a277c98e3913675d212cdb00f870ffb5682b6450b1ed4ccb42d79a5/235654.jpg",
+          "hash": "3aefbe7cca72",
+          "local": "/mods/69601094E34C9652/00-3aefbe7cca72.webp",
+          "thumb": "/mods/69601094E34C9652/00-3aefbe7cca72-640.webp",
+          "width": 1600,
+          "height": 821
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/8ad3/b0d80f1cdcdd7bacd0870d9b73a1747c5c1524a452356b60a72c521d676e/108410.jpg",
+          "hash": "6e61a78f4b7f",
+          "local": "/mods/69601094E34C9652/01-6e61a78f4b7f.webp",
+          "thumb": "/mods/69601094E34C9652/01-6e61a78f4b7f-640.webp",
+          "width": 1152,
+          "height": 648
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/671b/c680452f7481938d6428404e6aa14652b15e069a408de08442fa4348901d/15719.jpg",
+          "hash": "3eabd72db7fa",
+          "local": "/mods/69601094E34C9652/02-3eabd72db7fa.webp",
+          "thumb": "/mods/69601094E34C9652/02-3eabd72db7fa-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/22df/b2e0dcd685ebe826c0c3cf3ed4b87aae652bf78d9dc801957b0ff564d2b1/15012.jpg",
+          "hash": "c73e848f6964",
+          "local": "/mods/69601094E34C9652/03-c73e848f6964.webp",
+          "thumb": "/mods/69601094E34C9652/03-c73e848f6964-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/6840/ddcb9f90097fd510296071afe670148f67a8c3d7c1c64733de157c956794/29949.jpg",
+          "hash": "3c20edd12632",
+          "local": "/mods/69601094E34C9652/04-3c20edd12632.webp",
+          "thumb": "/mods/69601094E34C9652/04-3c20edd12632-640.webp",
+          "width": 576,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/fce6/db3c54acda1c3208e2ee68938beadab6dfe6ab4692d02cc5023923f77cb8/8685.jpg",
+          "hash": "3eea91f32abe",
+          "local": "/mods/69601094E34C9652/05-3eea91f32abe.webp",
+          "thumb": "/mods/69601094E34C9652/05-3eea91f32abe-640.webp",
+          "width": 288,
+          "height": 162
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/4150/1517024b994d13973afebc4136c6c204611f42b4f4f527ec00fdd0de8cb7/252705.jpg",
+          "hash": "a325c9096274",
+          "local": "/mods/69601094E34C9652/06-a325c9096274.webp",
+          "thumb": "/mods/69601094E34C9652/06-a325c9096274-640.webp",
+          "width": 1600,
+          "height": 830
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/9549/0f36f3e24e5e8dbcc33f383f3fd41ce6e12152e0a10d85abfae8aefff9e6/178949.jpg",
+          "hash": "06f6efc6afe1",
+          "local": "/mods/69601094E34C9652/07-06f6efc6afe1.webp",
+          "thumb": "/mods/69601094E34C9652/07-06f6efc6afe1-640.webp",
+          "width": 1480,
+          "height": 832
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/58a7/87520755b6589ead64ca90613673f9d85f0c5d376a25d66f94c5192a889a/56894.jpg",
+          "hash": "4024c6d59899",
+          "local": "/mods/69601094E34C9652/08-4024c6d59899.webp",
+          "thumb": "/mods/69601094E34C9652/08-4024c6d59899-640.webp",
+          "width": 776,
+          "height": 436
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/c37d/d3851f3eec165e0a00c162916a493c83e302521f3a6e75ef927bd473731d/239698.jpg",
+          "hash": "5b6fe870802b",
+          "local": "/mods/69601094E34C9652/09-5b6fe870802b.webp",
+          "thumb": "/mods/69601094E34C9652/09-5b6fe870802b-640.webp",
+          "width": 1600,
+          "height": 820
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/e1a6/b8b97eda32d45ce67ab0e5c49bc3f53c945cb1f6b35df6d447c49d721793/173759.jpg",
+          "hash": "ee876239eff1",
+          "local": "/mods/69601094E34C9652/10-ee876239eff1.webp",
+          "thumb": "/mods/69601094E34C9652/10-ee876239eff1-640.webp",
+          "width": 1480,
+          "height": 832
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/2649/352ffc720a09b03c0858d69dedda970af2cc264f316fd8b7acca11ef3db5/53606.jpg",
+          "hash": "9bcea745f9fc",
+          "local": "/mods/69601094E34C9652/11-9bcea745f9fc.webp",
+          "thumb": "/mods/69601094E34C9652/11-9bcea745f9fc-640.webp",
+          "width": 776,
+          "height": 436
+        }
+      ],
+      "detailSynced": true
+    },
+    {
+      "id": "66C3068E893517D7",
+      "name": "BravoFiveNine - G3",
+      "slug": "66C3068E893517D7-BravoFiveNine-G3",
+      "workshopUrl": "https://reforger.armaplatform.com/workshop/66C3068E893517D7-BravoFiveNine-G3",
+      "author": "BravoFiveNine",
+      "category": "rifles",
+      "categoryLabel": "Battle rifles & carbines",
+      "featured": 3,
+      "rating": 64,
+      "version": "0.0.28",
+      "gameVersion": "1.8.0.10",
+      "sizeLabel": "100.11 MB",
+      "sizeBytes": 104972943,
+      "downloads": 41482,
+      "created": "2025-11-01",
+      "updated": "2026-08-14",
+      "license": {
+        "name": "Arma Public License No Derivatives (APL-ND)",
+        "short": "APL-ND"
+      },
+      "summary": "8sianDude: https://www.cgtrader.com/designers/8siandude\n* Surfire 50rnd Drum Mag\nM4/M16 Components:\nMattias H (Tiggis) → https://www.cgtrader.com/designers/tiggis",
+      "description": "Prefabs:\nRifle_AK4_base\nRifle_G3\nRifle_G3SG\nRifle_HK51\nRifle_HK51_D\nRifle_PSG\nHandguards:\nHandguard_AK4_Base\nHandguard_G3_Base\nHandguard_G3SG\nHandguard_HK51\nHandguard_HK51_POLY\nHandguard_PSG\nMagazine:\nMagazine_762x51_G3_20rnd_Base\nRails:\ng3_optic_rail\npsg_optic_rail",
+      "tags": [
+        "G3",
+        "G3SG",
+        "HK51",
+        "PSG-1",
+        "WEAPONS"
+      ],
+      "dependencies": [
+        "WCS_Attachments",
+        "WCS_Scopes",
+        "Attachment Framework",
+        "B59 Attachments",
+        "B59 - SoundFX",
+        "Attachment Framework-Core",
+        "B59 - BravoCore",
+        "WCS_Weapon_Scripts"
+      ],
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/8407/c91fccc9896c608e4ea725eb48b2f8237088dd1b1ddbe2f15b43a35d785d/96596.jpg",
+          "hash": "8dde508a9495",
+          "local": "/mods/66C3068E893517D7/00-8dde508a9495.webp",
+          "thumb": "/mods/66C3068E893517D7/00-8dde508a9495-640.webp",
+          "width": 1600,
+          "height": 863
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/a005/5931a509bc5cc528cd34f0655f8a726aa7aa475eb85d77cd2e50d0cc2a5a/46932.jpg",
+          "hash": "6b82342e1264",
+          "local": "/mods/66C3068E893517D7/01-6b82342e1264.webp",
+          "thumb": "/mods/66C3068E893517D7/01-6b82342e1264-640.webp",
+          "width": 1152,
+          "height": 648
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/6ef8/39cc3425411be849bc61d2646077aa0845edc13110f02c49fbc2285efcbb/9302.jpg",
+          "hash": "726428847559",
+          "local": "/mods/66C3068E893517D7/02-726428847559.webp",
+          "thumb": "/mods/66C3068E893517D7/02-726428847559-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/4593/76fbf3325c84e09f8753d664791966c30499e46c0ea92dda220d7597acfd/14038.jpg",
+          "hash": "d7c34663894a",
+          "local": "/mods/66C3068E893517D7/03-d7c34663894a.webp",
+          "thumb": "/mods/66C3068E893517D7/03-d7c34663894a-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/8df8/22be086e90289149292484bb8f303c4b0169f7262eacbe5f140ac3ce30c1/10144.jpg",
+          "hash": "31afa67a4a3b",
+          "local": "/mods/66C3068E893517D7/04-31afa67a4a3b.webp",
+          "thumb": "/mods/66C3068E893517D7/04-31afa67a4a3b-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/ad9e/eefdd89d0641c206aae5a980f4645c42dc5fd6ee42b047a09a6ce39c774d/14469.jpg",
+          "hash": "f820604c7144",
+          "local": "/mods/66C3068E893517D7/05-f820604c7144.webp",
+          "thumb": "/mods/66C3068E893517D7/05-f820604c7144-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/f0ad/8dadc3029ebbcd8ce8b9cfaf3bf62407ee23eac1eb11e0b505205ae7f945/9701.jpg",
+          "hash": "4118d2fbaacb",
+          "local": "/mods/66C3068E893517D7/06-4118d2fbaacb.webp",
+          "thumb": "/mods/66C3068E893517D7/06-4118d2fbaacb-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/e77d/399aed56340e6b5c5848a9d58e48d3f51b9f78e47900fb19c401c5d9232f/9605.jpg",
+          "hash": "300eebabed9d",
+          "local": "/mods/66C3068E893517D7/07-300eebabed9d.webp",
+          "thumb": "/mods/66C3068E893517D7/07-300eebabed9d-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/7e4f/c4c8a22895c03f87e7314725ec8b449bcec10483d073d4e250af46e88157/9708.jpg",
+          "hash": "30216425c356",
+          "local": "/mods/66C3068E893517D7/08-30216425c356.webp",
+          "thumb": "/mods/66C3068E893517D7/08-30216425c356-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/404f/8a1ac05bbba25ba14fa5c1fe46d66ae256b2adfb039fec603df9f9910490/17481.jpg",
+          "hash": "901aa2303a7c",
+          "local": "/mods/66C3068E893517D7/09-901aa2303a7c.webp",
+          "thumb": "/mods/66C3068E893517D7/09-901aa2303a7c-640.webp",
+          "width": 576,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/4100/08c9012e8dae82c1983d08aadfec2ea7cf49188ea50a83bca7146fe8e209/6257.jpg",
+          "hash": "21a974009cb9",
+          "local": "/mods/66C3068E893517D7/10-21a974009cb9.webp",
+          "thumb": "/mods/66C3068E893517D7/10-21a974009cb9-640.webp",
+          "width": 288,
+          "height": 162
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/28c2/a921ae7d9626a2170e1022d6a1ae41bf13b3fe7c4d3593c5b61b31cc0a52/90882.jpg",
+          "hash": "62dbaf1f76e0",
+          "local": "/mods/66C3068E893517D7/11-62dbaf1f76e0.webp",
+          "thumb": "/mods/66C3068E893517D7/11-62dbaf1f76e0-640.webp",
+          "width": 1600,
+          "height": 860
+        }
+      ],
+      "detailSynced": true
+    },
+    {
+      "id": "69868426C52A6D1D",
+      "name": "B59 Shotguns - Launcher Slot",
+      "slug": "69868426C52A6D1D-B59Shotguns-LauncherSlot",
+      "workshopUrl": "https://reforger.armaplatform.com/workshop/69868426C52A6D1D-B59Shotguns-LauncherSlot",
+      "author": "BravoFiveNine",
+      "category": "shotguns",
+      "categoryLabel": "Shotguns",
+      "featured": null,
+      "rating": 100,
+      "version": "1.0.0",
+      "gameVersion": "1.7.0.41",
+      "sizeLabel": "2.85 KB",
+      "sizeBytes": 2918,
+      "downloads": 30356,
+      "created": "2026-06-03",
+      "updated": "2026-06-03",
+      "license": {
+        "name": "Arma Public License (APL)",
+        "short": "APL"
+      },
+      "summary": "Sets the weapontype for B59 - Shotguns to launcher, so those with RHS/WCS can have them as a secondary slot weapons exclusively.",
+      "description": "Summary covers this.",
+      "tags": [
+        "WEAPONS"
+      ],
+      "dependencies": [
+        "TacticalAnimationOverhaul TEST",
+        "Chungus Shotguns",
+        "Attachment Framework",
+        "B59 Attachments",
+        "B59 - Shotguns - BETA",
+        "ARMA-RY CORE",
+        "B59 - SoundFX",
+        "Attachment Framework-Core",
+        "B59 - BravoCore"
+      ],
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/4fb7/64aaf5ca24fc42236cd95966da91f381961b0cc064d3e6cf0b03de71dd4c/79952.jpg",
+          "hash": "00dec616071f",
+          "local": "/mods/69868426C52A6D1D/00-00dec616071f.webp",
+          "thumb": "/mods/69868426C52A6D1D/00-00dec616071f-640.webp",
+          "width": 1376,
+          "height": 752
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/3a3a/daa2f34013337520661a7904b913838f3cc11fc6cb7d041059a227199d67/62436.jpg",
+          "hash": "30751c6e74f0",
+          "local": "/mods/69868426C52A6D1D/01-30751c6e74f0.webp",
+          "thumb": "/mods/69868426C52A6D1D/01-30751c6e74f0-640.webp",
+          "width": 1152,
+          "height": 648
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/e1c7/136b09fc2d30c05a7846df9cc7e2df46301c199b4a93bbc96cd04a236622/22431.jpg",
+          "hash": "9e37e840120f",
+          "local": "/mods/69868426C52A6D1D/02-9e37e840120f.webp",
+          "thumb": "/mods/69868426C52A6D1D/02-9e37e840120f-640.webp",
+          "width": 576,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/7d49/d81989915db90fd8c53ddd055336e6cc93104487b1b07e67a7d0f7d93e55/7784.jpg",
+          "hash": "7f82e6c9abcb",
+          "local": "/mods/69868426C52A6D1D/03-7f82e6c9abcb.webp",
+          "thumb": "/mods/69868426C52A6D1D/03-7f82e6c9abcb-640.webp",
+          "width": 288,
+          "height": 162
+        }
+      ],
+      "detailSynced": true
+    },
+    {
+      "id": "69CC4B43A3C97827",
+      "name": "B59 - A-602 Klyk",
+      "slug": "69CC4B43A3C97827-B59-A-602Klyk",
+      "workshopUrl": "https://reforger.armaplatform.com/workshop/69CC4B43A3C97827-B59-A-602Klyk",
+      "author": "BravoFiveNine",
+      "category": "rifles",
+      "categoryLabel": "Battle rifles & carbines",
+      "featured": null,
+      "rating": 75,
+      "version": "1.0.16",
+      "gameVersion": "1.8.0.10",
+      "sizeLabel": "11.68 MB",
+      "sizeBytes": 12247368,
+      "downloads": 15054,
+      "created": "2026-07-06",
+      "updated": "2026-08-14",
+      "license": {
+        "name": "Arma Public License No Derivatives (APL-ND)",
+        "short": "APL-ND"
+      },
+      "summary": "Experimental 6.02x41mm rifle for the RU faction.\nInspired by a design by: https://x.com/7N39AP/",
+      "description": "AK-308 model base: https://www.cgtrader.com/designers/nekernov\nRHS License: https://docs.rhsmods.org/rhs-status-quo-user-documentation/arma-reforger/rhs-status-quo/eula\nWCS Credits & License:\nThis is a weapon mod built using content created by WCS. The animations are original. The weapons are WCS. All original assets and content remain the property of their respective author(s). This mod is strictly non-commercial and intended for end-use in ARMA games only.\nIf you are a WCS representative and would like this mod removed, please reach out to [BravoFiveNiner] WCS Discord and it will be taken down promptly.\nWCS's original license:\nThis content is made available exclusively for non-commercial, end-use in ARMA games. Monetization in any form is strictly prohibited. This content may not be shared, redistributed, modified, or adapted in any way without the express written permission of the original author. Any exceptions to these terms must be explicitly granted in writing by the author. By using this content, you acknowledge and agree to these terms. Unauthorized redistribution or modification may result in takedown actions and/or legal consequences.",
+      "tags": [
+        "A-602",
+        "AK12",
+        "AK308",
+        "AKM",
+        "MCX",
+        "SIG",
+        "SPEAR",
+        "VIRTUS",
+        "WEAPONS",
+        "XM7"
+      ],
+      "dependencies": [
+        "RHS - Content Pack 01",
+        "RHS - Status Quo",
+        "WCS_NATO",
+        "WCS_RU",
+        "WCS_Attachments",
+        "TacticalAnimationOverhaul TEST",
+        "WCS_Scopes",
+        "WCS_Sounds",
+        "Attachment Framework",
+        "B59 Attachments",
+        "WCS_Weapons",
+        "B59 - SoundFX",
+        "Attachment Framework-Core",
+        "B59 - BravoCore",
+        "WCS_Weapon_Scripts",
+        "RHS - Content Pack 02"
+      ],
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/cff2/22f82d6f5b7db45067a48321be89b1a6861302b06f55f81073e27670aa2c/233979.jpg",
+          "hash": "bd26201ff7a8",
+          "local": "/mods/69CC4B43A3C97827/00-bd26201ff7a8.webp",
+          "thumb": "/mods/69CC4B43A3C97827/00-bd26201ff7a8-640.webp",
+          "width": 1600,
+          "height": 859
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/6707/1090db678b51951a0f9242c86c572c0a9d1a88ebc467783e2c444c5eb51b/103942.jpg",
+          "hash": "b7f8796a8887",
+          "local": "/mods/69CC4B43A3C97827/01-b7f8796a8887.webp",
+          "thumb": "/mods/69CC4B43A3C97827/01-b7f8796a8887-640.webp",
+          "width": 1152,
+          "height": 648
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/1926/a2c54181e8211afaa132ba83f629174de24bfedeadd43c79ca5b292c47b8/14101.jpg",
+          "hash": "cd56ce9bb194",
+          "local": "/mods/69CC4B43A3C97827/02-cd56ce9bb194.webp",
+          "thumb": "/mods/69CC4B43A3C97827/02-cd56ce9bb194-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/03b9/00e67687cb1efdf8d55fa58c0112ea457547926d9cff67c7deaae21fcdb2/29914.jpg",
+          "hash": "a9d224db2b0a",
+          "local": "/mods/69CC4B43A3C97827/03-a9d224db2b0a.webp",
+          "thumb": "/mods/69CC4B43A3C97827/03-a9d224db2b0a-640.webp",
+          "width": 576,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/e389/00a0e409cefe3dbd2e3cc23c0225d54ec2e8dd05145c32d73e3a969b79a3/8779.jpg",
+          "hash": "0e113bc18f2d",
+          "local": "/mods/69CC4B43A3C97827/04-0e113bc18f2d.webp",
+          "thumb": "/mods/69CC4B43A3C97827/04-0e113bc18f2d-640.webp",
+          "width": 288,
+          "height": 162
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/a27d/750f594e6779ddb930ab019a2856385bdbc7ad7c61aeb9ab4ffe064eab6e/224413.jpg",
+          "hash": "4367557969cb",
+          "local": "/mods/69CC4B43A3C97827/05-4367557969cb.webp",
+          "thumb": "/mods/69CC4B43A3C97827/05-4367557969cb-640.webp",
+          "width": 1600,
+          "height": 864
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/3036/d674ac13c5879b4d5837537372ec8e918b1694c7195ec95dd472a4db1cbd/157697.jpg",
+          "hash": "788e5bdd5ccf",
+          "local": "/mods/69CC4B43A3C97827/06-788e5bdd5ccf.webp",
+          "thumb": "/mods/69CC4B43A3C97827/06-788e5bdd5ccf-640.webp",
+          "width": 1480,
+          "height": 832
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/77b5/986d1c8b649a878e5fc74c31c64b2a9e12ecf463e86d4d5be439351de6bc/49921.jpg",
+          "hash": "aa8cecd014de",
+          "local": "/mods/69CC4B43A3C97827/07-aa8cecd014de.webp",
+          "thumb": "/mods/69CC4B43A3C97827/07-aa8cecd014de-640.webp",
+          "width": 776,
+          "height": 436
+        }
+      ],
+      "detailSynced": true
+    },
+    {
+      "id": "6953480868ED0E40",
+      "name": "OldGuys No Supressor Mk46",
+      "slug": "6953480868ED0E40-OldGuysNoSupressorMk46",
+      "workshopUrl": "https://reforger.armaplatform.com/workshop/6953480868ED0E40-OldGuysNoSupressorMk46",
+      "author": "BravoFiveNine",
+      "category": "support",
+      "categoryLabel": "Support weapons",
+      "featured": null,
+      "rating": 0,
+      "version": "1.0.3",
+      "gameVersion": "1.6.0.119",
+      "sizeLabel": "746.18 KB",
+      "sizeBytes": 764088,
+      "downloads": 12690,
+      "created": "2026-05-09",
+      "updated": "2026-05-22",
+      "license": {
+        "name": "Arma Public License (APL)",
+        "short": "APL"
+      },
+      "summary": "Mod for Old Guard Revival \\ Old Guys (original).\nPrevents the supressor from being attached to the MK46/Mk48 for balance purposes.",
+      "description": "Prevents the supressor from being attached to the MK46/Mk48 for balance purposes.",
+      "tags": [
+        "GUARD",
+        "GUYS",
+        "MK46",
+        "MK48",
+        "OLD",
+        "REVIVAL",
+        "WEAPONS"
+      ],
+      "dependencies": [
+        "TacticalAnimationOverhaul TEST",
+        "Attachment Framework",
+        "B59 - MK46 and MK48",
+        "B59 - SoundFX",
+        "Attachment Framework-Core",
+        "B59 - BravoCore"
+      ],
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/8bf0/553e331e403d3476d5e9700c662e55bb84954f7921d57a5c36d2a0371b87/67752.jpg",
+          "hash": "d3583f7678da",
+          "local": "/mods/6953480868ED0E40/00-d3583f7678da.webp",
+          "thumb": "/mods/6953480868ED0E40/00-d3583f7678da-640.webp",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/856f/d36585651f55bd98cc097f6625f9141d2fff7799680195ffa08308b08ea6/58791.jpg",
+          "hash": "55707968117f",
+          "local": "/mods/6953480868ED0E40/01-55707968117f.webp",
+          "thumb": "/mods/6953480868ED0E40/01-55707968117f-640.webp",
+          "width": 1024,
+          "height": 648
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/494e/a3b8c8646c509f2af4f38187e567d8aa43c9750bd68cfa0f4eabf4a7e335/23334.jpg",
+          "hash": "693c5728ecb4",
+          "local": "/mods/6953480868ED0E40/02-693c5728ecb4.webp",
+          "thumb": "/mods/6953480868ED0E40/02-693c5728ecb4-640.webp",
+          "width": 576,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/a765/1f4ccd1de14e8b310518a20b9e8552c4e71e4c4ff7161ac4f4c3c0182a73/8553.jpg",
+          "hash": "e2113840800d",
+          "local": "/mods/6953480868ED0E40/03-e2113840800d.webp",
+          "thumb": "/mods/6953480868ED0E40/03-e2113840800d-640.webp",
+          "width": 288,
+          "height": 162
+        }
+      ],
+      "detailSynced": true
+    },
+    {
+      "id": "69D24A8BF0C87396",
+      "name": "B59 - MP5 WCS-RHS Compat",
+      "slug": "69D24A8BF0C87396-B59-MP5WCS-RHSCompat",
+      "workshopUrl": "https://reforger.armaplatform.com/workshop/69D24A8BF0C87396-B59-MP5WCS-RHSCompat",
+      "author": "BravoFiveNine",
+      "category": "core",
+      "categoryLabel": "Attachments & core",
+      "featured": null,
+      "rating": 100,
+      "version": "0.0.3",
+      "gameVersion": "1.7.0.54",
+      "sizeLabel": "7.41 KB",
+      "sizeBytes": 7588,
+      "downloads": 10755,
+      "created": "2026-07-10",
+      "updated": "2026-07-26",
+      "license": {
+        "name": "Arma Public License No Derivatives (APL-ND)",
+        "short": "APL-ND"
+      },
+      "summary": "Applies WCS and RHS assets to the MP5's like grips, stocks, supressors, and optics.",
+      "description": "RHS License: https://docs.rhsmods.org/rhs-status-quo-user-documentation/arma-reforger/rhs-status-quo/eula\nWCS Credits & License:\nThis is a community mod that applies content created by WCS to the MP5's. The animations are original. The weapons are WCS. All original assets and content remain the property of their respective author(s). This mod is strictly non-commercial and intended for end-use in ARMA games only.\nIf you are a WCS representative and would like this mod removed, please reach out to [BravoFiveNiner] WCS Discord and it will be taken down promptly.\nWCS's original license:\nThis content is made available exclusively for non-commercial, end-use in ARMA games. Monetization in any form is strictly prohibited. This content may not be shared, redistributed, modified, or adapted in any way without the express written permission of the original author. Any exceptions to these terms must be explicitly granted in writing by the author. By using this content, you acknowledge and agree to these terms. Unauthorized redistribution or modification may result in takedown actions and/or legal consequences.",
+      "tags": [
+        "10MM",
+        "9MM",
+        "B59",
+        "MP5",
+        "MP5K",
+        "MP5SD",
+        "RHS",
+        "WCS",
+        "WEAPONS"
+      ],
+      "dependencies": [
+        "RHS - Content Pack 01",
+        "RHS - Status Quo",
+        "WCS_NATO",
+        "WCS_RU",
+        "WCS_Attachments",
+        "TacticalAnimationOverhaul TEST",
+        "WCS_Scopes",
+        "WCS_Sounds",
+        "B59 - Mp5",
+        "Attachment Framework",
+        "B59 Attachments",
+        "WCS_Weapons",
+        "ARMA-RY CORE",
+        "ARMA-RY CLAW MOUNT",
+        "B59 - SoundFX",
+        "Attachment Framework-Core",
+        "B59 - BravoCore",
+        "WCS_Weapon_Scripts",
+        "RHS - Content Pack 02"
+      ],
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/8d5e/2368484ab2e1497102b32752968df0d6ff10bd44212ecdcf23a4c239b753/286919.jpg",
+          "hash": "48e8497066de",
+          "local": "/mods/69D24A8BF0C87396/00-48e8497066de.webp",
+          "thumb": "/mods/69D24A8BF0C87396/00-48e8497066de-640.webp",
+          "width": 1600,
+          "height": 824
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/69c5/e8802629b81b4dfb5febfa2aecc89d8e71f8f0e8370bc758721b582d360d/124432.jpg",
+          "hash": "958acb79dc17",
+          "local": "/mods/69D24A8BF0C87396/01-958acb79dc17.webp",
+          "thumb": "/mods/69D24A8BF0C87396/01-958acb79dc17-640.webp",
+          "width": 1152,
+          "height": 648
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/2e58/597c278550af224a32dd737bca57f25c4e7b665fd4210ecd16fd1d6e9f65/34540.jpg",
+          "hash": "27bcc615181f",
+          "local": "/mods/69D24A8BF0C87396/02-27bcc615181f.webp",
+          "thumb": "/mods/69D24A8BF0C87396/02-27bcc615181f-640.webp",
+          "width": 576,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/ab4b/db7c2e4676962bd4da7af1a7e3a0444ed0c868b7d5bfdde635eda9bb12a7/10004.jpg",
+          "hash": "44534a09e528",
+          "local": "/mods/69D24A8BF0C87396/03-44534a09e528.webp",
+          "thumb": "/mods/69D24A8BF0C87396/03-44534a09e528-640.webp",
+          "width": 288,
+          "height": 162
+        }
+      ],
+      "detailSynced": true
+    },
+    {
+      "id": "6713491DFC06B4C5",
+      "name": "ArmaConflict - XM177E2 Addons",
+      "slug": "6713491DFC06B4C5-ArmaConflict-XM177E2Addons",
+      "workshopUrl": "https://reforger.armaplatform.com/workshop/6713491DFC06B4C5-ArmaConflict-XM177E2Addons",
+      "author": "BravoFiveNine",
+      "category": "rifles",
+      "categoryLabel": "Battle rifles & carbines",
+      "featured": null,
+      "rating": 87,
+      "version": "0.0.2",
+      "gameVersion": "1.6.0.95",
+      "sizeLabel": "17.18 MB",
+      "sizeBytes": 18014536,
+      "downloads": 1008,
+      "created": "2025-12-09",
+      "updated": "2025-12-12",
+      "license": {
+        "name": "Arma Public License No Derivatives (APL-ND)",
+        "short": "APL-ND"
+      },
+      "summary": "For Armaconflict.com\nVietnam '67\nAdds vertical grip and M203 variants for XM117E2",
+      "description": "Initial upload.",
+      "tags": [
+        "CAR-15",
+        "M203",
+        "WEAPONS",
+        "XM117",
+        "XM177E2"
+      ],
+      "dependencies": [
+        "Chungus Rifles",
+        "B59 - BravoEFX",
+        "B59 Attachments"
+      ],
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/677d/3af050267cc36f7977684e584c3ace11d33d9404ee7f69e9b60c627b4bc4/101571.jpg",
+          "hash": "c04243d72a35",
+          "local": "/mods/6713491DFC06B4C5/00-c04243d72a35.webp",
+          "thumb": "/mods/6713491DFC06B4C5/00-c04243d72a35-640.webp",
+          "width": 1600,
+          "height": 824
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/0e12/e753e29a4a87f1dd6deba7cf64a35102ccb9bf21ffa4e01d661b04b49b48/50646.jpg",
+          "hash": "09f58f9d1fc9",
+          "local": "/mods/6713491DFC06B4C5/01-09f58f9d1fc9.webp",
+          "thumb": "/mods/6713491DFC06B4C5/01-09f58f9d1fc9-640.webp",
+          "width": 1152,
+          "height": 648
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/d557/a5d0ee6124e4db1b6056a38d5e280e68ef6f49b9a52850f36d32b3d154e2/10985.jpg",
+          "hash": "8aaa5cde97a9",
+          "local": "/mods/6713491DFC06B4C5/02-8aaa5cde97a9.webp",
+          "thumb": "/mods/6713491DFC06B4C5/02-8aaa5cde97a9-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/f3eb/547b6550eb5da46b19cc81ae81618036eee6102b230ba33d92897a1406b0/18427.jpg",
+          "hash": "3cea1f13e936",
+          "local": "/mods/6713491DFC06B4C5/03-3cea1f13e936.webp",
+          "thumb": "/mods/6713491DFC06B4C5/03-3cea1f13e936-640.webp",
+          "width": 576,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/9a21/4ceb16e9cc394c4a23ded28cb37345d435ad3bd2d357fa7e7abf94b014c1/6552.jpg",
+          "hash": "bc0d007b3a94",
+          "local": "/mods/6713491DFC06B4C5/04-bc0d007b3a94.webp",
+          "thumb": "/mods/6713491DFC06B4C5/04-bc0d007b3a94-640.webp",
+          "width": 288,
+          "height": 162
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/8560/aa2253d6ec7a23916ca00137734e545c6cf7c2079efa7af61d06709b7451/114225.jpg",
+          "hash": "203708e9916e",
+          "local": "/mods/6713491DFC06B4C5/05-203708e9916e.webp",
+          "thumb": "/mods/6713491DFC06B4C5/05-203708e9916e-640.webp",
+          "width": 1600,
+          "height": 825
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/d3e7/bb09f6f691fd742b187a16a694e736b71dce07a9953778ecc888b7f1f679/82793.jpg",
+          "hash": "c6e5e2885b5b",
+          "local": "/mods/6713491DFC06B4C5/06-c6e5e2885b5b.webp",
+          "thumb": "/mods/6713491DFC06B4C5/06-c6e5e2885b5b-640.webp",
+          "width": 1480,
+          "height": 832
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/1ed6/c8d9a503e3e08e35fe3c177192a2a767cbcba9935347b0f16164722c67ba/31497.jpg",
+          "hash": "f9565bd8df22",
+          "local": "/mods/6713491DFC06B4C5/07-f9565bd8df22.webp",
+          "thumb": "/mods/6713491DFC06B4C5/07-f9565bd8df22-640.webp",
+          "width": 776,
+          "height": 436
+        }
+      ],
+      "detailSynced": true
+    },
+    {
+      "id": "69DE1EC1C9B75262",
+      "name": "B59 - AR",
+      "slug": "69DE1EC1C9B75262-B59-AR",
+      "workshopUrl": "https://reforger.armaplatform.com/workshop/69DE1EC1C9B75262-B59-AR",
+      "author": "BravoFiveNine",
+      "category": "rifles",
+      "categoryLabel": "Battle rifles & carbines",
+      "featured": null,
+      "rating": 100,
+      "version": "0.0.7",
+      "gameVersion": "1.8.0.10",
+      "sizeLabel": "119.86 MB",
+      "sizeBytes": 125682319,
+      "downloads": 954,
+      "created": "2026-07-29",
+      "updated": "2026-08-14",
+      "license": {
+        "name": "Arma Public License Share Alike (APL-SA)",
+        "short": "APL-SA"
+      },
+      "summary": "Modders resource. Only part prefabs. No weapons.\nFree to use. Please attribute the artist in your description.",
+      "description": "M4/M16 Components:\nMattias H (Tiggis) → https://www.cgtrader.com/designers/tiggis",
+      "tags": [
+        "AR",
+        "AR-15",
+        "AR9",
+        "CMMG",
+        "COLT",
+        "FIGHTLITE",
+        "HK416",
+        "HK417",
+        "M16",
+        "M4",
+        "M416",
+        "M417",
+        "MK47",
+        "MUTANT",
+        "WEAPONS"
+      ],
+      "dependencies": [
+        "Attachment Framework",
+        "Attachment Framework-Core",
+        "B59 - BravoCore"
+      ],
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/2d4b/5447a2f70ad566ccb2376c1914e9d058fcf79b4de1adcae3eb2cfa811b9d/312929.jpg",
+          "hash": "c7be7fda40f3",
+          "local": "/mods/69DE1EC1C9B75262/00-c7be7fda40f3.webp",
+          "thumb": "/mods/69DE1EC1C9B75262/00-c7be7fda40f3-640.webp",
+          "width": 1600,
+          "height": 859
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/a554/9d00d4ed64fda7621e8b682b97ce7042be5c55712a443c7240b3ae744fa5/135241.jpg",
+          "hash": "1e38b9b59463",
+          "local": "/mods/69DE1EC1C9B75262/01-1e38b9b59463.webp",
+          "thumb": "/mods/69DE1EC1C9B75262/01-1e38b9b59463-640.webp",
+          "width": 1152,
+          "height": 648
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/a34b/f2c0018eda1c2ea06fcece2397849a05f538c296ff740120a32fe9b60e7f/39870.jpg",
+          "hash": "a92cded77fa6",
+          "local": "/mods/69DE1EC1C9B75262/02-a92cded77fa6.webp",
+          "thumb": "/mods/69DE1EC1C9B75262/02-a92cded77fa6-640.webp",
+          "width": 576,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/16cf/36b6a21b7cf57a504804bd73e049f556e1d0354be006911c26eaf4e0cae0/11692.jpg",
+          "hash": "d6c9e44193bc",
+          "local": "/mods/69DE1EC1C9B75262/03-d6c9e44193bc.webp",
+          "thumb": "/mods/69DE1EC1C9B75262/03-d6c9e44193bc-640.webp",
+          "width": 288,
+          "height": 162
+        }
+      ],
+      "detailSynced": true
     },
     {
       "id": "696D5937625E739A",
@@ -983,22 +2035,1288 @@
       "author": "BravoFiveNine",
       "category": "gameplay",
       "categoryLabel": "Gameplay & tools",
+      "featured": null,
       "rating": 0,
-      "version": null,
-      "gameVersion": null,
+      "version": "1.0.6",
+      "gameVersion": "1.7.0.49",
       "sizeLabel": "546.25 KB",
       "sizeBytes": 559360,
-      "downloads": null,
-      "created": null,
-      "updated": null,
-      "license": null,
-      "summary": null,
-      "description": null,
-      "tags": [],
+      "downloads": 811,
+      "created": "2026-06-11",
+      "updated": "2026-06-12",
+      "license": {
+        "name": "Arma Public License No Derivatives (APL-ND)",
+        "short": "APL-ND"
+      },
+      "summary": "A fork of ImNotOffensive's SCOORBOAARRD mod. Uploaded with explicit permissions.",
+      "description": "New UI layout.\nExposed the score values on the component so server owners can change it if they like\nExposed the colors for the player rows/active player colors so they can be stylized per server owner.\nShould dynamically pull server name.\nDynamically pulls faction names and their flags.\nUpdates the list ever 5 seconds (when open).\nScroll bar (arrow keys or wasd on PC, equivalent on consoles)\nAuto-scrolls to your position.\nZebra stripe for readability on the list\nExplicitly does not look for Civilian and FIA factions\nThird-party assets: Google Material Symbols / Material Icons Copyright Google LLC Licensed under the Apache License, Version 2.0. Material Symbols / Material Icons are used for UI iconography in this mod.",
+      "tags": [
+        "B59",
+        "SCOREBOARD",
+        "SYSTEMS",
+        "TESTDEV"
+      ],
       "dependencies": [],
-      "images": [],
-      "detailSynced": false,
-      "featured": null
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/f8ad/328fd45d14d6edad495b34e510f4edb383addd437c1d5a215990544eb5b9/179456.jpg",
+          "hash": "129db4da1302",
+          "local": "/mods/696D5937625E739A/00-129db4da1302.webp",
+          "thumb": "/mods/696D5937625E739A/00-129db4da1302-640.webp",
+          "width": 1600,
+          "height": 862
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/2a7f/bb641b87c609fc9407effe498646715d4c78f6cfb32ab15ece5c05f0180a/96613.jpg",
+          "hash": "3f06f049359c",
+          "local": "/mods/696D5937625E739A/01-3f06f049359c.webp",
+          "thumb": "/mods/696D5937625E739A/01-3f06f049359c-640.webp",
+          "width": 1152,
+          "height": 648
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/c966/7dc11455c8775858df332ff03383391d2acf52f704a6bf0ce94cd286026c/33421.jpg",
+          "hash": "e8b89904ea88",
+          "local": "/mods/696D5937625E739A/02-e8b89904ea88.webp",
+          "thumb": "/mods/696D5937625E739A/02-e8b89904ea88-640.webp",
+          "width": 576,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/76a2/e30901490acca860f9f6e1683861505badbbc1bc8d480857eece77aa8a2b/10591.jpg",
+          "hash": "cce83596ba34",
+          "local": "/mods/696D5937625E739A/03-cce83596ba34.webp",
+          "thumb": "/mods/696D5937625E739A/03-cce83596ba34-640.webp",
+          "width": 288,
+          "height": 162
+        }
+      ],
+      "detailSynced": true
+    },
+    {
+      "id": "69AD0E46F208250A",
+      "name": "B59 - Bravocore for WCS & RHS",
+      "slug": "69AD0E46F208250A-B59-BravocoreforWCS%2526RHS",
+      "workshopUrl": "https://reforger.armaplatform.com/workshop/69AD0E46F208250A-B59-BravocoreforWCS%2526RHS",
+      "author": "BravoFiveNine",
+      "category": "core",
+      "categoryLabel": "Attachments & core",
+      "featured": null,
+      "rating": 0,
+      "version": "0.0.19",
+      "gameVersion": "1.7.0.54",
+      "sizeLabel": "445.88 KB",
+      "sizeBytes": 456581,
+      "downloads": 652,
+      "created": "2026-06-27",
+      "updated": "2026-08-11",
+      "license": {
+        "name": "Arma Public License (APL)",
+        "short": "APL"
+      },
+      "summary": "Applies BravoCore weapon animations to WCS weapons\nCurrently supported: M4 URGI, ACR, MCX, MCX Rattler, Honeybadger, CMMG MK47, MPX, M4's and M16's\nhttps://www.youtube.com/shorts/Uun8OoZIVaA",
+      "description": "Still in Beta\nRHS License: https://docs.rhsmods.org/rhs-status-quo-user-documentation/arma-reforger/rhs-status-quo/eula\nWCS Credits & License:\nThis is a community re-animation mod built using content created by WCS. The animations are original. The weapons are WCS. All original assets and content remain the property of their respective author(s). This mod is strictly non-commercial and intended for end-use in ARMA games only.\nIf you are a WCS representative and would like this mod removed, please reach out to [BravoFiveNiner] WCS Discord and it will be taken down promptly.\nWCS's original license:\nThis content is made available exclusively for non-commercial, end-use in ARMA games. Monetization in any form is strictly prohibited. This content may not be shared, redistributed, modified, or adapted in any way without the express written permission of the original author. Any exceptions to these terms must be explicitly granted in writing by the author. By using this content, you acknowledge and agree to these terms. Unauthorized redistribution or modification may result in takedown actions and/or legal consequences.",
+      "tags": [
+        "ACR",
+        "AK47",
+        "AK74",
+        "B59",
+        "BRAVOCORE",
+        "BRAVOFIVENINER",
+        "CASE",
+        "CMMG",
+        "HONEYBADGER",
+        "M4",
+        "MCX",
+        "MK47",
+        "MUTANT",
+        "RATTLER",
+        "SCENARIO",
+        "URGI",
+        "WCS",
+        "WEAPONS",
+        "WORST"
+      ],
+      "dependencies": [
+        "RHS - Content Pack 01",
+        "RHS - Status Quo",
+        "WCS_NATO",
+        "WCS_RU",
+        "WCS_Attachments",
+        "TacticalAnimationOverhaul TEST",
+        "WCS_Scopes",
+        "WCS_Sounds",
+        "Attachment Framework",
+        "WCS_Weapons",
+        "WCS_RHS_Weapons",
+        "ARMA-RY CORE",
+        "ARMA-RY CLAW MOUNT",
+        "Attachment Framework-Core",
+        "B59 - BravoCore",
+        "WCS_Weapon_Scripts",
+        "RHS - Content Pack 02"
+      ],
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/1748/c582abb67046ed5d70dfc48ac3c611a9b64ce7b6419e3a834e894db6043f/73541.jpg",
+          "hash": "3511b2e0f65d",
+          "local": "/mods/69AD0E46F208250A/00-3511b2e0f65d.webp",
+          "thumb": "/mods/69AD0E46F208250A/00-3511b2e0f65d-640.webp",
+          "width": 1448,
+          "height": 1086
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/f2d1/55521dd24eff1e6fcadc5008cfd282a6e5d3aedd1a1b48c883870892543b/49046.jpg",
+          "hash": "8eb8f84e597f",
+          "local": "/mods/69AD0E46F208250A/01-8eb8f84e597f.webp",
+          "thumb": "/mods/69AD0E46F208250A/01-8eb8f84e597f-640.webp",
+          "width": 1152,
+          "height": 648
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/e4d6/490ed75636b7273eed5afaaa0e840af3b15fc04a31b987a9ebc45f4b6d8f/10762.jpg",
+          "hash": "4385e82bebeb",
+          "local": "/mods/69AD0E46F208250A/02-4385e82bebeb.webp",
+          "thumb": "/mods/69AD0E46F208250A/02-4385e82bebeb-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/7bdb/811dbc13971304df0b816947b55d1388710d0f70d937d15d9918e041a949/10563.jpg",
+          "hash": "4a44bafab9be",
+          "local": "/mods/69AD0E46F208250A/03-4a44bafab9be.webp",
+          "thumb": "/mods/69AD0E46F208250A/03-4a44bafab9be-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/1666/32f587ecf6ec43e572a2a881e9fb54a7759f4f954150cf5e19f2571cce23/17715.jpg",
+          "hash": "93f133abbb53",
+          "local": "/mods/69AD0E46F208250A/04-93f133abbb53.webp",
+          "thumb": "/mods/69AD0E46F208250A/04-93f133abbb53-640.webp",
+          "width": 576,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/ffdb/02689bbd27a25acbb4e966d8b70a750319f8cda3c56950051bf429a17ebe/6013.jpg",
+          "hash": "f8362dcc3ea2",
+          "local": "/mods/69AD0E46F208250A/05-f8362dcc3ea2.webp",
+          "thumb": "/mods/69AD0E46F208250A/05-f8362dcc3ea2-640.webp",
+          "width": 288,
+          "height": 162
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/63c1/97587a2963e4e4b1ffc5cc50c3f71512bb723b09872960bded526bf05f3b/78981.jpg",
+          "hash": "d741905ddb5a",
+          "local": "/mods/69AD0E46F208250A/06-d741905ddb5a.webp",
+          "thumb": "/mods/69AD0E46F208250A/06-d741905ddb5a-640.webp",
+          "width": 1207,
+          "height": 927
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/126c/85013020195a0cbad56f6e44189d0bb4a78a74be39dd049e4bf58f159d8f/71356.jpg",
+          "hash": "409d537bd3dd",
+          "local": "/mods/69AD0E46F208250A/07-409d537bd3dd.webp",
+          "thumb": "/mods/69AD0E46F208250A/07-409d537bd3dd-640.webp",
+          "width": 1207,
+          "height": 832
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/75c3/c55f4f0c4379a6bc0c3d54ce402c9c8f58d66a19667787d91eda99f52024/29968.jpg",
+          "hash": "c332b4e903a6",
+          "local": "/mods/69AD0E46F208250A/08-c332b4e903a6.webp",
+          "thumb": "/mods/69AD0E46F208250A/08-c332b4e903a6-640.webp",
+          "width": 776,
+          "height": 436
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/7e65/6d8c021342057b330c37d8a1c795975fde8924ff95b35d72eb02dafe0d53/86569.jpg",
+          "hash": "0ca68ca79f2e",
+          "local": "/mods/69AD0E46F208250A/09-0ca68ca79f2e.webp",
+          "thumb": "/mods/69AD0E46F208250A/09-0ca68ca79f2e-640.webp",
+          "width": 1393,
+          "height": 924
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/e652/d1d66e4e70f54613fadd5164b4176d08a6316e65730391598311d6437563/77519.jpg",
+          "hash": "d910da3cd836",
+          "local": "/mods/69AD0E46F208250A/10-d910da3cd836.webp",
+          "thumb": "/mods/69AD0E46F208250A/10-d910da3cd836-640.webp",
+          "width": 1393,
+          "height": 832
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/da8d/847bce0c7cb9ed17ef45bcbf1b3fab90dea250dc4a9d2e45fdfd4a50c783/29867.jpg",
+          "hash": "9203dd159933",
+          "local": "/mods/69AD0E46F208250A/11-9203dd159933.webp",
+          "thumb": "/mods/69AD0E46F208250A/11-9203dd159933-640.webp",
+          "width": 776,
+          "height": 436
+        }
+      ],
+      "detailSynced": true
+    },
+    {
+      "id": "69F60DF1F74542C1",
+      "name": "B59 - MP5K",
+      "slug": "69F60DF1F74542C1-B59-MP5K",
+      "workshopUrl": "https://reforger.armaplatform.com/workshop/69F60DF1F74542C1-B59-MP5K",
+      "author": "BravoFiveNine",
+      "category": "smg",
+      "categoryLabel": "Submachine guns",
+      "featured": null,
+      "rating": 0,
+      "version": "0.0.5",
+      "gameVersion": "1.8.0.10",
+      "sizeLabel": "42.69 MB",
+      "sizeBytes": 44763709,
+      "downloads": 587,
+      "created": "2026-07-31",
+      "updated": "2026-08-16",
+      "license": {
+        "name": "Arma Public License Share Alike (APL-SA)",
+        "short": "APL-SA"
+      },
+      "summary": "MP5K with various handguards.\nGrab Flat Dark Earth Variants here: [https://reforger.armaplatform.com/workshop/69FE7241D54309E3-B59-MP5K-FDE\n]",
+      "description": "[Allowed modifications]\nYou may use this as a dependency.\nYou may modify the stats, add/modify textures, add attachments, change sounds, etc.\nMp5 Model and Textures:\nMattias H (Tiggis) → https://www.cgtrader.com/designers/tiggis\nGrip Model and Textures:\nParallax Game Studios → https://www.cgtrader.com/designers/parallaxgamestudios",
+      "tags": [
+        "B59",
+        "HK",
+        "MACHINEGUN",
+        "MP5",
+        "MP5K",
+        "SMG",
+        "SUB",
+        "SUBMACHINEGUN",
+        "WEAPONS"
+      ],
+      "dependencies": [
+        "TacticalAnimationOverhaul TEST",
+        "Attachment Framework",
+        "B59 Attachments",
+        "ARMA-RY CORE",
+        "ARMA-RY CLAW MOUNT",
+        "B59 - SoundFX",
+        "Attachment Framework-Core",
+        "B59 - BravoCore"
+      ],
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/a3fe/e2341294cb68bf2d1c919785d5b8adab00dbd21ffb4a66fd3a87f8bd054c/200437.jpg",
+          "hash": "36dbac3d26b6",
+          "local": "/mods/69F60DF1F74542C1/00-36dbac3d26b6.webp",
+          "thumb": "/mods/69F60DF1F74542C1/00-36dbac3d26b6-640.webp",
+          "width": 1600,
+          "height": 820
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/abc0/9019e70ca7937156e9f5f3f6d9f93dbfc132a96ab7fa172031a5994cb144/91386.jpg",
+          "hash": "b3d302a7397b",
+          "local": "/mods/69F60DF1F74542C1/01-b3d302a7397b.webp",
+          "thumb": "/mods/69F60DF1F74542C1/01-b3d302a7397b-640.webp",
+          "width": 1152,
+          "height": 648
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/3e14/6ad0b7c36ec270f725bcfa3f8628a579dd8cf4e71e0af5c978fa1c7bbf77/13061.jpg",
+          "hash": "dc62bec2fb76",
+          "local": "/mods/69F60DF1F74542C1/02-dc62bec2fb76.webp",
+          "thumb": "/mods/69F60DF1F74542C1/02-dc62bec2fb76-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/e640/af1c16b111c89b72d3634d9c632710eb77e3d9472cbed05f14f2a01765d1/15387.jpg",
+          "hash": "3a7369febdf7",
+          "local": "/mods/69F60DF1F74542C1/03-3a7369febdf7.webp",
+          "thumb": "/mods/69F60DF1F74542C1/03-3a7369febdf7-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/91d1/cdf7e62460b59e3952e4ac87ea7a6715e1bced2807638196a5267506cf6d/13443.jpg",
+          "hash": "7880e911b7c7",
+          "local": "/mods/69F60DF1F74542C1/04-7880e911b7c7.webp",
+          "thumb": "/mods/69F60DF1F74542C1/04-7880e911b7c7-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/72c8/f4609d83914a73effbd41581b1e033bb4b6bdfbdd2817146cd9b9de4a696/13784.jpg",
+          "hash": "7d8b7738957d",
+          "local": "/mods/69F60DF1F74542C1/05-7d8b7738957d.webp",
+          "thumb": "/mods/69F60DF1F74542C1/05-7d8b7738957d-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/4324/79e865895b03ca8d7e1df9b79a86c3d77f67b42890794a8d479ae37f52e8/26893.jpg",
+          "hash": "7a134b3c27b6",
+          "local": "/mods/69F60DF1F74542C1/06-7a134b3c27b6.webp",
+          "thumb": "/mods/69F60DF1F74542C1/06-7a134b3c27b6-640.webp",
+          "width": 576,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/c44a/9c4fc1c9f556f9adb3e63b91ce26fb58b81f428340d0481fd7cf333a7a63/8082.jpg",
+          "hash": "b4dddb3e390c",
+          "local": "/mods/69F60DF1F74542C1/07-b4dddb3e390c.webp",
+          "thumb": "/mods/69F60DF1F74542C1/07-b4dddb3e390c-640.webp",
+          "width": 288,
+          "height": 162
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/2d51/1d7ffb3aaa60c8a4d29a7cccec87e05b2116af3833c72363c27e679474f3/194824.jpg",
+          "hash": "78b48946c829",
+          "local": "/mods/69F60DF1F74542C1/08-78b48946c829.webp",
+          "thumb": "/mods/69F60DF1F74542C1/08-78b48946c829-640.webp",
+          "width": 1600,
+          "height": 857
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/a7d4/57bf2e3be2999df6b87471376e85a3fef305028536532c37ff3aa3450bf1/135340.jpg",
+          "hash": "5e8d5bdb4d14",
+          "local": "/mods/69F60DF1F74542C1/09-5e8d5bdb4d14.webp",
+          "thumb": "/mods/69F60DF1F74542C1/09-5e8d5bdb4d14-640.webp",
+          "width": 1480,
+          "height": 832
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/6fc4/642cec5f359374ed90bc8f56c1e90ba98364ccc18f3d95ea816f165cbdbc/44538.jpg",
+          "hash": "1cd9123934a8",
+          "local": "/mods/69F60DF1F74542C1/10-1cd9123934a8.webp",
+          "thumb": "/mods/69F60DF1F74542C1/10-1cd9123934a8-640.webp",
+          "width": 776,
+          "height": 436
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/24f2/0f5b41893adc4394310a6427ce61a077bb1eb3c30d4a98468a91bebd7ccd/226320.jpg",
+          "hash": "fbf8febaa8c8",
+          "local": "/mods/69F60DF1F74542C1/11-fbf8febaa8c8.webp",
+          "thumb": "/mods/69F60DF1F74542C1/11-fbf8febaa8c8-640.webp",
+          "width": 1600,
+          "height": 860
+        }
+      ],
+      "detailSynced": true
+    },
+    {
+      "id": "671CCCD3C4194FA6",
+      "name": "Armaconflict.com M4 M16",
+      "slug": "671CCCD3C4194FA6-Armaconflict.comM4M16",
+      "workshopUrl": "https://reforger.armaplatform.com/workshop/671CCCD3C4194FA6-Armaconflict.comM4M16",
+      "author": "BravoFiveNine",
+      "category": "rifles",
+      "categoryLabel": "Battle rifles & carbines",
+      "featured": null,
+      "rating": 40,
+      "version": "1.0.8",
+      "gameVersion": "1.6.0.95",
+      "sizeLabel": "283.93 MB",
+      "sizeBytes": 297722184,
+      "downloads": 536,
+      "created": "2025-12-14",
+      "updated": "2025-12-19",
+      "license": {
+        "name": "Arma Public License No Derivatives (APL-ND)",
+        "short": "APL-ND"
+      },
+      "summary": "M4 pack built for armaconflict.com\nSmaller one only containing the basics.",
+      "description": "Description\n✅ You have my permission to:\nMake sound changes.\nMake weapon config changes.\n🟢 Weapons\nRifle_M16a4\nRifle_M16a4_Acog_Laser\nRifle_M16a4_Acog_Laser_UGL\nRifle_M4\nRifle_M4_CCO_Laser\nRifle_Commando\nRifle_M4_UGL\nRifle_MK18\nRifle_MK18_holo\nRifle_AR308\nRifle_AR9\n🟣 Magazines\nMagazine_556x45_STANAG_60rnd_M855_Ball\nMagazine_762x51_AR308_20rnd_M80\nMagazine_9x19_colt_30rnd\n🔵 Barrels\nBarrel_M4_Base\nBarrel_M16_Base\nBarrel_MK18_Base\nBarrel_AR308\n🔥 Muzzle Devices / Flash Hiders / Suppressors\nFlasHideR_AR308\n🟠 Stocks\nStock_CC\nStock_M16 (M16 A2)\nStock_M4\nStock_M4_Base (Sopmod)\nStock_PRS\nStock_m16_des\nStock_m4_des\n🟡 Upper Receivers\nupperreceiver_m16a4 (folding rear sight, no front sight)\nupperreciever_m4 (folding rear and front sight)\n🟢 Accessories\nm4_rail_cover_full__up_blk\nm4_rail_cover_full_blk\nm4_rail_cover_full_top_blk\nHandguard_AR308_quadrail\nHandguard_AR308_quadrail_des\nHandguard_m16a4_quadrail\nHandguard_m4_quadrail\nforegrip_m4\nUGL_m203_short_m4\nm4_rail_cover_full_des\nm4_rail_cover_full_top_des\nm4_rail_cover_full_up_des\n✅ Sources\nM4/M16 Components:\nMattias H (Tiggis) → https://www.cgtrader.com/designers/tiggis\nRail Covers, folding sights, Reflex optic:\nEuan Mitchell (Tigg) → https://gamebanana.com/members/1277445\nGrip Pod\njackblack1 → https://www.cgtrader.com/designers/jackblack1\nAdjusted textures and animations:\nBravoFiveNiner",
+      "tags": [
+        "2",
+        "AR10",
+        "BLOCK",
+        "II",
+        "M110",
+        "M16",
+        "M4",
+        "MK18",
+        "SOPMOD",
+        "TESTDEV",
+        "WEAPONS"
+      ],
+      "dependencies": [
+        "Rayzis Optics",
+        "Attachment Framework",
+        "B59 - BravoEFX",
+        "B59 Attachments",
+        "Rayzi Utils",
+        "B59 - SoundFX",
+        "Advanced Zeroing System",
+        "Attachment Framework-Core"
+      ],
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/41de/669f0e724e73dc9dcde4e8850189c2bf829088ed43efcf0778817629ca0a/231968.jpg",
+          "hash": "9cd09bf7c0a3",
+          "local": "/mods/671CCCD3C4194FA6/00-9cd09bf7c0a3.webp",
+          "thumb": "/mods/671CCCD3C4194FA6/00-9cd09bf7c0a3-640.webp",
+          "width": 1600,
+          "height": 851
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/c83b/5e61ab35d90fc09e1cfa3bedec7ed3f3de07dc0a9d9acacdad9e1ff0da7f/97747.jpg",
+          "hash": "a3ec74c10188",
+          "local": "/mods/671CCCD3C4194FA6/01-a3ec74c10188.webp",
+          "thumb": "/mods/671CCCD3C4194FA6/01-a3ec74c10188-640.webp",
+          "width": 1152,
+          "height": 648
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/8590/f63db6ba035ade1f36466b7cf8bd1e75549fcae72cae716d06234690331e/13153.jpg",
+          "hash": "988d2bfbf7c6",
+          "local": "/mods/671CCCD3C4194FA6/02-988d2bfbf7c6.webp",
+          "thumb": "/mods/671CCCD3C4194FA6/02-988d2bfbf7c6-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/5c07/6f723ec8842832ee50dfad25d5863e29c7783cd43045f64e802f450ca03f/14020.jpg",
+          "hash": "1d61ce2881e0",
+          "local": "/mods/671CCCD3C4194FA6/03-1d61ce2881e0.webp",
+          "thumb": "/mods/671CCCD3C4194FA6/03-1d61ce2881e0-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/e498/68d753ad14e5d2ada3db6f8c1155b1afd8e6b506de82d396a0c0faf14896/11471.jpg",
+          "hash": "9faf13d4368a",
+          "local": "/mods/671CCCD3C4194FA6/04-9faf13d4368a.webp",
+          "thumb": "/mods/671CCCD3C4194FA6/04-9faf13d4368a-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/d9b0/36f6d64398f5439eab989a47940abb786ef58686ac2150d607ac74f7e956/27157.jpg",
+          "hash": "b0a7336e4170",
+          "local": "/mods/671CCCD3C4194FA6/05-b0a7336e4170.webp",
+          "thumb": "/mods/671CCCD3C4194FA6/05-b0a7336e4170-640.webp",
+          "width": 576,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/16eb/edd12c853b31902443e8bff4a9678f7ad22bb0b516e83597e0ba1949e7b9/8235.jpg",
+          "hash": "3d3ccac5565b",
+          "local": "/mods/671CCCD3C4194FA6/06-3d3ccac5565b.webp",
+          "thumb": "/mods/671CCCD3C4194FA6/06-3d3ccac5565b-640.webp",
+          "width": 288,
+          "height": 162
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/feb2/2c6469579727156b17b2fc5e3413edd582e68c3fdb92e2f0b2b0057eb9cf/224906.jpg",
+          "hash": "73dda62e6bd5",
+          "local": "/mods/671CCCD3C4194FA6/07-73dda62e6bd5.webp",
+          "thumb": "/mods/671CCCD3C4194FA6/07-73dda62e6bd5-640.webp",
+          "width": 1600,
+          "height": 840
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/acff/e954727ed894eebbfaf33877dcfc501f5caccc52c86aff3254ba80997850/152958.jpg",
+          "hash": "55cfc820341a",
+          "local": "/mods/671CCCD3C4194FA6/08-55cfc820341a.webp",
+          "thumb": "/mods/671CCCD3C4194FA6/08-55cfc820341a-640.webp",
+          "width": 1480,
+          "height": 832
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/1101/48d868e498220e56f6209d04d4b8ab2a88508d50c8be23fc7f604fbd7f22/45412.jpg",
+          "hash": "44f6be66ff27",
+          "local": "/mods/671CCCD3C4194FA6/09-44f6be66ff27.webp",
+          "thumb": "/mods/671CCCD3C4194FA6/09-44f6be66ff27-640.webp",
+          "width": 776,
+          "height": 436
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/d5dc/a7d3096cf9ec915928ede6d8f21376530d2f54a73259805e89a5dc543c4e/241654.jpg",
+          "hash": "483b201f2769",
+          "local": "/mods/671CCCD3C4194FA6/10-483b201f2769.webp",
+          "thumb": "/mods/671CCCD3C4194FA6/10-483b201f2769-640.webp",
+          "width": 1600,
+          "height": 855
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/d322/87fc4711548dddd4edaf23b8d0a5b14811843031268f82b05fe9f9e5d52f/159535.jpg",
+          "hash": "954c40c785dc",
+          "local": "/mods/671CCCD3C4194FA6/11-954c40c785dc.webp",
+          "thumb": "/mods/671CCCD3C4194FA6/11-954c40c785dc-640.webp",
+          "width": 1480,
+          "height": 832
+        }
+      ],
+      "detailSynced": true
+    },
+    {
+      "id": "69F68714C36FB183",
+      "name": "B59 - MK12",
+      "slug": "69F68714C36FB183-B59-MK12",
+      "workshopUrl": "https://reforger.armaplatform.com/workshop/69F68714C36FB183-B59-MK12",
+      "author": "BravoFiveNine",
+      "category": "rifles",
+      "categoryLabel": "Battle rifles & carbines",
+      "featured": null,
+      "rating": 100,
+      "version": "0.0.6",
+      "gameVersion": "1.8.0.10",
+      "sizeLabel": "12.01 MB",
+      "sizeBytes": 12593398,
+      "downloads": 414,
+      "created": "2026-07-27",
+      "updated": "2026-08-14",
+      "license": {
+        "name": "Arma Public License Share Alike (APL-SA)",
+        "short": "APL-SA"
+      },
+      "summary": "[Youtube Link]\n[One sentence descr]",
+      "description": "You have my permission to:\n✅ Make sound changes.\n✅ Make weapon config changes.\n✅ Add this to server config.\nEtc.\nModel and Textures:\nMattias H (Tiggis) → https://www.cgtrader.com/designers/tiggis",
+      "tags": [
+        "0",
+        "12",
+        "1M",
+        "B59",
+        "H",
+        "MK",
+        "MK-12",
+        "MK12",
+        "MOD",
+        "MOD-1",
+        "MOD-H",
+        "MOD0",
+        "MOD1",
+        "MODH",
+        "WEAPONS"
+      ],
+      "dependencies": [
+        "TacticalAnimationOverhaul TEST",
+        "Attachment Framework",
+        "B59 Attachments",
+        "B59 - SoundFX",
+        "Attachment Framework-Core",
+        "B59 - BravoCore",
+        "B59 - AR"
+      ],
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/d23c/c6b8212618f3180f930f8cc0533e582451052d332bb4ad33fc1d647545be/249471.jpg",
+          "hash": "a1c7c7fb0ed7",
+          "local": "/mods/69F68714C36FB183/00-a1c7c7fb0ed7.webp",
+          "thumb": "/mods/69F68714C36FB183/00-a1c7c7fb0ed7-640.webp",
+          "width": 1600,
+          "height": 816
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/c79a/f109bdde3e937344c555a41280938566404e094c5f203d381e6a9056d1e7/116669.jpg",
+          "hash": "9913db0f1cc7",
+          "local": "/mods/69F68714C36FB183/01-9913db0f1cc7.webp",
+          "thumb": "/mods/69F68714C36FB183/01-9913db0f1cc7-640.webp",
+          "width": 1152,
+          "height": 648
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/36a8/9f533707d0f201f51ed934932bd65c4ef402ba9f8cfe7cd3b4b1c1113f33/17623.jpg",
+          "hash": "54abcc461a2d",
+          "local": "/mods/69F68714C36FB183/02-54abcc461a2d.webp",
+          "thumb": "/mods/69F68714C36FB183/02-54abcc461a2d-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/6da2/74ce7962421b7794fbf49c301b56441275be38b5bf6cbbec4e081e251674/17765.jpg",
+          "hash": "c6625fd3593e",
+          "local": "/mods/69F68714C36FB183/03-c6625fd3593e.webp",
+          "thumb": "/mods/69F68714C36FB183/03-c6625fd3593e-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/cccb/a3eed93c1a19764e184b7b203a449a0e521d722ad90bec24a596bdd74741/33374.jpg",
+          "hash": "3952ed1741c9",
+          "local": "/mods/69F68714C36FB183/04-3952ed1741c9.webp",
+          "thumb": "/mods/69F68714C36FB183/04-3952ed1741c9-640.webp",
+          "width": 576,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/938e/dd6b381f94ad102de33d1a2983313168cd6cc62b2dd3473f202053bf2912/9539.jpg",
+          "hash": "03ef40e2fc7c",
+          "local": "/mods/69F68714C36FB183/05-03ef40e2fc7c.webp",
+          "thumb": "/mods/69F68714C36FB183/05-03ef40e2fc7c-640.webp",
+          "width": 288,
+          "height": 162
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/0554/d1adca99d4294c389fe72d894c2a817df33dccdc3002313ef46457467dd6/296297.jpg",
+          "hash": "d973119107c6",
+          "local": "/mods/69F68714C36FB183/06-d973119107c6.webp",
+          "thumb": "/mods/69F68714C36FB183/06-d973119107c6-640.webp",
+          "width": 1600,
+          "height": 856
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/ead1/d530332fc570c42eefe2c9a98eebffdce46dead5502740dc6649f95e4b5a/197561.jpg",
+          "hash": "53fc0f83e322",
+          "local": "/mods/69F68714C36FB183/07-53fc0f83e322.webp",
+          "thumb": "/mods/69F68714C36FB183/07-53fc0f83e322-640.webp",
+          "width": 1480,
+          "height": 832
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/d9d9/38bee82c74b65d40521c1e170b32f3aa32b07005e8e68a4bd76e22f43061/62659.jpg",
+          "hash": "686a13de2cdd",
+          "local": "/mods/69F68714C36FB183/08-686a13de2cdd.webp",
+          "thumb": "/mods/69F68714C36FB183/08-686a13de2cdd-640.webp",
+          "width": 776,
+          "height": 436
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/8251/c81a3feb752b28901ed0d1ddf2c96d4b148de35791affb3990ec42c44567/282056.jpg",
+          "hash": "1bcc6d972b3f",
+          "local": "/mods/69F68714C36FB183/09-1bcc6d972b3f.webp",
+          "thumb": "/mods/69F68714C36FB183/09-1bcc6d972b3f-640.webp",
+          "width": 1600,
+          "height": 816
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/8480/0bca26f4a7c0f72b8c074eab072f31b3b67ea36bd388af79a3cc85e1bd11/197393.jpg",
+          "hash": "fdd3e96aa8ec",
+          "local": "/mods/69F68714C36FB183/10-fdd3e96aa8ec.webp",
+          "thumb": "/mods/69F68714C36FB183/10-fdd3e96aa8ec-640.webp",
+          "width": 1480,
+          "height": 832
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/96bb/ef07c68f580c7699695f24beb78abdde3734c5679232474d5948b467ae35/63101.jpg",
+          "hash": "bd525e3f1462",
+          "local": "/mods/69F68714C36FB183/11-bd525e3f1462.webp",
+          "thumb": "/mods/69F68714C36FB183/11-bd525e3f1462-640.webp",
+          "width": 776,
+          "height": 436
+        }
+      ],
+      "detailSynced": true
+    },
+    {
+      "id": "6A163BDEF70809E0",
+      "name": "BravoCore for BaconM4",
+      "slug": "6A163BDEF70809E0-BravoCoreforBaconM4",
+      "workshopUrl": "https://reforger.armaplatform.com/workshop/6A163BDEF70809E0-BravoCoreforBaconM4",
+      "author": "BravoFiveNine",
+      "category": "rifles",
+      "categoryLabel": null,
+      "featured": null,
+      "rating": 100,
+      "version": "1.0.2",
+      "gameVersion": "1.7.0.54",
+      "sizeLabel": "7.48 KB",
+      "sizeBytes": 7660,
+      "downloads": 381,
+      "created": "2026-08-11",
+      "updated": "2026-08-11",
+      "license": {
+        "name": "Arma Public License (APL)",
+        "short": "APL"
+      },
+      "summary": "Compatibility mod for BravoCore animations and CEO_of_Bacon's M4 Block II and URG-I weapon pack.",
+      "description": "Resolves compatibility issue between BravoCore animations and Bacon M4's.",
+      "tags": [
+        "B59",
+        "BACON",
+        "BLOCK",
+        "II",
+        "M4",
+        "URG-I",
+        "WEAPONS"
+      ],
+      "dependencies": [
+        "RHS - Content Pack 01",
+        "RHS - Status Quo",
+        "Bacon Suppressors",
+        "M4 Block II and URG-I",
+        "RIS Laser Attachments",
+        "WCS_NATO",
+        "WCS_RU",
+        "WCS_Attachments",
+        "TacticalAnimationOverhaul TEST",
+        "WCS_Scopes",
+        "WCS_Sounds",
+        "Attachment Framework",
+        "WCS_Weapons",
+        "WCS_RHS_Weapons",
+        "ARMA-RY CORE",
+        "ARMA-RY CLAW MOUNT",
+        "Attachment Framework-Core",
+        "B59 - BravoCore",
+        "WCS_Weapon_Scripts",
+        "B59 - Bravocore for WCS & RHS",
+        "RHS - Content Pack 02"
+      ],
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/4404/5b95c11e1b836377ba910f5f3cd20ceb163e04e12acd7ec8cacade92861c/255878.jpg",
+          "hash": "fb4d4b62adab",
+          "local": "/mods/6A163BDEF70809E0/00-fb4d4b62adab.webp",
+          "thumb": "/mods/6A163BDEF70809E0/00-fb4d4b62adab-640.webp",
+          "width": 1600,
+          "height": 855
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/87a3/bf177e7c35348325d18d60ee7daf3e6502d61215ed385f05baf5a4e41b54/112325.jpg",
+          "hash": "d3f81a8ba0bf",
+          "local": "/mods/6A163BDEF70809E0/01-d3f81a8ba0bf.webp",
+          "thumb": "/mods/6A163BDEF70809E0/01-d3f81a8ba0bf-640.webp",
+          "width": 1152,
+          "height": 648
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/1a32/ca178c179d3897a0bf2a2235034dda76a2ae13508720ac5cba51cc81ca2d/32930.jpg",
+          "hash": "df2df4600996",
+          "local": "/mods/6A163BDEF70809E0/02-df2df4600996.webp",
+          "thumb": "/mods/6A163BDEF70809E0/02-df2df4600996-640.webp",
+          "width": 576,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/54d9/ffc545233f8a0c4f57d75730da75c3a0fcfa0d0b0cb117eacd8e1ad38b04/9712.jpg",
+          "hash": "64f0d973372d",
+          "local": "/mods/6A163BDEF70809E0/03-64f0d973372d.webp",
+          "thumb": "/mods/6A163BDEF70809E0/03-64f0d973372d-640.webp",
+          "width": 288,
+          "height": 162
+        }
+      ],
+      "detailSynced": true
+    },
+    {
+      "id": "69FE8761C699DC56",
+      "name": "B59 - MP5 - FDE",
+      "slug": "69FE8761C699DC56-B59-MP5-FDE",
+      "workshopUrl": "https://reforger.armaplatform.com/workshop/69FE8761C699DC56-B59-MP5-FDE",
+      "author": "BravoFiveNine",
+      "category": "smg",
+      "categoryLabel": "Submachine guns",
+      "featured": null,
+      "rating": 100,
+      "version": "0.0.1",
+      "gameVersion": "1.7.0.54",
+      "sizeLabel": "143.97 MB",
+      "sizeBytes": 150963487,
+      "downloads": 248,
+      "created": "2026-07-31",
+      "updated": "2026-07-31",
+      "license": {
+        "name": "Arma Public License Share Alike (APL-SA)",
+        "short": "APL-SA"
+      },
+      "summary": "A mod containing FDE variants of the MP5 [https://reforger.armaplatform.com/workshop/64515006D4EC4776-B59-Mp5\n].",
+      "description": "[Allowed modifications]\nYou may use this as a dependency.\nYou may modify the stats, add/modify textures, add attachments, change sounds, etc.\nModel and Textures:\nMattias H (Tiggis) → https://www.cgtrader.com/designers/tiggis",
+      "tags": [
+        "B59",
+        "GUN",
+        "HK",
+        "MACHINE",
+        "MACHINEGUN",
+        "MP5",
+        "SMG",
+        "SUB",
+        "SUBMACHINEGUN",
+        "WEAPONS"
+      ],
+      "dependencies": [
+        "TacticalAnimationOverhaul TEST",
+        "B59 - Mp5",
+        "Attachment Framework",
+        "B59 Attachments",
+        "ARMA-RY CORE",
+        "ARMA-RY CLAW MOUNT",
+        "B59 - SoundFX",
+        "Attachment Framework-Core",
+        "B59 - BravoCore"
+      ],
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/a4f9/cfaf4974bed00e7fcd4682abdc4f7e63253dcbb644bda2512f1fde96040e/272569.jpg",
+          "hash": "9ec1fefeb964",
+          "local": "/mods/69FE8761C699DC56/00-9ec1fefeb964.webp",
+          "thumb": "/mods/69FE8761C699DC56/00-9ec1fefeb964-640.webp",
+          "width": 1600,
+          "height": 856
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/925e/3dfeec22214d8c2dd0ec337b0ddf059416f1e784b299b363e4b8f4706371/116010.jpg",
+          "hash": "cba86f533637",
+          "local": "/mods/69FE8761C699DC56/01-cba86f533637.webp",
+          "thumb": "/mods/69FE8761C699DC56/01-cba86f533637-640.webp",
+          "width": 1152,
+          "height": 648
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/d599/0d3e3dfcee7b4b895164ed5053df20547de48f203101837fd88ba3004d62/16228.jpg",
+          "hash": "6a11bcc6a5d4",
+          "local": "/mods/69FE8761C699DC56/02-6a11bcc6a5d4.webp",
+          "thumb": "/mods/69FE8761C699DC56/02-6a11bcc6a5d4-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/fb41/f0fa62f13d215675b3cfbb3b8ec45f41fdf45a7af3c3a0d16e463e41135c/33514.jpg",
+          "hash": "530824e89c46",
+          "local": "/mods/69FE8761C699DC56/03-530824e89c46.webp",
+          "thumb": "/mods/69FE8761C699DC56/03-530824e89c46-640.webp",
+          "width": 576,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/c084/d65421dc338c5a361d69062bb5c00fc4d37295d60c996d2b64b16a2943b6/9935.jpg",
+          "hash": "fd7764235e19",
+          "local": "/mods/69FE8761C699DC56/04-fd7764235e19.webp",
+          "thumb": "/mods/69FE8761C699DC56/04-fd7764235e19-640.webp",
+          "width": 288,
+          "height": 162
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/7e66/5dd8fa9672b3adc07733b22f0f91b9f389edc45f50f2c7ebc3a54c28b03e/272301.jpg",
+          "hash": "e4d04a6afc2e",
+          "local": "/mods/69FE8761C699DC56/05-e4d04a6afc2e.webp",
+          "thumb": "/mods/69FE8761C699DC56/05-e4d04a6afc2e-640.webp",
+          "width": 1600,
+          "height": 854
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/9a6d/1622eab8e67b4c137dc0ebed5ef1c13cf9e02164bb59c1bed74084eda1ce/182112.jpg",
+          "hash": "1e792355ef21",
+          "local": "/mods/69FE8761C699DC56/06-1e792355ef21.webp",
+          "thumb": "/mods/69FE8761C699DC56/06-1e792355ef21-640.webp",
+          "width": 1480,
+          "height": 832
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/66fc/a47aabe07f75e5cc53b926e890d825d67321ae7f266c306ad30816603dca/57741.jpg",
+          "hash": "eb06e8c1d002",
+          "local": "/mods/69FE8761C699DC56/07-eb06e8c1d002.webp",
+          "thumb": "/mods/69FE8761C699DC56/07-eb06e8c1d002-640.webp",
+          "width": 776,
+          "height": 436
+        }
+      ],
+      "detailSynced": true
+    },
+    {
+      "id": "69FE7241D54309E3",
+      "name": "B59 - MP5K - FDE",
+      "slug": "69FE7241D54309E3-B59-MP5K-FDE",
+      "workshopUrl": "https://reforger.armaplatform.com/workshop/69FE7241D54309E3-B59-MP5K-FDE",
+      "author": "BravoFiveNine",
+      "category": "smg",
+      "categoryLabel": "Submachine guns",
+      "featured": null,
+      "rating": 0,
+      "version": "0.0.2",
+      "gameVersion": "1.7.0.54",
+      "sizeLabel": "70.82 MB",
+      "sizeBytes": 74260152,
+      "downloads": 132,
+      "created": "2026-07-31",
+      "updated": "2026-07-31",
+      "license": {
+        "name": "Arma Public License Share Alike (APL-SA)",
+        "short": "APL-SA"
+      },
+      "summary": "A mod containing FDE variants of the MP5K [https://reforger.armaplatform.com/workshop/69F60DF1F74542C1-B59-MP5K\n].",
+      "description": "[Allowed modifications]\nYou may use this as a dependency.\nYou may modify the stats, add/modify textures, add attachments, change sounds, etc.\nModel and Textures:\nMattias H (Tiggis) → https://www.cgtrader.com/designers/tiggis",
+      "tags": [
+        "B59",
+        "FDE",
+        "GUN",
+        "HK",
+        "MACHINE",
+        "MACHINEGUN",
+        "MP5",
+        "MP5K",
+        "SMG",
+        "SUB",
+        "SUBMACHINEGUN",
+        "WEAPONS"
+      ],
+      "dependencies": [
+        "TacticalAnimationOverhaul TEST",
+        "Attachment Framework",
+        "B59 Attachments",
+        "ARMA-RY CORE",
+        "ARMA-RY CLAW MOUNT",
+        "B59 - SoundFX",
+        "Attachment Framework-Core",
+        "B59 - BravoCore",
+        "B59 - MP5K"
+      ],
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/cc82/499ec3e7379317730f29559b8e6fc0f9e43d006d0d7a65b73d9f2cece182/204095.jpg",
+          "hash": "ac93fa5b2fe9",
+          "local": "/mods/69FE7241D54309E3/00-ac93fa5b2fe9.webp",
+          "thumb": "/mods/69FE7241D54309E3/00-ac93fa5b2fe9-640.webp",
+          "width": 1600,
+          "height": 850
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/bede/38e0c0349899642f8d2e3babc1e07abfdb0f2e02c57f61c792ccfd9f243a/93199.jpg",
+          "hash": "fdd94ac1533b",
+          "local": "/mods/69FE7241D54309E3/01-fdd94ac1533b.webp",
+          "thumb": "/mods/69FE7241D54309E3/01-fdd94ac1533b-640.webp",
+          "width": 1152,
+          "height": 648
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/c1f3/28a2b04489da422a0c16004dde1add4f21c1f37f1740a9bf9f24de9cabea/28261.jpg",
+          "hash": "ac015629c0a0",
+          "local": "/mods/69FE7241D54309E3/02-ac015629c0a0.webp",
+          "thumb": "/mods/69FE7241D54309E3/02-ac015629c0a0-640.webp",
+          "width": 576,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/2692/04915906c6713bd8d2506fc145526ef26aefd757f67ce44ea79913633e3c/8620.jpg",
+          "hash": "4e3955f086f7",
+          "local": "/mods/69FE7241D54309E3/03-4e3955f086f7.webp",
+          "thumb": "/mods/69FE7241D54309E3/03-4e3955f086f7-640.webp",
+          "width": 288,
+          "height": 162
+        }
+      ],
+      "detailSynced": true
+    },
+    {
+      "id": "6A165905DC6DCDAF",
+      "name": "Bravocore for Caps Weapons",
+      "slug": "6A165905DC6DCDAF-BravocoreforCapsWeapons",
+      "workshopUrl": "https://reforger.armaplatform.com/workshop/6A165905DC6DCDAF-BravocoreforCapsWeapons",
+      "author": "BravoFiveNine",
+      "category": "rifles",
+      "categoryLabel": null,
+      "featured": null,
+      "rating": null,
+      "version": "1.0.0",
+      "gameVersion": "1.7.0.54",
+      "sizeLabel": "42.05 KB",
+      "sizeBytes": 43059,
+      "downloads": 88,
+      "created": "2026-08-11",
+      "updated": "2026-08-11",
+      "license": {
+        "name": "Arma Public License (APL)",
+        "short": "APL"
+      },
+      "summary": "Compatiblity mod for Bravocore for RHS/WCS and Cap's Weapons",
+      "description": "Fixed compatbility issue with Cap's MP7 and applies Bravocore animations to all other weapons.",
+      "tags": [
+        "B59",
+        "CAPS",
+        "MCX",
+        "MP7",
+        "PACK",
+        "WEAPON",
+        "WEAPONS"
+      ],
+      "dependencies": [
+        "RHS - Content Pack 01",
+        "RHS - Status Quo",
+        "WCS_NATO",
+        "WCS_RU",
+        "WCS_Attachments",
+        "TacticalAnimationOverhaul TEST",
+        "WCS_Scopes",
+        "Caps Weapon Pack",
+        "WCS_Sounds",
+        "Attachment Framework",
+        "WCS_Weapons",
+        "WCS_RHS_Weapons",
+        "ARMA-RY CORE",
+        "ARMA-RY CLAW MOUNT",
+        "Attachment Framework-Core",
+        "B59 - BravoCore",
+        "WCS_Weapon_Scripts",
+        "B59 - Bravocore for WCS & RHS",
+        "RHS - Content Pack 02"
+      ],
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/1a94/ab005e83f70010c667cb618db72233b987cbb4fa8bfed7718c35dcb5f1d1/250787.jpg",
+          "hash": "c628f8e6f376",
+          "local": "/mods/6A165905DC6DCDAF/00-c628f8e6f376.webp",
+          "thumb": "/mods/6A165905DC6DCDAF/00-c628f8e6f376-640.webp",
+          "width": 1600,
+          "height": 855
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/670b/8a9f81645d5da6580b8ffc1f669eb24e528c367ed5fe975329548257c8e5/111570.jpg",
+          "hash": "c95a755b0af8",
+          "local": "/mods/6A165905DC6DCDAF/01-c95a755b0af8.webp",
+          "thumb": "/mods/6A165905DC6DCDAF/01-c95a755b0af8-640.webp",
+          "width": 1152,
+          "height": 648
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/8b61/c2024205631e92138f08cd5c576b12631e724501d2262f589e1c9d1c7640/32409.jpg",
+          "hash": "d7dce5bedb3b",
+          "local": "/mods/6A165905DC6DCDAF/02-d7dce5bedb3b.webp",
+          "thumb": "/mods/6A165905DC6DCDAF/02-d7dce5bedb3b-640.webp",
+          "width": 576,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/b48c/635802e44aae4f3c47b3a763b400c35f29d0e9d6c91a541467f991a588cc/9474.jpg",
+          "hash": "90f4a03d28e2",
+          "local": "/mods/6A165905DC6DCDAF/03-90f4a03d28e2.webp",
+          "thumb": "/mods/6A165905DC6DCDAF/03-90f4a03d28e2-640.webp",
+          "width": 288,
+          "height": 162
+        }
+      ],
+      "detailSynced": true
+    },
+    {
+      "id": "69F686CFC9BB905F",
+      "name": "B59 - AR9",
+      "slug": "69F686CFC9BB905F-B59-AR9",
+      "workshopUrl": "https://reforger.armaplatform.com/workshop/69F686CFC9BB905F-B59-AR9",
+      "author": "BravoFiveNine",
+      "category": "rifles",
+      "categoryLabel": "Battle rifles & carbines",
+      "featured": null,
+      "rating": 0,
+      "version": "0.0.6",
+      "gameVersion": "1.8.0.10",
+      "sizeLabel": "15.55 MB",
+      "sizeBytes": 16305357,
+      "downloads": 63,
+      "created": "2026-07-27",
+      "updated": "2026-08-14",
+      "license": {
+        "name": "Arma Public License Share Alike (APL-SA)",
+        "short": "APL-SA"
+      },
+      "summary": "[Youtube Link]\n[One sentence descr]",
+      "description": "You have my permission to:\n✅ Make sound changes.\n✅ Make weapon config changes.\n✅ Add this to server config.\nEtc.\nModel and Textures:\nMattias H (Tiggis) → https://www.cgtrader.com/designers/tiggis",
+      "tags": [
+        "AR-9",
+        "AR9",
+        "B59",
+        "COLT",
+        "TESTDEV",
+        "WEAPONS"
+      ],
+      "dependencies": [
+        "TacticalAnimationOverhaul TEST",
+        "Attachment Framework",
+        "B59 Attachments",
+        "B59 - SoundFX",
+        "Attachment Framework-Core",
+        "B59 - BravoCore",
+        "B59 - AR"
+      ],
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/a92a/67fce02afaedde36807aaa4104113558f5875eb6d037b5c89f06f57ef789/230997.jpg",
+          "hash": "b019a6837a27",
+          "local": "/mods/69F686CFC9BB905F/00-b019a6837a27.webp",
+          "thumb": "/mods/69F686CFC9BB905F/00-b019a6837a27-640.webp",
+          "width": 1600,
+          "height": 860
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/bd78/a8e65c6fe391f84037c2dc428235fa865425228af19428786c466108b098/103317.jpg",
+          "hash": "df03c8560ab9",
+          "local": "/mods/69F686CFC9BB905F/01-df03c8560ab9.webp",
+          "thumb": "/mods/69F686CFC9BB905F/01-df03c8560ab9-640.webp",
+          "width": 1152,
+          "height": 648
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/fa3e/f143402b0437e101d171c2c2f6277f670086711e14d1f2d73b487727da4e/14139.jpg",
+          "hash": "7e470938fbe7",
+          "local": "/mods/69F686CFC9BB905F/02-7e470938fbe7.webp",
+          "thumb": "/mods/69F686CFC9BB905F/02-7e470938fbe7-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/8688/975eccb3b1e19cf9a0d1792482520dfbe09ef4d5c5a25ac7f2f97f134f27/30008.jpg",
+          "hash": "ff915c11a45e",
+          "local": "/mods/69F686CFC9BB905F/03-ff915c11a45e.webp",
+          "thumb": "/mods/69F686CFC9BB905F/03-ff915c11a45e-640.webp",
+          "width": 576,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/2fbd/e32400d5638a86e1068e555f2b2ffbda018eb319ede8fac0e501b579f994/8746.jpg",
+          "hash": "fe73e8d3b768",
+          "local": "/mods/69F686CFC9BB905F/04-fe73e8d3b768.webp",
+          "thumb": "/mods/69F686CFC9BB905F/04-fe73e8d3b768-640.webp",
+          "width": 288,
+          "height": 162
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/5be1/3222687f5593375b88170ec3d0f8d96bb619f6333f1cd4bc2978c7c09f49/221621.jpg",
+          "hash": "1665b247be9a",
+          "local": "/mods/69F686CFC9BB905F/05-1665b247be9a.webp",
+          "thumb": "/mods/69F686CFC9BB905F/05-1665b247be9a-640.webp",
+          "width": 1600,
+          "height": 857
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/e2ef/61ec1654c95492e62eb3a9448fd7243492a5c7dfad891c3dacd0b099425b/152424.jpg",
+          "hash": "b6da03caa0a2",
+          "local": "/mods/69F686CFC9BB905F/06-b6da03caa0a2.webp",
+          "thumb": "/mods/69F686CFC9BB905F/06-b6da03caa0a2-640.webp",
+          "width": 1480,
+          "height": 832
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/f227/23c4e51616f695348cf0d88652ebbbd32eaa4cb95430a2956684978d4470/49677.jpg",
+          "hash": "5e3adc09bc26",
+          "local": "/mods/69F686CFC9BB905F/07-5e3adc09bc26.webp",
+          "thumb": "/mods/69F686CFC9BB905F/07-5e3adc09bc26-640.webp",
+          "width": 776,
+          "height": 436
+        }
+      ],
+      "detailSynced": true
+    },
+    {
+      "id": "64B84B2FAD84039E",
+      "name": "ArmaConflict.com - Snipers",
+      "slug": "64B84B2FAD84039E-ArmaConflict.com-Snipers",
+      "workshopUrl": "https://reforger.armaplatform.com/workshop/64B84B2FAD84039E-ArmaConflict.com-Snipers",
+      "author": "BravoFiveNine",
+      "category": "precision",
+      "categoryLabel": "Precision rifles",
+      "featured": null,
+      "rating": 0,
+      "version": "1.0.2",
+      "gameVersion": "1.6.0.87",
+      "sizeLabel": "256.81 MB",
+      "sizeBytes": 269284803,
+      "downloads": 39,
+      "created": "2025-06-18",
+      "updated": "2025-12-09",
+      "license": {
+        "name": "Arma Public License No Derivatives (APL-ND)",
+        "short": "APL-ND"
+      },
+      "summary": "Test upload of the sniper pack to see what the compression size is.",
+      "description": "Multiple snipers used on Armaconflict.com\nInsurgency.\nThese have been optimized to have LOD's, and consistent names.\nM14E2 model: Jeyhun1985\nhttps://sketchfab.com/3d-models/m14e2-assault-\nrifle-453d4ed10ce14b728969da7c89800bfc\nM14E2 Grip model: BravoFiveNiner\nM14E2 Textures: BravoeFiveNiner",
+      "tags": [
+        "M14E2",
+        "SV98",
+        "TESTDEV",
+        "WEAPONS"
+      ],
+      "dependencies": [
+        "Attachment Framework",
+        "B59 - BravoEFX",
+        "B59 Attachments",
+        "Attachment Framework-Core"
+      ],
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/092e/6e3da0811fb49f83724e009bd9c86d1b00dd034e243466df9e3ab6bdbe7b/224560.jpg",
+          "hash": "7fb2bc677495",
+          "local": "/mods/64B84B2FAD84039E/00-7fb2bc677495.webp",
+          "thumb": "/mods/64B84B2FAD84039E/00-7fb2bc677495-640.webp",
+          "width": 1600,
+          "height": 847
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/d325/90e13b54c2d884d15674b56a43057e1408ac6a9202ff121eadbf9bece0da/91837.jpg",
+          "hash": "44a2a2cdec1d",
+          "local": "/mods/64B84B2FAD84039E/01-44a2a2cdec1d.webp",
+          "thumb": "/mods/64B84B2FAD84039E/01-44a2a2cdec1d-640.webp",
+          "width": 1152,
+          "height": 648
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/6136/e7ad08fd9cbb0a49e4992348eb5b3c851c9712db088b713e6bbf6641f41b/25418.jpg",
+          "hash": "9ff2117cd173",
+          "local": "/mods/64B84B2FAD84039E/02-9ff2117cd173.webp",
+          "thumb": "/mods/64B84B2FAD84039E/02-9ff2117cd173-640.webp",
+          "width": 576,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/7223/2193ba9e23cb4e2c432d38742ef2c23998ff567a09f13fcc908dbd63a601/7940.jpg",
+          "hash": "f23b4244ba01",
+          "local": "/mods/64B84B2FAD84039E/03-f23b4244ba01.webp",
+          "thumb": "/mods/64B84B2FAD84039E/03-f23b4244ba01-640.webp",
+          "width": 288,
+          "height": 162
+        }
+      ],
+      "detailSynced": true
+    },
+    {
+      "id": "6A294E90DDCD4443",
+      "name": "Yu Mo Gui Gwai Fai Di Zao",
+      "slug": "6A294E90DDCD4443-YuMoGuiGwaiFaiDiZao",
+      "workshopUrl": "https://reforger.armaplatform.com/workshop/6A294E90DDCD4443-YuMoGuiGwaiFaiDiZao",
+      "author": "BravoFiveNine",
+      "category": "rifles",
+      "categoryLabel": null,
+      "featured": null,
+      "rating": null,
+      "version": "1.0.2",
+      "gameVersion": "1.8.0.10",
+      "sizeLabel": "217.30 KB",
+      "sizeBytes": 222515,
+      "downloads": 1,
+      "created": "2026-08-20",
+      "updated": "2026-08-20",
+      "license": {
+        "name": "Arma Public License No Derivatives (APL-ND)",
+        "short": "APL-ND"
+      },
+      "summary": "Only magic can defeat magic.",
+      "description": "License: This mod can only be on the workshop for 48 hours. After that, the mod maker must delete it immediately!",
+      "tags": [
+        "DI",
+        "FAI",
+        "GUI",
+        "GWAI",
+        "MO",
+        "TESTDEV",
+        "WEAPONS",
+        "YU",
+        "ZAO"
+      ],
+      "dependencies": [
+        "TacticalAnimationOverhaul TEST",
+        "WCS_HoldBreath"
+      ],
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/b408/8f65449684436b356a1c8d738dd665ea1c9ffa6a55b981f07441f71b557d/20325.jpg",
+          "hash": "2a1e0b0fa09d",
+          "local": "/mods/6A294E90DDCD4443/00-2a1e0b0fa09d.webp",
+          "thumb": "/mods/6A294E90DDCD4443/00-2a1e0b0fa09d-640.webp",
+          "width": 339,
+          "height": 363
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/0a2a/108b136ac73c097bacf78955ae4d726a5d692373801762d6ee965fa81957/18975.jpg",
+          "hash": "0677de38edca",
+          "local": "/mods/6A294E90DDCD4443/01-0677de38edca.webp",
+          "thumb": "/mods/6A294E90DDCD4443/01-0677de38edca-640.webp",
+          "width": 339,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/df4f/0b12696844c40ec505f0ac5c708461ceb442dcd98bdcbd501d0932516d44/9826.jpg",
+          "hash": "4851ecab6af3",
+          "local": "/mods/6A294E90DDCD4443/02-4851ecab6af3.webp",
+          "thumb": "/mods/6A294E90DDCD4443/02-4851ecab6af3-640.webp",
+          "width": 288,
+          "height": 162
+        }
+      ],
+      "detailSynced": true
     }
   ],
   "site": {
