@@ -193,6 +193,7 @@ async function discover() {
     const html = await getText(`${SEARCH}&page=${page}`);
     const cards = html.split('href="/workshop/').slice(1);
     let seenCards = 0;
+    log(`  page ${page}: ${html.length} bytes, ${cards.length} workshop link(s)`);
 
     for (const card of cards) {
       const m = /^([0-9A-Fa-f]{16})(-[^"?#]*)?"/.exec(card);
@@ -329,6 +330,7 @@ async function main() {
   const prevDoc = JSON.parse(await fs.readFile(DATA, 'utf8'));
   const prevById = new Map(prevDoc.mods.map((m) => [m.id, m]));
 
+  log('sync v2 — server-rendered HTML parser');
   log(`discovering mods by ${AUTHOR}…`);
   const discovered = await discover();
   if (discovered.length === 0) {
