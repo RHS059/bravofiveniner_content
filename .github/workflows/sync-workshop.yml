@@ -1,0 +1,51 @@
+name: Sync Reforger Workshop
+
+# 08:00 UTC = 02:00 CST (America/Chicago, winter) / 03:00 CDT (summer).
+# GitHub cron has no timezone support, so if you want a hard 02:00 local
+# year-round, uncomment the second entry and let the script's own no-op
+# behaviour absorb the extra run — it exits without writing when nothing changed.
+on:
+  schedule:
+    - cron: '0 8 * * *'
+    # - cron: '0 7 * * *'
+  workflow_dispatch:
+    inputs:
+      force_images:
+        description: 'Re-download and re-encode every image'
+        type: boolean
+        default: false
+
+concurrency:
+  group: workshop-sync
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - run: npm install --no-audit --no-fund
+
+      - name: Sync workshop data and rehost images
+        run: node scripts/sync-workshop.mjs ${{ inputs.force_images && '--force-images' || '' }}
+
+      - name: Commit changes
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name  "bravofiveniner-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data public/mods
+          git commit -m "chore(sync): workshop data $(date -u +%Y-%m-%d)"
+          git push
