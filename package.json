@@ -1,0 +1,16 @@
+{
+  "name": "bravofiveniner",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Arma Reforger mods by BravoFiveNine — a self-updating catalogue.",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "sync": "node scripts/sync-workshop.mjs",
+    "sync:dry": "node scripts/sync-workshop.mjs --dry",
+    "sync:images": "node scripts/sync-workshop.mjs --force-images"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5"
+  }
+}

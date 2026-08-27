@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="description" content="BravoFiveNiner — weapon mods for Arma Reforger. MP5, G3, FAL, AR, MK12, shotguns, precision rifles and support weapons for the Enfusion engine, free on the official Reforger Workshop." />
+<meta name="theme-color" content="#141024" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23g)' opacity='0.5'/%3E%3C/svg%3E");
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: oklch(0.15 0.022 300);
+    color: oklch(0.95 0.012 300);
+    font-family: 'Barlow', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-wrap: pretty;
+  }
+  a { color: oklch(0.76 0.16 296); text-decoration: none; }
+  a:hover { color: oklch(0.85 0.13 296); }
+  h1, h2, h3, h4 { margin: 0; font-family: 'Barlow Condensed', 'Barlow', sans-serif; font-weight: 700; }
+  p { margin: 0; }
+  button, input, select { font: inherit; color: inherit; }
+  ::selection { background: oklch(0.52 0.26 293); color: oklch(0.98 0.01 300); }
+  :focus-visible { outline: 2px solid oklch(0.82 0.15 82); outline-offset: 2px; }
+  input::placeholder { color: oklch(0.50 0.015 300); }
+  @keyframes b59-rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    * { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+  }
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"WebSite","@id":"https://bravofiveniner.com/#website","url":"https://bravofiveniner.com/","name":"BravoFiveNiner — Arma Reforger Mods","inLanguage":"en"},
+{"@type":"Person","@id":"https://bravofiveniner.com/#person","name":"BravoFiveNiner","alternateName":["BravoFiveNine","B59"],"description":"Arma Reforger mod author building small-arms packs for the Enfusion engine.","url":"https://bravofiveniner.com/","sameAs":["https://reforger.armaplatform.com/workshop?search=BravoFiveNine"]}
+]}
+</script>
+</helmet>
+
+<a href="#catalogue" style="position: absolute; left: -9999px; top: 0; padding: 10px 16px; background-color: oklch(0.52 0.26 293); background-image: var(--grain); background-size: 160px; background-blend-mode: overlay; color: oklch(0.98 0.01 300); font-family: 'IBM Plex Mono', monospace; font-size: 12px; z-index: 100;" style-focus="left: 12px; top: 12px;">Skip to the mod catalogue</a>
+
+<header style="position: fixed; top: 0; left: 0; right: 0; z-index: 40; display: flex; align-items: center; justify-content: space-between; gap: 24px; height: 58px; padding: 0 clamp(16px, 4vw, 40px); background: oklch(0.15 0.022 300 / 0.9); backdrop-filter: blur(14px); border-bottom: 1px solid oklch(0.31 0.03 300);">
+  <a href="#top" style="display: flex; align-items: center; gap: 12px; color: inherit;">
+    <span style="display: grid; place-items: center; width: 30px; height: 30px; background-color: oklch(0.52 0.26 293); background-image: var(--grain); background-size: 160px; background-blend-mode: overlay; color: oklch(0.98 0.01 300); font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 15px; letter-spacing: -0.02em;">59</span>
+    <span style="font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 19px; letter-spacing: 0.06em; text-transform: uppercase;">BravoFiveNiner</span>
+  </a>
+  <nav aria-label="Primary" style="display: flex; align-items: center; gap: clamp(10px, 2vw, 26px); font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase;">
+    <a href="#catalogue" style="color: oklch(0.70 0.015 300);" style-hover="color: oklch(0.95 0.012 300);">Mods</a>
+    <a href="#about" style="color: oklch(0.70 0.015 300);" style-hover="color: oklch(0.95 0.012 300);">About</a>
+    <a href="{{ discordUrl }}" rel="noopener" target="_blank" style="padding: 7px 14px; border: 1px solid oklch(0.82 0.15 82); color: oklch(0.86 0.14 84);" style-hover="background-color: oklch(0.82 0.15 82); background-image: var(--grain); background-size: 160px; background-blend-mode: overlay; color: oklch(0.18 0.03 300);">Discord</a>
+  </nav>
+</header>
+
+<main id="top" style="padding-top: 58px;">
+  <section aria-labelledby="site-title" style="position: relative; overflow: hidden; padding: clamp(40px, 6vw, 84px) clamp(16px, 4vw, 40px) clamp(44px, 6vw, 80px); border-bottom: 1px solid oklch(0.31 0.03 300);">
+    <div aria-hidden="true" style="position: absolute; inset: 0; background-image: radial-gradient(120% 90% at 8% 0%, oklch(0.30 0.13 296 / 0.55), transparent 62%); pointer-events: none;"></div>
+    <div style="position: relative; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 400px), 1fr)); align-items: center; gap: clamp(28px, 4vw, 56px); max-width: 1360px; margin: 0 auto;">
+      <div style="container-type: inline-size;">
+        <h1 id="site-title" style="font-size: clamp(28px, 15.4cqw, 158px); line-height: 0.9; letter-spacing: -0.035em; text-transform: uppercase; white-space: nowrap;">BravoFiveNiner</h1>
+        <p style="max-width: 36ch; margin-top: 20px; font-size: clamp(16px, 1.6vw, 20px); line-height: 1.45; color: oklch(0.74 0.015 300);">Weapon mods for Arma Reforger. Free on the official Workshop.</p>
+        <div style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px;">
+          <a href="#catalogue" style="padding: 15px 26px; background-color: oklch(0.52 0.26 293); background-image: var(--grain); background-size: 160px; background-blend-mode: overlay; color: oklch(0.98 0.01 300); font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase;" style-hover="background-color: oklch(0.58 0.25 293);">Browse the mods</a>
+          <a href="https://reforger.armaplatform.com/workshop?search=BravoFiveNine" rel="noopener" target="_blank" style="padding: 15px 26px; border: 1px solid oklch(0.34 0.03 300); color: oklch(0.82 0.015 300); font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase;" style-hover="border-color: oklch(0.82 0.15 82); color: oklch(0.86 0.14 84);">Workshop ↗</a>
+        </div>
+      </div>
+      <sc-if value="{{ hasNewest }}" hint-placeholder-val="{{ false }}">
+        <figure style="position: relative; margin: 0; border: 1px solid oklch(0.31 0.03 300); background: oklch(0.195 0.024 300);">
+          <a href="{{ newest.href }}" aria-label="{{ newest.ariaLabel }}" style="display: block; position: relative; aspect-ratio: 4 / 3; overflow: hidden;">
+            <img src="{{ newest.img }}" alt="{{ newest.alt }}" decoding="async" fetchpriority="high" width="1600" height="1200" style="width: 100%; height: 100%; object-fit: cover; display: block; filter: saturate(0.92) contrast(1.05);" />
+            <span style="position: absolute; left: 0; top: 0; padding: 7px 12px; background-color: oklch(0.82 0.15 82); background-image: var(--grain); background-size: 160px; background-blend-mode: overlay; color: oklch(0.18 0.03 300); font-family: 'IBM Plex Mono', monospace; font-size: 10px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase;">Newest release</span>
+          </a>
+          <figcaption style="display: flex; align-items: baseline; justify-content: space-between; gap: 16px; padding: 16px 18px 18px; border-top: 1px solid oklch(0.31 0.03 300);">
+            <span style="font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: clamp(20px, 2vw, 26px); line-height: 1.05; text-transform: uppercase;">{{ newest.name }}</span>
+            <span style="flex-shrink: 0; font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: 0.08em; color: oklch(0.66 0.015 300);">{{ newest.publishedLabel }}</span>
+          </figcaption>
+        </figure>
+      </sc-if>
+    </div>
+  </section>
+
+  <section id="catalogue" aria-label="Arma Reforger mods by BravoFiveNiner" style="padding: clamp(26px, 3.2vw, 44px) clamp(16px, 4vw, 40px) clamp(48px, 6vw, 84px);">
+    <div style="max-width: 1360px; margin: 0 auto;">
+      <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 330px), 1fr)); gap: 1px; background: oklch(0.31 0.03 300); border: 1px solid oklch(0.31 0.03 300);">
+        <sc-for list="{{ visible }}" as="mod" hint-placeholder-count="12">
+          <a href="{{ mod.href }}" aria-label="{{ mod.ariaLabel }}" onMouseEnter="{{ mod.onEnter }}" onMouseLeave="{{ mod.onLeave }}" onFocus="{{ mod.onEnter }}" onBlur="{{ mod.onLeave }}" style="position: relative; display: block; aspect-ratio: 16 / 10; overflow: hidden; background-color: oklch(0.175 0.022 300); background-image: repeating-linear-gradient(135deg, oklch(0.23 0.03 300) 0 5px, transparent 5px 11px); color: inherit; animation: b59-rise 0.32s ease both;" style-hover="box-shadow: inset 0 0 0 2px oklch(0.52 0.26 293);">
+            <sc-for list="{{ mod.frames }}" as="frame" hint-placeholder-count="1">
+              <img src="{{ frame.src }}" alt="{{ frame.alt }}" loading="lazy" decoding="async" width="640" height="400" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; opacity: {{ frame.opacity }}; transition: opacity 420ms ease; filter: saturate(0.9) contrast(1.05);" />
+            </sc-for>
+            <sc-if value="{{ mod.noImage }}" hint-placeholder-val="{{ false }}">
+              <span aria-hidden="true" style="position: absolute; inset: 0; background-color: oklch(0.18 0.024 300); background-image: repeating-linear-gradient(135deg, oklch(0.25 0.03 300) 0 5px, transparent 5px 11px);"></span>
+            </sc-if>
+            <span aria-hidden="true" style="position: absolute; inset: 0; background-image: linear-gradient(to top, oklch(0.12 0.02 300 / 0.92) 0%, oklch(0.12 0.02 300 / 0.45) 34%, transparent 68%);"></span>
+            <h2 style="position: absolute; left: 18px; right: 18px; bottom: 15px; font-size: clamp(19px, 1.7vw, 26px); line-height: 1.02; letter-spacing: -0.008em; text-transform: uppercase;">{{ mod.name }}</h2>
+          </a>
+        </sc-for>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" aria-labelledby="about-heading" style="padding: clamp(48px, 6vw, 84px) clamp(16px, 4vw, 40px); border-top: 1px solid oklch(0.31 0.03 300); background: oklch(0.175 0.022 300);">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: clamp(28px, 5vw, 72px); max-width: 1360px; margin: 0 auto;">
+      <div>
+        <h2 id="about-heading" style="font-size: clamp(28px, 3.4vw, 44px); line-height: 1; letter-spacing: -0.015em; text-transform: uppercase;">How I work</h2>
+        <div style="display: flex; flex-direction: column; gap: 16px; max-width: 60ch; margin-top: 22px; font-size: 15.5px; line-height: 1.65; color: oklch(0.73 0.015 300);">
+          <p>Every pack starts from the same premise: the weapon should feel right before it looks right. Prefabs get proper classnames, handguards and rails are separate parts so attachments actually mount, magazines are their own base types, and the firing and reload animations get custom sound rather than borrowed engine stock.</p>
+          <p>The packs are deliberately built on shared foundations — <strong style="color: oklch(0.95 0.012 300); font-weight: 600;">B59 Attachments</strong>, <strong style="color: oklch(0.95 0.012 300); font-weight: 600;">BravoCore</strong>, <strong style="color: oklch(0.95 0.012 300); font-weight: 600;">SoundFX</strong> and <strong style="color: oklch(0.95 0.012 300); font-weight: 600;">BravoEFX</strong>. One set of dependencies, consistent behaviour across every weapon, and a lot less duplicated download for server owners running several of my mods at once.</p>
+          <p>Licences lean permissive on purpose. Most of the catalogue is Arma Public License No Derivatives with explicit written permission to use it as a dependency, restat it, retexture it, add attachments or change the sounds and redistribute those changes. Compatibility mods for WCS and RHS ship alongside the packs for the same reason — the point is that other people can build on this.</p>
+        </div>
+        <div style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px;">
+          <a href="{{ discordUrl }}" rel="noopener" target="_blank" style="padding: 15px 26px; background-color: oklch(0.52 0.26 293); background-image: var(--grain); background-size: 160px; background-blend-mode: overlay; color: oklch(0.98 0.01 300); font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase;" style-hover="background-color: oklch(0.58 0.25 293);">Bug reports &amp; requests → Discord</a>
+        </div>
+      </div>
+      <div>
+        <h3 style="font-family: 'IBM Plex Mono', monospace; font-weight: 500; font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: oklch(0.62 0.015 300);">Server owners, start here</h3>
+        <div style="display: grid; gap: 1px; margin-top: 16px; background: oklch(0.31 0.03 300); border: 1px solid oklch(0.31 0.03 300);">
+          <sc-for list="{{ coreMods }}" as="mod" hint-placeholder-count="4">
+            <a href="{{ mod.href }}" style="display: flex; align-items: baseline; justify-content: space-between; gap: 16px; padding: 15px 18px; background: oklch(0.195 0.024 300); color: inherit;" style-hover="background: oklch(0.235 0.026 300);">
+              <span style="font-family: 'Barlow Condensed', sans-serif; font-weight: 600; font-size: 19px; text-transform: uppercase;">{{ mod.name }}</span>
+              <span style="flex-shrink: 0; font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: 0.06em; color: oklch(0.62 0.015 300);">{{ mod.sizeLabel }}</span>
+            </a>
+          </sc-for>
+        </div>
+        <p style="margin-top: 16px; font-size: 14px; line-height: 1.6; color: oklch(0.68 0.015 300);">These four are the dependencies most of the weapon packs share. Install them once and the rest of the catalogue drops in cleanly.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer style="padding: 34px clamp(16px, 4vw, 40px) 44px; border-top: 1px solid oklch(0.31 0.03 300);">
+  <div style="display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 16px 32px; max-width: 1360px; margin: 0 auto; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.08em; color: oklch(0.56 0.015 300);">
+    <p>ARMA® and Arma Reforger are trademarks of Bohemia Interactive a.s.</p>
+  </div>
+</footer>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{}">
+const CORE_IDS = ['65863EA3D8143FA6', '68C89DDCDD0AC147', '66E0B5D0C13D2C00', '65276E2DDE189819'];
+const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+const CYCLE_MS = 780;
+const FIRST_MS = 260;
+
+function shortDate(iso) {
+  if (!iso) return null;
+  const [y, m, d] = String(iso).split('-').map(Number);
+  if (!y || !m) return null;
+  return `${d} ${MONTHS[m - 1]} ${String(y).slice(2)}`;
+}
+
+const byUpdated = (a, b) => String(b.updated || '').localeCompare(String(a.updated || '')) || (b.downloads || 0) - (a.downloads || 0);
+const byCreated = (a, b) => String(b.created || '').localeCompare(String(a.created || ''));
+
+class Component extends DCLogic {
+  state = { doc: null, error: null, hoverId: null, frame: 0 };
+
+  componentDidMount() {
+    fetch('./data/mods.json', { cache: 'no-cache' })
+      .then((r) => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
+      .then((doc) => this.setState({ doc }))
+      .catch((error) => this.setState({ error: error.message }));
+  }
+
+  componentWillUnmount() { clearInterval(this.timer); clearTimeout(this.lead); }
+
+  enter(id) {
+    if (this.state.hoverId === id) return;
+    clearInterval(this.timer);
+    clearTimeout(this.lead);
+    this.setState({ hoverId: id, frame: 0 });
+    const tick = () => this.setState((s) => ({ frame: s.frame + 1 }));
+    this.lead = setTimeout(() => {
+      tick();
+      this.timer = setInterval(tick, CYCLE_MS);
+    }, FIRST_MS);
+  }
+
+  leave(id) {
+    if (this.state.hoverId !== id) return;
+    clearTimeout(this.lead);
+    clearInterval(this.timer);
+    this.timer = null;
+    this.setState({ hoverId: null, frame: 0 });
+  }
+
+  /**
+   * Images are served from this repo only (WebP, written by scripts/sync-workshop.mjs
+   * into public/mods/ and committed). Bohemia's CDN is never hit by a visitor.
+   */
+  srcFor(image, which) {
+    if (!image) return null;
+    return image[which] || image.local || null;
+  }
+
+  view(mod) {
+    const shots = (mod.images || []).map((im) => this.srcFor(im, 'thumb')).filter(Boolean).slice(0, 6);
+    const alt = shots.length
+      ? `${mod.name} — in-game screenshot of the Arma Reforger mod by BravoFiveNine`
+      : `${mod.name} — ${mod.categoryLabel} mod for Arma Reforger`;
+    const active = this.state.hoverId === mod.id && shots.length ? this.state.frame % shots.length : 0;
+    return {
+      ...mod,
+      href: `./Mod Page.dc.html?id=${mod.id}`,
+      frames: shots.map((src, i) => ({ src, alt: i === 0 ? alt : '', opacity: i === active ? 1 : 0 })),
+      noImage: shots.length === 0,
+      ariaLabel: `${mod.name} — mod details, downloads and dependencies`,
+      publishedLabel: mod.created ? `Published ${shortDate(mod.created)}` : `Updated ${shortDate(mod.updated) || '—'}`,
+      sizeLabel: mod.sizeLabel || '—',
+      onEnter: () => this.enter(mod.id),
+      onLeave: () => this.leave(mod.id),
+    };
+  }
+
+  renderVals() {
+    const { doc } = this.state;
+    const mods = doc ? doc.mods : [];
+    const discordUrl = (doc && doc.site && doc.site.discord) || 'https://discord.com/channels/105462288051380224/1364104286396743712';
+
+    // Hero = the most recently PUBLISHED mod (newest content, not newest patch).
+    const newestMod = mods.slice().sort(byCreated)[0];
+    const newestShot = newestMod && this.srcFor((newestMod.images || [])[0], 'local');
+
+    return {
+      discordUrl,
+      hasNewest: Boolean(newestMod && newestShot),
+      newest: newestMod ? { ...this.view(newestMod), img: newestShot || '' } : {},
+      coreMods: CORE_IDS.map((id) => mods.find((m) => m.id === id)).filter(Boolean).map((m) => this.view(m)),
+      visible: mods.slice().sort(byUpdated).map((m) => this.view(m)),
+    };
+  }
+}
+
+</script>
+</body>
+</html>

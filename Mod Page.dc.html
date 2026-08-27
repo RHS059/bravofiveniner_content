@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23g)' opacity='0.5'/%3E%3C/svg%3E");
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: oklch(0.16 0.024 300);
+    color: oklch(0.94 0.015 300);
+    font-family: 'Barlow', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-wrap: pretty;
+  }
+  a { color: oklch(0.76 0.16 296); text-decoration: none; }
+  a:hover { color: oklch(0.88 0.12 70); }
+  h1, h2, h3, h4 { margin: 0; font-family: 'Barlow Condensed', 'Barlow', sans-serif; font-weight: 700; }
+  p { margin: 0; }
+  button { font: inherit; color: inherit; }
+  ::selection { background: oklch(0.52 0.26 293); color: oklch(0.98 0.01 300); }
+  :focus-visible { outline: 2px solid oklch(0.82 0.15 82); outline-offset: 2px; }
+</style>
+</helmet>
+
+<header style="display: flex; align-items: center; justify-content: space-between; gap: 24px; height: 58px; padding: 0 clamp(16px, 4vw, 40px); border-bottom: 1px solid oklch(0.30 0.024 300);">
+  <a href="./BravoFiveNine.dc.html" style="display: flex; align-items: center; gap: 12px; color: inherit;">
+    <span style="display: grid; place-items: center; width: 30px; height: 30px; background-color: oklch(0.52 0.26 293); background-image: var(--grain); background-size: 160px; background-blend-mode: overlay; color: oklch(0.98 0.01 300); font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 15px;">59</span>
+    <span style="font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 19px; letter-spacing: 0.06em; text-transform: uppercase;">BravoFiveNiner</span>
+  </a>
+  <a href="{{ discordUrl }}" rel="noopener" target="_blank" style="padding: 7px 14px; border: 1px solid oklch(0.52 0.26 293); color: oklch(0.76 0.16 296); font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase;" style-hover="background-color: oklch(0.52 0.26 293); background-image: var(--grain); background-size: 160px; background-blend-mode: overlay; color: oklch(0.98 0.01 300);">Discord</a>
+</header>
+
+<main style="max-width: 1200px; margin: 0 auto; padding: 0 clamp(16px, 4vw, 40px) clamp(56px, 8vw, 96px);">
+  <nav aria-label="Breadcrumb" style="padding: 20px 0; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: oklch(0.56 0.015 300);">
+    <a href="/" style="color: oklch(0.66 0.015 300);">Mods</a>
+    <span aria-hidden="true" style="padding: 0 8px; color: oklch(0.40 0.015 300);">/</span>
+    <span>{{ mod.categoryLabel }}</span>
+    <span aria-hidden="true" style="padding: 0 8px; color: oklch(0.40 0.015 300);">/</span>
+    <span style="color: oklch(0.88 0.015 300);">{{ mod.name }}</span>
+  </nav>
+
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: clamp(28px, 4vw, 56px); padding-bottom: clamp(32px, 4vw, 48px); border-bottom: 1px solid oklch(0.30 0.024 300);">
+    <div>
+      <p style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: oklch(0.76 0.16 296);">{{ mod.categoryLabel }}</p>
+      <h1 style="margin-top: 14px; font-size: clamp(38px, 5.6vw, 72px); line-height: 0.92; letter-spacing: -0.02em; text-transform: uppercase;">{{ mod.name }}</h1>
+      <p style="max-width: 54ch; margin-top: 20px; font-size: clamp(15px, 1.4vw, 18px); line-height: 1.6; color: oklch(0.72 0.015 300);">{{ mod.summary }}</p>
+      <div style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px;">
+        <a href="{{ mod.workshopUrl }}" rel="noopener" target="_blank" style="padding: 13px 24px; background-color: oklch(0.52 0.26 293); background-image: var(--grain); background-size: 160px; background-blend-mode: overlay; color: oklch(0.98 0.01 300); font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase;" style-hover="background: oklch(0.58 0.25 293);">Get it on the Workshop ↗</a>
+        <button type="button" onClick="{{ onCopyId }}" style="padding: 13px 24px; background: transparent; border: 1px solid oklch(0.32 0.024 300); cursor: pointer; font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.1em; color: oklch(0.80 0.015 300);" style-hover="border-color: oklch(0.62 0.015 300);">{{ copyLabel }}</button>
+      </div>
+    </div>
+
+    <dl style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; align-content: start; background: oklch(0.30 0.024 300); border: 1px solid oklch(0.30 0.024 300);">
+      <sc-for list="{{ specs }}" as="spec" hint-placeholder-count="6">
+        <div style="padding: 16px 18px; background: oklch(0.205 0.024 300);">
+          <dt style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: oklch(0.58 0.015 300);">{{ spec.label }}</dt>
+          <dd style="margin: 7px 0 0; font-family: 'Barlow Condensed', sans-serif; font-weight: 600; font-size: 25px; line-height: 1;">{{ spec.value }}</dd>
+        </div>
+      </sc-for>
+    </dl>
+  </div>
+
+  <sc-if value="{{ hasGallery }}" hint-placeholder-val="{{ true }}">
+    <section aria-label="Screenshots" style="padding-top: clamp(32px, 4vw, 48px);">
+      <a href="{{ hero.href }}" rel="noopener" target="_blank" style="display: block; aspect-ratio: 16 / 9; overflow: hidden; background: oklch(0.19 0.024 300);">
+        <img src="{{ hero.src }}" alt="{{ hero.alt }}" width="1600" height="900" decoding="async" style="width: 100%; height: 100%; object-fit: cover; display: block; filter: saturate(0.9) contrast(1.03);" />
+      </a>
+      <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 168px), 1fr)); gap: 1px; margin-top: 1px; background: oklch(0.30 0.024 300);">
+        <sc-for list="{{ thumbs }}" as="shot" hint-placeholder-count="6">
+          <button type="button" onClick="{{ shot.onClick }}" aria-label="{{ shot.aria }}" aria-current="{{ shot.active }}" style="display: block; padding: 0; aspect-ratio: 16 / 9; overflow: hidden; border: 0; background: oklch(0.19 0.024 300); cursor: pointer; opacity: {{ shot.opacity }};" style-hover="opacity: 1;">
+            <img src="{{ shot.src }}" alt="" width="320" height="180" loading="lazy" decoding="async" style="width: 100%; height: 100%; object-fit: cover; display: block;" />
+          </button>
+        </sc-for>
+      </div>
+    </section>
+  </sc-if>
+
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: clamp(28px, 4vw, 56px); padding-top: clamp(40px, 5vw, 64px);">
+    <section aria-labelledby="detail-heading">
+      <h2 id="detail-heading" style="font-size: clamp(24px, 2.6vw, 34px); line-height: 1; letter-spacing: -0.01em; text-transform: uppercase;">What's in the pack</h2>
+      <p style="max-width: 62ch; margin-top: 18px; white-space: pre-wrap; font-family: 'IBM Plex Mono', monospace; font-size: 13.5px; line-height: 1.75; color: oklch(0.74 0.015 300);">{{ mod.description }}</p>
+
+      <sc-if value="{{ hasTags }}" hint-placeholder-val="{{ true }}">
+        <div style="display: flex; flex-wrap: wrap; gap: 7px; margin-top: 28px;">
+          <sc-for list="{{ tags }}" as="tag" hint-placeholder-count="6">
+            <span style="padding: 6px 11px; border: 1px solid oklch(0.30 0.024 300); font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: 0.12em; text-transform: uppercase; color: oklch(0.68 0.015 300);">{{ tag }}</span>
+          </sc-for>
+        </div>
+      </sc-if>
+    </section>
+
+    <aside>
+      <sc-if value="{{ hasDeps }}" hint-placeholder-val="{{ true }}">
+        <div>
+          <h2 style="font-family: 'IBM Plex Mono', monospace; font-weight: 500; font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: oklch(0.58 0.015 300);">Required dependencies</h2>
+          <ul style="display: grid; gap: 1px; margin: 14px 0 0; padding: 0; list-style: none; background: oklch(0.30 0.024 300); border: 1px solid oklch(0.30 0.024 300);">
+            <sc-for list="{{ deps }}" as="dep" hint-placeholder-count="8">
+              <li style="padding: 12px 16px; background: oklch(0.205 0.024 300); font-family: 'IBM Plex Mono', monospace; font-size: 12.5px; color: oklch(0.82 0.015 300);">{{ dep }}</li>
+            </sc-for>
+          </ul>
+        </div>
+      </sc-if>
+
+      <div style="margin-top: 28px; padding: 18px; border: 1px solid oklch(0.30 0.024 300);">
+        <h2 style="font-family: 'IBM Plex Mono', monospace; font-weight: 500; font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: oklch(0.58 0.015 300);">Licence</h2>
+        <p style="margin-top: 10px; font-size: 14.5px; line-height: 1.55; color: oklch(0.80 0.015 300);">{{ licenseName }}</p>
+        <p style="margin-top: 10px; font-size: 13.5px; line-height: 1.6; color: oklch(0.62 0.015 300);">Questions about reuse, derivatives or server distribution? Ask in the Discord and I'll answer directly.</p>
+      </div>
+    </aside>
+  </div>
+
+  <section aria-labelledby="more-heading" style="margin-top: clamp(48px, 6vw, 80px); padding-top: clamp(32px, 4vw, 48px); border-top: 1px solid oklch(0.30 0.024 300);">
+    <h2 id="more-heading" style="font-size: clamp(22px, 2.4vw, 30px); line-height: 1; letter-spacing: -0.01em; text-transform: uppercase;">More {{ mod.categoryLabel }}</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr)); gap: 1px; margin-top: 20px; background: oklch(0.30 0.024 300); border: 1px solid oklch(0.30 0.024 300);">
+      <sc-for list="{{ related }}" as="rel" hint-placeholder-count="4">
+        <button type="button" onClick="{{ rel.onClick }}" style="display: block; width: 100%; padding: 18px; background: oklch(0.205 0.024 300); border: 0; cursor: pointer; text-align: left;" style-hover="background: oklch(0.235 0.024 300);">
+          <span style="display: block; font-family: 'Barlow Condensed', sans-serif; font-weight: 600; font-size: 20px; text-transform: uppercase; color: oklch(0.94 0.015 300);">{{ rel.name }}</span>
+          <span style="display: block; margin-top: 8px; font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: 0.06em; color: oklch(0.58 0.015 300);">{{ rel.meta }}</span>
+        </button>
+      </sc-for>
+    </div>
+  </section>
+</main>
+
+<footer style="padding: 30px clamp(16px, 4vw, 40px) 40px; border-top: 1px solid oklch(0.30 0.024 300); font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.08em; color: oklch(0.54 0.015 300);">
+  <div style="max-width: 1200px; margin: 0 auto;">
+    <p>bravofiveniner.com — ARMA® and Arma Reforger are trademarks of Bohemia Interactive a.s. Independent fan site.</p>
+  </div>
+</footer>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1280},&quot;modId&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;default&quot;:&quot;64515006D4EC4776&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;options&quot;:[&quot;64515006D4EC4776&quot;,&quot;658B2B37C2C82AAE&quot;,&quot;66C3068E893517D7&quot;,&quot;65643574C746E825&quot;],&quot;section&quot;:&quot;Preview&quot;}}">
+const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+function longDate(iso) {
+  if (!iso) return null;
+  const [y, m, d] = iso.split('-').map(Number);
+  return y && m ? `${d} ${MONTHS[m - 1]} ${y}` : null;
+}
+
+class Component extends DCLogic {
+  state = {
+    doc: null,
+    id: new URLSearchParams(location.search).get('id'),
+    shot: 0,
+    copied: false,
+  };
+
+  componentDidMount() {
+    fetch('./data/mods.json', { cache: 'no-cache' })
+      .then((r) => r.json())
+      .then((doc) => this.setState({ doc }))
+      .catch(() => {});
+  }
+
+  current() {
+    const doc = this.state.doc;
+    if (!doc) return null;
+    const wanted = this.state.id || this.props.modId;
+    return doc.mods.find((m) => m.id === wanted) || doc.mods.find((m) => m.detailSynced) || doc.mods[0];
+  }
+
+  imgSrc(image, which) {
+    if (!image) return '';
+    return image[which] || image.local || '';
+  }
+
+  renderVals() {
+    const doc = this.state.doc;
+    const mod = this.current();
+    const discordUrl = (doc && doc.site && doc.site.discord) || 'https://discord.com';
+
+    if (!mod) {
+      return {
+        discordUrl, mod: { name: 'Loading…', categoryLabel: '', summary: '', description: '', workshopUrl: '#' },
+        specs: [], tags: [], deps: [], thumbs: [], related: [],
+        hasGallery: false, hasTags: false, hasDeps: false,
+        hero: { src: '', alt: '', href: '#' }, licenseName: '—', copyLabel: 'Copy mod ID',
+        onCopyId: () => {},
+      };
+    }
+
+    const images = mod.images || [];
+    const index = Math.min(this.state.shot, Math.max(images.length - 1, 0));
+    const nf = (n) => (n == null ? '—' : n.toLocaleString('en-US'));
+
+    return {
+      discordUrl,
+      mod: {
+        ...mod,
+        summary: mod.summary || `${mod.name} — ${String(mod.categoryLabel || '').toLowerCase()} for Arma Reforger, free on the official Workshop.`,
+        description: mod.description || 'Full contents, classnames and changelog are listed on the Workshop page. This entry syncs automatically the next time the nightly job runs.',
+      },
+      specs: [
+        { label: 'Version', value: mod.version || '—' },
+        { label: 'Downloads', value: nf(mod.downloads) },
+        { label: 'Updated', value: longDate(mod.updated) || '—' },
+        { label: 'Download size', value: mod.sizeLabel || '—' },
+        { label: 'Game version', value: mod.gameVersion || '—' },
+        { label: 'Rating', value: mod.rating ? `${mod.rating}%` : 'Unrated' },
+      ],
+      tags: mod.tags || [],
+      deps: mod.dependencies || [],
+      hasTags: (mod.tags || []).length > 0,
+      hasDeps: (mod.dependencies || []).length > 0,
+      hasGallery: images.length > 0,
+      hero: {
+        src: this.imgSrc(images[index], 'local'),
+        href: mod.workshopUrl,
+        alt: `${mod.name} in Arma Reforger — screenshot ${index + 1} of ${images.length}, mod by BravoFiveNine`,
+      },
+      thumbs: images.map((im, i) => ({
+        src: this.imgSrc(im, 'thumb'),
+        aria: `Show screenshot ${i + 1} of ${images.length}`,
+        active: i === index ? 'true' : 'false',
+        opacity: i === index ? '1' : '0.42',
+        onClick: () => this.setState({ shot: i }),
+      })),
+      related: (doc ? doc.mods : [])
+        .filter((m) => m.category === mod.category && m.id !== mod.id)
+        .slice(0, 4)
+        .map((m) => ({
+          name: m.name,
+          meta: `${m.sizeLabel || '—'} · ${m.downloads ? nf(m.downloads) + ' dl' : 'Workshop'}`,
+          onClick: () => this.setState({ id: m.id, shot: 0 }),
+        })),
+      licenseName: (mod.license && mod.license.name) || 'See the Workshop page',
+      copyLabel: this.state.copied ? `Copied · ${mod.id}` : `Copy mod ID · ${mod.id}`,
+      onCopyId: () => {
+        if (navigator.clipboard) navigator.clipboard.writeText(mod.id).catch(() => {});
+        this.setState({ copied: true });
+        setTimeout(() => this.setState({ copied: false }), 1800);
+      },
+    };
+  }
+}
+
+</script>
+</body>
+</html>
