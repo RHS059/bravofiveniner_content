@@ -1,6 +1,26 @@
 {
   "events": [
     {
+      "at": "2026-08-27T18:27:53.167Z",
+      "type": "added",
+      "id": "6A36349CDBDB371E",
+      "name": "B59 - M416 - HD Textures"
+    },
+    {
+      "at": "2026-08-27T18:27:55.868Z",
+      "type": "added",
+      "id": "6A2744B7B34AB79A",
+      "name": "B59 - M416"
+    },
+    {
+      "at": "2026-08-27T18:28:09.651Z",
+      "type": "version",
+      "id": "68C89DDCDD0AC147",
+      "name": "B59 - BravoCore",
+      "from": "1.0.30",
+      "to": "1.0.32"
+    },
+    {
       "at": "2026-08-27T02:43:33.304Z",
       "type": "version",
       "id": "66C3068E893517D7",
