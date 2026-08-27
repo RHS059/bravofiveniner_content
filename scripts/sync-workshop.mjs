@@ -127,59 +127,103 @@ function scrapeLabel(html, label) {
   return m ? m[1].trim() : null;
 }
 
+/* ---------------------------------------------------------- html → text */
+
+const NAMED = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ' };
+
+function decode(str) {
+  return String(str)
+    .replace(/&#(\d+);/g, (_, d) => String.fromCharCode(Number(d)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCharCode(parseInt(h, 16)))
+    .replace(/&([a-z]+);/gi, (m, k) => NAMED[k.toLowerCase()] ?? m);
+}
+
+const stripTags = (html) => decode(String(html).replace(/<[^>]+>/g, '')).replace(/\s+/g, ' ').trim();
+
+/**
+ * Rendered-text view of a chunk of markup, one line per block element.
+ * The Workshop is server-rendered, so this is the reliable read — the search
+ * page's result list is NOT present in __NEXT_DATA__.
+ */
+function toLines(html) {
+  return decode(
+    String(html)
+      .replace(/<(script|style)[\s\S]*?<\/\1>/gi, ' ')
+      .replace(/<br\s*\/?>/gi, '\n')
+      .replace(/<\/(p|div|li|ul|ol|h[1-6]|dt|dd|td|tr|section|article|span|a|button|pre)>/gi, '\n')
+      .replace(/<[^>]+>/g, ''),
+  )
+    .split('\n')
+    .map((l) => l.replace(/[ \t]+/g, ' ').trim())
+    .filter(Boolean);
+}
+
+/** Value printed directly under a "Downloads" / "Created" style label. */
+function fieldAfter(lines, label) {
+  const i = lines.findIndex((l) => l.toLowerCase() === label.toLowerCase());
+  return i >= 0 && lines[i + 1] ? lines[i + 1] : null;
+}
+
+/** Body of a "## Summary" style section, up to the next known heading. */
+function sectionAfter(lines, from, ...until) {
+  const start = lines.findIndex((l) => l.toLowerCase() === from.toLowerCase());
+  if (start < 0) return null;
+  const stops = until.map((u) => u.toLowerCase());
+  const out = [];
+  for (let i = start + 1; i < lines.length; i++) {
+    if (stops.includes(lines[i].toLowerCase())) break;
+    out.push(lines[i]);
+  }
+  return out.join('\n').trim() || null;
+}
+
+const uniq = (arr) => [...new Set(arr)];
+
 /* ------------------------------------------------------------ discovery */
 
-/** Returns [{id, name, slug, author}] for every BravoFiveNine-authored mod. */
+/**
+ * Returns [{id, name, slug, author}] for every BravoFiveNine-authored mod.
+ * The search page prints each result as one anchor whose text ends "by <author>",
+ * so cards are split on the anchor href and filtered on that author line.
+ */
 async function discover() {
   const found = new Map();
+
   for (let page = 1; page <= MAX_PAGES; page++) {
     const html = await getText(`${SEARCH}&page=${page}`);
-    const tree = nextData(html);
-    let items = [];
+    const cards = html.split('href="/workshop/').slice(1);
+    let seenCards = 0;
 
-    if (tree) {
-      for (const node of walk(tree)) {
-        if (!Array.isArray(node)) continue;
-        const looksLikeList = node.length && node.every(
-          (x) => x && typeof x === 'object' && typeof x.id === 'string' && x.id.length >= 16,
-        );
-        if (looksLikeList && node.length > items.length) items = node;
-      }
+    for (const card of cards) {
+      const m = /^([0-9A-Fa-f]{16})(-[^"?#]*)?"/.exec(card);
+      if (!m) continue; // /changelog links, tag links, etc.
+      seenCards++;
+
+      const id = m[1].toUpperCase();
+      const slug = `${id}${m[2] ?? ''}`; // keep the href's own encoding
+      const lines = toLines(card.slice(0, 6000));
+      // The card prints "…<name>by <author>" last, with or without a block break
+      // between the two, so take the LAST "by …" in the card and trust that.
+      const byMatches = [...lines.join('\n').matchAll(/\bby\s+([^\n]{2,48})/gi)];
+      if (!byMatches.length) continue;
+
+      const author = byMatches[byMatches.length - 1][1].trim();
+      if (author.toLowerCase() !== AUTHOR.toLowerCase()) continue;
+
+      const name = lines.find(
+        (l) => !/^by\s/i.test(l) && !/^\d+%$/.test(l) && !/^[\d.]+\s*(B|KB|MB|GB)$/i.test(l),
+      );
+      found.set(id, { id, name: (name ?? '').trim(), slug, author });
     }
 
-    if (items.length) {
-      for (const it of items) {
-        const author = String(
-          pick(it, 'author', 'authorName', 'author.name', 'owner', 'owner.name') ?? '',
-        ).trim();
-        if (author.toLowerCase() !== AUTHOR.toLowerCase()) continue;
-        found.set(it.id, {
-          id: it.id,
-          name: String(pick(it, 'name', 'title') ?? '').trim(),
-          slug: null,
-          author,
-        });
-      }
-    } else {
-      // Fallback: anchors carry "<title>by <author>" in their accessible text.
-      const anchor = /href="\/workshop\/([0-9A-F]{16})([^"]*)"[^>]*>([\s\S]{0,400}?)<\/a>/gi;
-      let m;
-      while ((m = anchor.exec(html))) {
-        const [, id, suffix, inner] = m;
-        const byMatch = /by\s+([^<]{1,48})$/i.exec(inner.replace(/<[^>]+>/g, '').trim());
-        const author = byMatch ? byMatch[1].trim() : '';
-        if (author.toLowerCase() !== AUTHOR.toLowerCase()) continue;
-        found.set(id, { id, name: '', slug: id + suffix, author });
-      }
-      if (!/href="\/workshop\/[0-9A-F]{16}/i.test(html)) break;
-    }
+    log(`  page ${page}: ${seenCards} result(s), ${found.size} by ${AUTHOR} so far`);
 
-    if (/Showing\s+\d+\s+to\s+(\d+)\s+of\s+(\d+)/i.test(html)) {
-      const [, to, total] = /Showing\s+\d+\s+to\s+(\d+)\s+of\s+(\d+)/i.exec(html);
-      if (Number(to) >= Number(total)) break;
-    }
+    const showing = /Showing\s+\d+\s+to\s+(\d+)\s+of\s+(\d+)/i.exec(html);
+    if (showing && Number(showing[1]) >= Number(showing[2])) break;
+    if (!seenCards) break;
     await sleep(THROTTLE_MS);
   }
+
   return [...found.values()];
 }
 
@@ -188,46 +232,47 @@ async function discover() {
 async function fetchDetail(id, slug) {
   const url = `${BASE}/workshop/${slug || id}`;
   const html = await getText(url);
-  const tree = nextData(html);
-  const a = findAsset(tree, id) ?? {};
+  const lines = toLines(html);
 
-  const images = [];
-  const seen = new Set();
-  const push = (u) => { if (u && !seen.has(u)) { seen.add(u); images.push(u); } };
-  // Prefer structured gallery order, then sweep the raw HTML for anything missed.
-  for (const key of ['previewImages', 'gallery', 'screenshots', 'images', 'media']) {
-    const v = a[key];
-    if (Array.isArray(v)) for (const item of v) push(typeof item === 'string' ? item : pick(item, 'url', 'src', 'link'));
-  }
-  push(pick(a, 'thumbnailUrl', 'previewUrl', 'imageUrl'));
-  for (const u of html.match(CDN_IMAGE_RE) ?? []) push(u);
+  const images = uniq(html.match(CDN_IMAGE_RE) ?? []);
 
-  const sizeLabel = pick(a, 'sizeLabel') ?? scrapeLabel(html, 'Version size');
-  const sizeBytes = sizeToBytes(pick(a, 'sizeBytes', 'size', 'versionSize') ?? sizeLabel);
+  const sizeLabel = fieldAfter(lines, 'Version size');
+  const sizeBytes = sizeToBytes(sizeLabel);
 
-  const ratingRaw = pick(a, 'rating', 'averageRating', 'ratingPercentage') ?? scrapeLabel(html, 'Rating');
+  const ratingRaw = fieldAfter(lines, 'Rating');
   const rating = ratingRaw == null ? null : Math.round(parseFloat(String(ratingRaw).replace('%', '')));
 
-  const dl = pick(a, 'downloads', 'downloadCount', 'subscriberCount') ?? scrapeLabel(html, 'Downloads');
-  const licenseName = pick(a, 'license.name', 'licenseName', 'license');
+  const dl = fieldAfter(lines, 'Downloads');
+
+  const h1 = /<h1[^>]*>([\s\S]*?)<\/h1>/i.exec(html);
+  const licence = /href="https:\/\/www\.bohemia\.net\/community\/licenses"[^>]*>([\s\S]*?)<\/a>/i.exec(html);
+  const licenseName = licence ? stripTags(licence[1]) : null;
+
+  const depsAt = html.search(/>\s*Dependencies\s*</i);
+  const dependencies = depsAt < 0 ? [] : uniq(
+    [...html.slice(depsAt).matchAll(/href="\/workshop\/[0-9A-Fa-f]{16}[^"]*"[^>]*>([\s\S]{0,200}?)<\/a>/gi)]
+      .map((m) => stripTags(m[1]))
+      .filter(Boolean),
+  );
 
   return {
-    name: String(pick(a, 'name', 'title') ?? '').trim() || null,
+    name: h1 ? stripTags(h1[1]) || null : null,
     workshopUrl: url,
-    version: pick(a, 'revision.version', 'version', 'currentVersion') ?? scrapeLabel(html, 'Version'),
-    gameVersion: pick(a, 'gameVersion', 'requiredGameVersion') ?? scrapeLabel(html, 'Game Version'),
+    version: fieldAfter(lines, 'Version'),
+    gameVersion: fieldAfter(lines, 'Game Version'),
     rating: Number.isFinite(rating) ? rating : null,
     downloads: dl == null ? null : Number(String(dl).replace(/[^\d]/g, '')) || null,
     sizeBytes,
     sizeLabel: bytesToLabel(sizeBytes) ?? sizeLabel ?? null,
-    created: toIsoDate(pick(a, 'createdAt', 'created', 'firstPublishedAt')) ?? toIsoDate(scrapeLabel(html, 'Created')),
-    updated: toIsoDate(pick(a, 'updatedAt', 'lastModified', 'modifiedAt')) ?? toIsoDate(scrapeLabel(html, 'Last Modified')),
-    summary: (pick(a, 'summary', 'shortDescription') ?? '').toString().trim() || null,
-    description: (pick(a, 'description', 'longDescription') ?? '').toString().trim() || null,
-    license: licenseName ? { name: String(licenseName), short: /\(([^)]+)\)/.exec(String(licenseName))?.[1] ?? null } : null,
-    tags: (Array.isArray(a.tags) ? a.tags : []).map((t) => String(t.name ?? t)).filter(Boolean),
-    dependencies: (Array.isArray(a.dependencies) ? a.dependencies : [])
-      .map((d) => String(pick(d, 'name', 'title') ?? d)).filter(Boolean),
+    created: toIsoDate(fieldAfter(lines, 'Created')),
+    updated: toIsoDate(fieldAfter(lines, 'Last Modified')),
+    summary: sectionAfter(lines, 'Summary', 'Description', 'License', 'Rating'),
+    description: sectionAfter(lines, 'Description', 'License', 'Rating'),
+    license: licenseName
+      ? { name: licenseName, short: /\(([^)]+)\)/.exec(licenseName)?.[1] ?? null }
+      : null,
+    tags: uniq([...html.matchAll(/href="\/workshop\?tags=([^"&]+)"/gi)].map((m) => decodeURIComponent(m[1]))),
+    dependencies,
     imageSources: images.slice(0, 12),
   };
 }
@@ -288,6 +333,8 @@ async function main() {
   const discovered = await discover();
   if (discovered.length === 0) {
     warn('discovery returned nothing — refusing to overwrite data/mods.json');
+    warn('first 600 chars of what the search page actually returned:');
+    warn(toLines(await getText(`${SEARCH}&page=1`)).slice(0, 40).join(' | ').slice(0, 600));
     process.exitCode = 1;
     return;
   }
