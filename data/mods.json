@@ -2,7 +2,7 @@
   "$schema": "https://bravofiveniner.com/schema/mods.v1.json",
   "author": "BravoFiveNine",
   "authorWorkshopSearch": "https://reforger.armaplatform.com/workshop?search=BravoFiveNine",
-  "generatedAt": "2026-08-29T13:27:07.810Z",
+  "generatedAt": "2026-08-30T13:23:25.391Z",
   "generatedBy": "scripts/sync-workshop.mjs",
   "imagesRehosted": true,
   "categories": [
@@ -52,7 +52,7 @@
       "audio": 2,
       "gameplay": 2
     },
-    "totalDownloads": 1841801
+    "totalDownloads": 1846238
   },
   "mods": [
     {
@@ -69,7 +69,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "1.30 MB",
       "sizeBytes": 1363149,
-      "downloads": 282754,
+      "downloads": 283568,
       "created": "2025-04-20",
       "updated": "2026-07-30",
       "license": {
@@ -132,7 +132,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "133.28 MB",
       "sizeBytes": 139754209,
-      "downloads": 158955,
+      "downloads": 159154,
       "created": "2025-06-07",
       "updated": "2026-08-12",
       "license": {
@@ -277,7 +277,7 @@
       "gameVersion": "1.6.0.95",
       "sizeLabel": "123.83 MB",
       "sizeBytes": 129845166,
-      "downloads": 157355,
+      "downloads": 157370,
       "created": "2025-03-17",
       "updated": "2025-12-20",
       "license": {
@@ -622,7 +622,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "4.57 MB",
       "sizeBytes": 4791992,
-      "downloads": 147258,
+      "downloads": 147274,
       "created": "2025-02-04",
       "updated": "2026-07-20",
       "license": {
@@ -759,7 +759,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "81.53 MB",
       "sizeBytes": 85490401,
-      "downloads": 140912,
+      "downloads": 141121,
       "created": "2025-01-18",
       "updated": "2026-08-23",
       "license": {
@@ -902,7 +902,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "69.18 MB",
       "sizeBytes": 72540488,
-      "downloads": 132285,
+      "downloads": 132728,
       "created": "2025-04-20",
       "updated": "2026-07-26",
       "license": {
@@ -1042,7 +1042,7 @@
       "gameVersion": "1.4.0.45",
       "sizeLabel": "8.58 MB",
       "sizeBytes": 8996782,
-      "downloads": 124678,
+      "downloads": 124859,
       "created": "2025-06-21",
       "updated": "2025-06-21",
       "license": {
@@ -1086,7 +1086,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "10.14 MB",
       "sizeBytes": 10632561,
-      "downloads": 110196,
+      "downloads": 112081,
       "created": "2026-04-08",
       "updated": "2026-08-27",
       "license": {
@@ -1356,7 +1356,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "100.11 MB",
       "sizeBytes": 104972943,
-      "downloads": 41542,
+      "downloads": 41590,
       "created": "2025-11-01",
       "updated": "2026-08-14",
       "license": {
@@ -1496,7 +1496,7 @@
       "gameVersion": "1.7.0.41",
       "sizeLabel": "2.85 KB",
       "sizeBytes": 2918,
-      "downloads": 30429,
+      "downloads": 30529,
       "created": "2026-06-03",
       "updated": "2026-06-03",
       "license": {
@@ -1690,7 +1690,7 @@
       "gameVersion": "1.6.0.119",
       "sizeLabel": "746.18 KB",
       "sizeBytes": 764088,
-      "downloads": 13259,
+      "downloads": 13510,
       "created": "2026-05-09",
       "updated": "2026-05-22",
       "license": {
@@ -1766,7 +1766,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "7.41 KB",
       "sizeBytes": 7588,
-      "downloads": 10794,
+      "downloads": 10818,
       "created": "2026-07-10",
       "updated": "2026-07-26",
       "license": {
@@ -1844,6 +1844,87 @@
       "detailSynced": true
     },
     {
+      "id": "69DE1EC1C9B75262",
+      "name": "B59 - AR",
+      "slug": "69DE1EC1C9B75262-B59-AR",
+      "workshopUrl": "https://reforger.armaplatform.com/workshop/69DE1EC1C9B75262-B59-AR",
+      "author": "BravoFiveNine",
+      "category": "rifles",
+      "categoryLabel": "Battle rifles & carbines",
+      "featured": null,
+      "rating": 100,
+      "version": "0.0.8",
+      "gameVersion": "1.8.0.10",
+      "sizeLabel": "119.86 MB",
+      "sizeBytes": 125682319,
+      "downloads": 1042,
+      "created": "2026-07-29",
+      "updated": "2026-08-28",
+      "license": {
+        "name": "Arma Public License Share Alike (APL-SA)",
+        "short": "APL-SA"
+      },
+      "summary": "Modders resource. Only part prefabs. No weapons.\nFree to use. Please attribute the artist in your description.",
+      "description": "M4/M16 Components:\nMattias H (Tiggis) → https://www.cgtrader.com/designers/tiggis",
+      "tags": [
+        "AR",
+        "AR-15",
+        "AR9",
+        "CMMG",
+        "COLT",
+        "FIGHTLITE",
+        "HK416",
+        "HK417",
+        "M16",
+        "M4",
+        "M416",
+        "M417",
+        "MK47",
+        "MUTANT",
+        "WEAPONS"
+      ],
+      "dependencies": [
+        "Attachment Framework",
+        "Attachment Framework-Core",
+        "B59 - BravoCore"
+      ],
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/2d4b/5447a2f70ad566ccb2376c1914e9d058fcf79b4de1adcae3eb2cfa811b9d/312929.jpg",
+          "hash": "c7be7fda40f3",
+          "local": "/mods/69DE1EC1C9B75262/00-c7be7fda40f3.webp",
+          "thumb": "/mods/69DE1EC1C9B75262/00-c7be7fda40f3-640.webp",
+          "width": 1600,
+          "height": 859
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/a554/9d00d4ed64fda7621e8b682b97ce7042be5c55712a443c7240b3ae744fa5/135241.jpg",
+          "hash": "1e38b9b59463",
+          "local": "/mods/69DE1EC1C9B75262/01-1e38b9b59463.webp",
+          "thumb": "/mods/69DE1EC1C9B75262/01-1e38b9b59463-640.webp",
+          "width": 1152,
+          "height": 648
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/a34b/f2c0018eda1c2ea06fcece2397849a05f538c296ff740120a32fe9b60e7f/39870.jpg",
+          "hash": "a92cded77fa6",
+          "local": "/mods/69DE1EC1C9B75262/02-a92cded77fa6.webp",
+          "thumb": "/mods/69DE1EC1C9B75262/02-a92cded77fa6-640.webp",
+          "width": 576,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/16cf/36b6a21b7cf57a504804bd73e049f556e1d0354be006911c26eaf4e0cae0/11692.jpg",
+          "hash": "d6c9e44193bc",
+          "local": "/mods/69DE1EC1C9B75262/03-d6c9e44193bc.webp",
+          "thumb": "/mods/69DE1EC1C9B75262/03-d6c9e44193bc-640.webp",
+          "width": 288,
+          "height": 162
+        }
+      ],
+      "detailSynced": true
+    },
+    {
       "id": "6713491DFC06B4C5",
       "name": "ArmaConflict - XM177E2 Addons",
       "slug": "6713491DFC06B4C5-ArmaConflict-XM177E2Addons",
@@ -1857,7 +1938,7 @@
       "gameVersion": "1.6.0.95",
       "sizeLabel": "17.18 MB",
       "sizeBytes": 18014536,
-      "downloads": 1014,
+      "downloads": 1019,
       "created": "2025-12-09",
       "updated": "2025-12-12",
       "license": {
@@ -1942,87 +2023,6 @@
           "thumb": "/mods/6713491DFC06B4C5/07-f9565bd8df22-640.webp",
           "width": 776,
           "height": 436
-        }
-      ],
-      "detailSynced": true
-    },
-    {
-      "id": "69DE1EC1C9B75262",
-      "name": "B59 - AR",
-      "slug": "69DE1EC1C9B75262-B59-AR",
-      "workshopUrl": "https://reforger.armaplatform.com/workshop/69DE1EC1C9B75262-B59-AR",
-      "author": "BravoFiveNine",
-      "category": "rifles",
-      "categoryLabel": "Battle rifles & carbines",
-      "featured": null,
-      "rating": 100,
-      "version": "0.0.8",
-      "gameVersion": "1.8.0.10",
-      "sizeLabel": "119.86 MB",
-      "sizeBytes": 125682319,
-      "downloads": 1005,
-      "created": "2026-07-29",
-      "updated": "2026-08-28",
-      "license": {
-        "name": "Arma Public License Share Alike (APL-SA)",
-        "short": "APL-SA"
-      },
-      "summary": "Modders resource. Only part prefabs. No weapons.\nFree to use. Please attribute the artist in your description.",
-      "description": "M4/M16 Components:\nMattias H (Tiggis) → https://www.cgtrader.com/designers/tiggis",
-      "tags": [
-        "AR",
-        "AR-15",
-        "AR9",
-        "CMMG",
-        "COLT",
-        "FIGHTLITE",
-        "HK416",
-        "HK417",
-        "M16",
-        "M4",
-        "M416",
-        "M417",
-        "MK47",
-        "MUTANT",
-        "WEAPONS"
-      ],
-      "dependencies": [
-        "Attachment Framework",
-        "Attachment Framework-Core",
-        "B59 - BravoCore"
-      ],
-      "images": [
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/2d4b/5447a2f70ad566ccb2376c1914e9d058fcf79b4de1adcae3eb2cfa811b9d/312929.jpg",
-          "hash": "c7be7fda40f3",
-          "local": "/mods/69DE1EC1C9B75262/00-c7be7fda40f3.webp",
-          "thumb": "/mods/69DE1EC1C9B75262/00-c7be7fda40f3-640.webp",
-          "width": 1600,
-          "height": 859
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/a554/9d00d4ed64fda7621e8b682b97ce7042be5c55712a443c7240b3ae744fa5/135241.jpg",
-          "hash": "1e38b9b59463",
-          "local": "/mods/69DE1EC1C9B75262/01-1e38b9b59463.webp",
-          "thumb": "/mods/69DE1EC1C9B75262/01-1e38b9b59463-640.webp",
-          "width": 1152,
-          "height": 648
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/a34b/f2c0018eda1c2ea06fcece2397849a05f538c296ff740120a32fe9b60e7f/39870.jpg",
-          "hash": "a92cded77fa6",
-          "local": "/mods/69DE1EC1C9B75262/02-a92cded77fa6.webp",
-          "thumb": "/mods/69DE1EC1C9B75262/02-a92cded77fa6-640.webp",
-          "width": 576,
-          "height": 324
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/16cf/36b6a21b7cf57a504804bd73e049f556e1d0354be006911c26eaf4e0cae0/11692.jpg",
-          "hash": "d6c9e44193bc",
-          "local": "/mods/69DE1EC1C9B75262/03-d6c9e44193bc.webp",
-          "thumb": "/mods/69DE1EC1C9B75262/03-d6c9e44193bc-640.webp",
-          "width": 288,
-          "height": 162
         }
       ],
       "detailSynced": true
@@ -2265,12 +2265,12 @@
       "category": "smg",
       "categoryLabel": "Submachine guns",
       "featured": null,
-      "rating": 0,
+      "rating": 100,
       "version": "0.0.5",
       "gameVersion": "1.8.0.10",
       "sizeLabel": "42.69 MB",
       "sizeBytes": 44763709,
-      "downloads": 614,
+      "downloads": 628,
       "created": "2026-07-31",
       "updated": "2026-08-16",
       "license": {
@@ -2560,7 +2560,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "12.01 MB",
       "sizeBytes": 12593398,
-      "downloads": 440,
+      "downloads": 447,
       "created": "2026-07-27",
       "updated": "2026-08-14",
       "license": {
@@ -2709,7 +2709,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "7.48 KB",
       "sizeBytes": 7660,
-      "downloads": 401,
+      "downloads": 412,
       "created": "2026-08-11",
       "updated": "2026-08-11",
       "license": {
@@ -2787,120 +2787,6 @@
       "detailSynced": true
     },
     {
-      "id": "69FE8761C699DC56",
-      "name": "B59 - MP5 - FDE",
-      "slug": "69FE8761C699DC56-B59-MP5-FDE",
-      "workshopUrl": "https://reforger.armaplatform.com/workshop/69FE8761C699DC56-B59-MP5-FDE",
-      "author": "BravoFiveNine",
-      "category": "smg",
-      "categoryLabel": "Submachine guns",
-      "featured": null,
-      "rating": 100,
-      "version": "0.0.1",
-      "gameVersion": "1.7.0.54",
-      "sizeLabel": "143.97 MB",
-      "sizeBytes": 150963487,
-      "downloads": 259,
-      "created": "2026-07-31",
-      "updated": "2026-07-31",
-      "license": {
-        "name": "Arma Public License Share Alike (APL-SA)",
-        "short": "APL-SA"
-      },
-      "summary": "A mod containing FDE variants of the MP5 [https://reforger.armaplatform.com/workshop/64515006D4EC4776-B59-Mp5\n].",
-      "description": "[Allowed modifications]\nYou may use this as a dependency.\nYou may modify the stats, add/modify textures, add attachments, change sounds, etc.\nModel and Textures:\nMattias H (Tiggis) → https://www.cgtrader.com/designers/tiggis",
-      "tags": [
-        "B59",
-        "GUN",
-        "HK",
-        "MACHINE",
-        "MACHINEGUN",
-        "MP5",
-        "SMG",
-        "SUB",
-        "SUBMACHINEGUN",
-        "WEAPONS"
-      ],
-      "dependencies": [
-        "TacticalAnimationOverhaul TEST",
-        "B59 - Mp5",
-        "Attachment Framework",
-        "B59 Attachments",
-        "ARMA-RY CORE",
-        "ARMA-RY CLAW MOUNT",
-        "B59 - SoundFX",
-        "Attachment Framework-Core",
-        "B59 - BravoCore"
-      ],
-      "images": [
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/a4f9/cfaf4974bed00e7fcd4682abdc4f7e63253dcbb644bda2512f1fde96040e/272569.jpg",
-          "hash": "9ec1fefeb964",
-          "local": "/mods/69FE8761C699DC56/00-9ec1fefeb964.webp",
-          "thumb": "/mods/69FE8761C699DC56/00-9ec1fefeb964-640.webp",
-          "width": 1600,
-          "height": 856
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/925e/3dfeec22214d8c2dd0ec337b0ddf059416f1e784b299b363e4b8f4706371/116010.jpg",
-          "hash": "cba86f533637",
-          "local": "/mods/69FE8761C699DC56/01-cba86f533637.webp",
-          "thumb": "/mods/69FE8761C699DC56/01-cba86f533637-640.webp",
-          "width": 1152,
-          "height": 648
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/d599/0d3e3dfcee7b4b895164ed5053df20547de48f203101837fd88ba3004d62/16228.jpg",
-          "hash": "6a11bcc6a5d4",
-          "local": "/mods/69FE8761C699DC56/02-6a11bcc6a5d4.webp",
-          "thumb": "/mods/69FE8761C699DC56/02-6a11bcc6a5d4-640.webp",
-          "width": 388,
-          "height": 218
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/fb41/f0fa62f13d215675b3cfbb3b8ec45f41fdf45a7af3c3a0d16e463e41135c/33514.jpg",
-          "hash": "530824e89c46",
-          "local": "/mods/69FE8761C699DC56/03-530824e89c46.webp",
-          "thumb": "/mods/69FE8761C699DC56/03-530824e89c46-640.webp",
-          "width": 576,
-          "height": 324
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/c084/d65421dc338c5a361d69062bb5c00fc4d37295d60c996d2b64b16a2943b6/9935.jpg",
-          "hash": "fd7764235e19",
-          "local": "/mods/69FE8761C699DC56/04-fd7764235e19.webp",
-          "thumb": "/mods/69FE8761C699DC56/04-fd7764235e19-640.webp",
-          "width": 288,
-          "height": 162
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/7e66/5dd8fa9672b3adc07733b22f0f91b9f389edc45f50f2c7ebc3a54c28b03e/272301.jpg",
-          "hash": "e4d04a6afc2e",
-          "local": "/mods/69FE8761C699DC56/05-e4d04a6afc2e.webp",
-          "thumb": "/mods/69FE8761C699DC56/05-e4d04a6afc2e-640.webp",
-          "width": 1600,
-          "height": 854
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/9a6d/1622eab8e67b4c137dc0ebed5ef1c13cf9e02164bb59c1bed74084eda1ce/182112.jpg",
-          "hash": "1e792355ef21",
-          "local": "/mods/69FE8761C699DC56/06-1e792355ef21.webp",
-          "thumb": "/mods/69FE8761C699DC56/06-1e792355ef21-640.webp",
-          "width": 1480,
-          "height": 832
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/66fc/a47aabe07f75e5cc53b926e890d825d67321ae7f266c306ad30816603dca/57741.jpg",
-          "hash": "eb06e8c1d002",
-          "local": "/mods/69FE8761C699DC56/07-eb06e8c1d002.webp",
-          "thumb": "/mods/69FE8761C699DC56/07-eb06e8c1d002-640.webp",
-          "width": 776,
-          "height": 436
-        }
-      ],
-      "detailSynced": true
-    },
-    {
       "id": "6A2744B7B34AB79A",
       "name": "B59 - M416",
       "slug": "6A2744B7B34AB79A-B59-M416",
@@ -2914,7 +2800,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "89.06 MB",
       "sizeBytes": 93386179,
-      "downloads": 191,
+      "downloads": 278,
       "created": "2026-08-27",
       "updated": "2026-08-28",
       "license": {
@@ -3045,6 +2931,200 @@
       "detailSynced": true
     },
     {
+      "id": "69FE8761C699DC56",
+      "name": "B59 - MP5 - FDE",
+      "slug": "69FE8761C699DC56-B59-MP5-FDE",
+      "workshopUrl": "https://reforger.armaplatform.com/workshop/69FE8761C699DC56-B59-MP5-FDE",
+      "author": "BravoFiveNine",
+      "category": "smg",
+      "categoryLabel": "Submachine guns",
+      "featured": null,
+      "rating": 100,
+      "version": "0.0.1",
+      "gameVersion": "1.7.0.54",
+      "sizeLabel": "143.97 MB",
+      "sizeBytes": 150963487,
+      "downloads": 270,
+      "created": "2026-07-31",
+      "updated": "2026-07-31",
+      "license": {
+        "name": "Arma Public License Share Alike (APL-SA)",
+        "short": "APL-SA"
+      },
+      "summary": "A mod containing FDE variants of the MP5 [https://reforger.armaplatform.com/workshop/64515006D4EC4776-B59-Mp5\n].",
+      "description": "[Allowed modifications]\nYou may use this as a dependency.\nYou may modify the stats, add/modify textures, add attachments, change sounds, etc.\nModel and Textures:\nMattias H (Tiggis) → https://www.cgtrader.com/designers/tiggis",
+      "tags": [
+        "B59",
+        "GUN",
+        "HK",
+        "MACHINE",
+        "MACHINEGUN",
+        "MP5",
+        "SMG",
+        "SUB",
+        "SUBMACHINEGUN",
+        "WEAPONS"
+      ],
+      "dependencies": [
+        "TacticalAnimationOverhaul TEST",
+        "B59 - Mp5",
+        "Attachment Framework",
+        "B59 Attachments",
+        "ARMA-RY CORE",
+        "ARMA-RY CLAW MOUNT",
+        "B59 - SoundFX",
+        "Attachment Framework-Core",
+        "B59 - BravoCore"
+      ],
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/a4f9/cfaf4974bed00e7fcd4682abdc4f7e63253dcbb644bda2512f1fde96040e/272569.jpg",
+          "hash": "9ec1fefeb964",
+          "local": "/mods/69FE8761C699DC56/00-9ec1fefeb964.webp",
+          "thumb": "/mods/69FE8761C699DC56/00-9ec1fefeb964-640.webp",
+          "width": 1600,
+          "height": 856
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/925e/3dfeec22214d8c2dd0ec337b0ddf059416f1e784b299b363e4b8f4706371/116010.jpg",
+          "hash": "cba86f533637",
+          "local": "/mods/69FE8761C699DC56/01-cba86f533637.webp",
+          "thumb": "/mods/69FE8761C699DC56/01-cba86f533637-640.webp",
+          "width": 1152,
+          "height": 648
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/d599/0d3e3dfcee7b4b895164ed5053df20547de48f203101837fd88ba3004d62/16228.jpg",
+          "hash": "6a11bcc6a5d4",
+          "local": "/mods/69FE8761C699DC56/02-6a11bcc6a5d4.webp",
+          "thumb": "/mods/69FE8761C699DC56/02-6a11bcc6a5d4-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/fb41/f0fa62f13d215675b3cfbb3b8ec45f41fdf45a7af3c3a0d16e463e41135c/33514.jpg",
+          "hash": "530824e89c46",
+          "local": "/mods/69FE8761C699DC56/03-530824e89c46.webp",
+          "thumb": "/mods/69FE8761C699DC56/03-530824e89c46-640.webp",
+          "width": 576,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/c084/d65421dc338c5a361d69062bb5c00fc4d37295d60c996d2b64b16a2943b6/9935.jpg",
+          "hash": "fd7764235e19",
+          "local": "/mods/69FE8761C699DC56/04-fd7764235e19.webp",
+          "thumb": "/mods/69FE8761C699DC56/04-fd7764235e19-640.webp",
+          "width": 288,
+          "height": 162
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/7e66/5dd8fa9672b3adc07733b22f0f91b9f389edc45f50f2c7ebc3a54c28b03e/272301.jpg",
+          "hash": "e4d04a6afc2e",
+          "local": "/mods/69FE8761C699DC56/05-e4d04a6afc2e.webp",
+          "thumb": "/mods/69FE8761C699DC56/05-e4d04a6afc2e-640.webp",
+          "width": 1600,
+          "height": 854
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/9a6d/1622eab8e67b4c137dc0ebed5ef1c13cf9e02164bb59c1bed74084eda1ce/182112.jpg",
+          "hash": "1e792355ef21",
+          "local": "/mods/69FE8761C699DC56/06-1e792355ef21.webp",
+          "thumb": "/mods/69FE8761C699DC56/06-1e792355ef21-640.webp",
+          "width": 1480,
+          "height": 832
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/66fc/a47aabe07f75e5cc53b926e890d825d67321ae7f266c306ad30816603dca/57741.jpg",
+          "hash": "eb06e8c1d002",
+          "local": "/mods/69FE8761C699DC56/07-eb06e8c1d002.webp",
+          "thumb": "/mods/69FE8761C699DC56/07-eb06e8c1d002-640.webp",
+          "width": 776,
+          "height": 436
+        }
+      ],
+      "detailSynced": true
+    },
+    {
+      "id": "6A36349CDBDB371E",
+      "name": "B59 - M416 - HD Textures",
+      "slug": "6A36349CDBDB371E-B59-M416-HDTextures",
+      "workshopUrl": "https://reforger.armaplatform.com/workshop/6A36349CDBDB371E-B59-M416-HDTextures",
+      "author": "BravoFiveNine",
+      "category": "rifles",
+      "categoryLabel": null,
+      "featured": null,
+      "rating": 100,
+      "version": "0.0.1",
+      "gameVersion": "1.8.0.10",
+      "sizeLabel": "199.18 MB",
+      "sizeBytes": 208855368,
+      "downloads": 181,
+      "created": "2026-08-27",
+      "updated": "2026-08-27",
+      "license": {
+        "name": "Arma Public License Share Alike (APL-SA)",
+        "short": "APL-SA"
+      },
+      "summary": "2048x2048 PC textures for M416 pack: [https://reforger.armaplatform.com/workshop/6A2744B7B34AB79A-B59-M416\n]",
+      "description": "Model and Textures:\nMattias H (Tiggis) → https://www.cgtrader.com/designers/tiggis\n3d Military Assets → https://www.3dmilitaryassets.com/\nCody Cudmore (Parallax Game Studios) → https://www.cgtrader.com/designers/parallaxgamestudios\nTurbojet-3d → https://www.cgtrader.com/designers/turbojet-3d\nhttps://www.bravofiveniner.com",
+      "tags": [
+        "416",
+        "417",
+        "B59",
+        "HK",
+        "HK416",
+        "HK417",
+        "M27",
+        "M416",
+        "M417",
+        "WEAPONS"
+      ],
+      "dependencies": [
+        "TacticalAnimationOverhaul TEST",
+        "Attachment Framework",
+        "B59 Attachments",
+        "B59 - SoundFX",
+        "Attachment Framework-Core",
+        "B59 - BravoCore",
+        "B59 - M416"
+      ],
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/caab/bbf40d09ea367bde6430e948d3fae0bc9da578f4cfff96a38fd3ce3da371/300582.jpg",
+          "hash": "16cb126557e3",
+          "local": "/mods/6A36349CDBDB371E/00-16cb126557e3.webp",
+          "thumb": "/mods/6A36349CDBDB371E/00-16cb126557e3-640.webp",
+          "width": 1600,
+          "height": 860
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/b950/4e210cd4e8bec1b7214a58b0b857a87680363e62c4eaf6d531da2c77356c/130388.jpg",
+          "hash": "e47678605c3e",
+          "local": "/mods/6A36349CDBDB371E/01-e47678605c3e.webp",
+          "thumb": "/mods/6A36349CDBDB371E/01-e47678605c3e-640.webp",
+          "width": 1152,
+          "height": 648
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/c515/fa37e523d6f3b37de98148ad171af57550523a5885260e0c1457ae456c36/36827.jpg",
+          "hash": "1999940eb3a0",
+          "local": "/mods/6A36349CDBDB371E/02-1999940eb3a0.webp",
+          "thumb": "/mods/6A36349CDBDB371E/02-1999940eb3a0-640.webp",
+          "width": 576,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/ea5f/550a18669db9075416873b1a1f392d912466bc613739915bf766d60f80ac/10104.jpg",
+          "hash": "b02b11e60979",
+          "local": "/mods/6A36349CDBDB371E/03-b02b11e60979.webp",
+          "thumb": "/mods/6A36349CDBDB371E/03-b02b11e60979-640.webp",
+          "width": 288,
+          "height": 162
+        }
+      ],
+      "detailSynced": true
+    },
+    {
       "id": "69FE7241D54309E3",
       "name": "B59 - MP5K - FDE",
       "slug": "69FE7241D54309E3-B59-MP5K-FDE",
@@ -3058,7 +3138,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "70.82 MB",
       "sizeBytes": 74260152,
-      "downloads": 134,
+      "downloads": 139,
       "created": "2026-07-31",
       "updated": "2026-07-31",
       "license": {
@@ -3129,86 +3209,6 @@
       "detailSynced": true
     },
     {
-      "id": "6A36349CDBDB371E",
-      "name": "B59 - M416 - HD Textures",
-      "slug": "6A36349CDBDB371E-B59-M416-HDTextures",
-      "workshopUrl": "https://reforger.armaplatform.com/workshop/6A36349CDBDB371E-B59-M416-HDTextures",
-      "author": "BravoFiveNine",
-      "category": "rifles",
-      "categoryLabel": null,
-      "featured": null,
-      "rating": 100,
-      "version": "0.0.1",
-      "gameVersion": "1.8.0.10",
-      "sizeLabel": "199.18 MB",
-      "sizeBytes": 208855368,
-      "downloads": 109,
-      "created": "2026-08-27",
-      "updated": "2026-08-27",
-      "license": {
-        "name": "Arma Public License Share Alike (APL-SA)",
-        "short": "APL-SA"
-      },
-      "summary": "2048x2048 PC textures for M416 pack: [https://reforger.armaplatform.com/workshop/6A2744B7B34AB79A-B59-M416\n]",
-      "description": "Model and Textures:\nMattias H (Tiggis) → https://www.cgtrader.com/designers/tiggis\n3d Military Assets → https://www.3dmilitaryassets.com/\nCody Cudmore (Parallax Game Studios) → https://www.cgtrader.com/designers/parallaxgamestudios\nTurbojet-3d → https://www.cgtrader.com/designers/turbojet-3d\nhttps://www.bravofiveniner.com",
-      "tags": [
-        "416",
-        "417",
-        "B59",
-        "HK",
-        "HK416",
-        "HK417",
-        "M27",
-        "M416",
-        "M417",
-        "WEAPONS"
-      ],
-      "dependencies": [
-        "TacticalAnimationOverhaul TEST",
-        "Attachment Framework",
-        "B59 Attachments",
-        "B59 - SoundFX",
-        "Attachment Framework-Core",
-        "B59 - BravoCore",
-        "B59 - M416"
-      ],
-      "images": [
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/caab/bbf40d09ea367bde6430e948d3fae0bc9da578f4cfff96a38fd3ce3da371/300582.jpg",
-          "hash": "16cb126557e3",
-          "local": "/mods/6A36349CDBDB371E/00-16cb126557e3.webp",
-          "thumb": "/mods/6A36349CDBDB371E/00-16cb126557e3-640.webp",
-          "width": 1600,
-          "height": 860
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/b950/4e210cd4e8bec1b7214a58b0b857a87680363e62c4eaf6d531da2c77356c/130388.jpg",
-          "hash": "e47678605c3e",
-          "local": "/mods/6A36349CDBDB371E/01-e47678605c3e.webp",
-          "thumb": "/mods/6A36349CDBDB371E/01-e47678605c3e-640.webp",
-          "width": 1152,
-          "height": 648
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/c515/fa37e523d6f3b37de98148ad171af57550523a5885260e0c1457ae456c36/36827.jpg",
-          "hash": "1999940eb3a0",
-          "local": "/mods/6A36349CDBDB371E/02-1999940eb3a0.webp",
-          "thumb": "/mods/6A36349CDBDB371E/02-1999940eb3a0-640.webp",
-          "width": 576,
-          "height": 324
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/ea5f/550a18669db9075416873b1a1f392d912466bc613739915bf766d60f80ac/10104.jpg",
-          "hash": "b02b11e60979",
-          "local": "/mods/6A36349CDBDB371E/03-b02b11e60979.webp",
-          "thumb": "/mods/6A36349CDBDB371E/03-b02b11e60979-640.webp",
-          "width": 288,
-          "height": 162
-        }
-      ],
-      "detailSynced": true
-    },
-    {
       "id": "6A165905DC6DCDAF",
       "name": "Bravocore for Caps Weapons",
       "slug": "6A165905DC6DCDAF-BravocoreforCapsWeapons",
@@ -3222,7 +3222,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "42.05 KB",
       "sizeBytes": 43059,
-      "downloads": 89,
+      "downloads": 92,
       "created": "2026-08-11",
       "updated": "2026-08-11",
       "license": {
