@@ -2,7 +2,7 @@
   "$schema": "https://bravofiveniner.com/schema/mods.v1.json",
   "author": "BravoFiveNine",
   "authorWorkshopSearch": "https://reforger.armaplatform.com/workshop?search=BravoFiveNine",
-  "generatedAt": "2026-09-06T11:48:12.583Z",
+  "generatedAt": "2026-09-07T13:45:49.058Z",
   "generatedBy": "scripts/sync-workshop.mjs",
   "imagesRehosted": true,
   "categories": [
@@ -52,7 +52,7 @@
       "audio": 2,
       "gameplay": 2
     },
-    "totalDownloads": 1901885
+    "totalDownloads": 1911146
   },
   "mods": [
     {
@@ -69,7 +69,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "1.30 MB",
       "sizeBytes": 1363149,
-      "downloads": 285947,
+      "downloads": 286363,
       "created": "2025-04-20",
       "updated": "2026-07-30",
       "license": {
@@ -132,7 +132,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "133.28 MB",
       "sizeBytes": 139754209,
-      "downloads": 165861,
+      "downloads": 167056,
       "created": "2025-06-07",
       "updated": "2026-08-12",
       "license": {
@@ -272,12 +272,12 @@
       "category": "core",
       "categoryLabel": "Attachments & core",
       "featured": null,
-      "rating": 79,
+      "rating": 73,
       "version": "1.0.36",
       "gameVersion": "1.8.0.10",
       "sizeLabel": "90.75 MB",
       "sizeBytes": 95158272,
-      "downloads": 161126,
+      "downloads": 163050,
       "created": "2025-10-31",
       "updated": "2026-08-28",
       "license": {
@@ -405,7 +405,7 @@
       "gameVersion": "1.6.0.95",
       "sizeLabel": "123.83 MB",
       "sizeBytes": 129845166,
-      "downloads": 157449,
+      "downloads": 157463,
       "created": "2025-03-17",
       "updated": "2025-12-20",
       "license": {
@@ -517,7 +517,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "34.08 MB",
       "sizeBytes": 35735470,
-      "downloads": 157003,
+      "downloads": 157374,
       "created": "2025-05-07",
       "updated": "2026-08-14",
       "license": {
@@ -622,7 +622,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "4.57 MB",
       "sizeBytes": 4791992,
-      "downloads": 147373,
+      "downloads": 147392,
       "created": "2025-02-04",
       "updated": "2026-07-20",
       "license": {
@@ -759,7 +759,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "81.53 MB",
       "sizeBytes": 85490401,
-      "downloads": 142588,
+      "downloads": 142721,
       "created": "2025-01-18",
       "updated": "2026-08-23",
       "license": {
@@ -902,7 +902,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "69.18 MB",
       "sizeBytes": 72540488,
-      "downloads": 133789,
+      "downloads": 133941,
       "created": "2025-04-20",
       "updated": "2026-07-26",
       "license": {
@@ -1029,50 +1029,6 @@
       "detailSynced": true
     },
     {
-      "id": "65643574C746E825",
-      "name": "Armaconflict.com - INS items",
-      "slug": "65643574C746E825-Armaconflict.com-INSitems",
-      "workshopUrl": "https://reforger.armaplatform.com/workshop/65643574C746E825-Armaconflict.com-INSitems",
-      "author": "BravoFiveNine",
-      "category": "gameplay",
-      "categoryLabel": "Gameplay & tools",
-      "featured": null,
-      "rating": 100,
-      "version": "1.0.1",
-      "gameVersion": "1.4.0.45",
-      "sizeLabel": "8.58 MB",
-      "sizeBytes": 8996782,
-      "downloads": 125430,
-      "created": "2025-06-21",
-      "updated": "2025-06-21",
-      "license": {
-        "name": "Arma Public License No Derivatives (APL-ND)",
-        "short": "APL-ND"
-      },
-      "summary": "Armaconflict.com\n- Insurgent Items\nC4 explosives and Explosive Vest for FIA faction",
-      "description": "You have my explicit permission to use this mod as a derivative for other mods (like using the explosives to make other explosive clothing), modify configurations (such as explosions used, or sounds).\nCell phone and explosive model: TheeDots3d\nhttps://www.cgtrader.com/3d-models/electronics/other/remote-explosive-device-pbr-game-ready",
-      "tags": [
-        "ARMACONFLICT",
-        "BOMB",
-        "CHARACTERS",
-        "EXPLOSIVE",
-        "IED",
-        "INSURGENCY",
-        "INSURGENT",
-        "VEST",
-        "WEAPONS"
-      ],
-      "dependencies": [
-        "Attachment Framework",
-        "NV-System",
-        "B59 - BravoEFX",
-        "Custom Gear Slots",
-        "Attachment Framework-Core"
-      ],
-      "images": [],
-      "detailSynced": true
-    },
-    {
       "id": "68C89DDCDD0AC147",
       "name": "B59 - BravoCore",
       "slug": "68C89DDCDD0AC147-B59-BravoCore",
@@ -1086,7 +1042,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "10.14 MB",
       "sizeBytes": 10632561,
-      "downloads": 124513,
+      "downloads": 126437,
       "created": "2026-04-08",
       "updated": "2026-08-27",
       "license": {
@@ -1140,6 +1096,50 @@
       "detailSynced": true
     },
     {
+      "id": "65643574C746E825",
+      "name": "Armaconflict.com - INS items",
+      "slug": "65643574C746E825-Armaconflict.com-INSitems",
+      "workshopUrl": "https://reforger.armaplatform.com/workshop/65643574C746E825-Armaconflict.com-INSitems",
+      "author": "BravoFiveNine",
+      "category": "gameplay",
+      "categoryLabel": "Gameplay & tools",
+      "featured": null,
+      "rating": 100,
+      "version": "1.0.1",
+      "gameVersion": "1.4.0.45",
+      "sizeLabel": "8.58 MB",
+      "sizeBytes": 8996782,
+      "downloads": 125587,
+      "created": "2025-06-21",
+      "updated": "2025-06-21",
+      "license": {
+        "name": "Arma Public License No Derivatives (APL-ND)",
+        "short": "APL-ND"
+      },
+      "summary": "Armaconflict.com\n- Insurgent Items\nC4 explosives and Explosive Vest for FIA faction",
+      "description": "You have my explicit permission to use this mod as a derivative for other mods (like using the explosives to make other explosive clothing), modify configurations (such as explosions used, or sounds).\nCell phone and explosive model: TheeDots3d\nhttps://www.cgtrader.com/3d-models/electronics/other/remote-explosive-device-pbr-game-ready",
+      "tags": [
+        "ARMACONFLICT",
+        "BOMB",
+        "CHARACTERS",
+        "EXPLOSIVE",
+        "IED",
+        "INSURGENCY",
+        "INSURGENT",
+        "VEST",
+        "WEAPONS"
+      ],
+      "dependencies": [
+        "Attachment Framework",
+        "NV-System",
+        "B59 - BravoEFX",
+        "Custom Gear Slots",
+        "Attachment Framework-Core"
+      ],
+      "images": [],
+      "detailSynced": true
+    },
+    {
       "id": "66E0B5D0C13D2C00",
       "name": "B59 - SoundFX",
       "slug": "66E0B5D0C13D2C00-B59-SoundFX",
@@ -1148,12 +1148,12 @@
       "category": "audio",
       "categoryLabel": "Sound & effects",
       "featured": null,
-      "rating": 80,
+      "rating": 67,
       "version": "1.0.18",
       "gameVersion": "1.8.0.10",
       "sizeLabel": "7.91 MB",
       "sizeBytes": 8294236,
-      "downloads": 121352,
+      "downloads": 123589,
       "created": "2025-11-16",
       "updated": "2026-08-28",
       "license": {
@@ -1216,7 +1216,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "43.95 MB",
       "sizeBytes": 46084915,
-      "downloads": 56005,
+      "downloads": 56077,
       "created": "2026-05-20",
       "updated": "2026-08-14",
       "license": {
@@ -1356,7 +1356,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "100.11 MB",
       "sizeBytes": 104972943,
-      "downloads": 41748,
+      "downloads": 41791,
       "created": "2025-11-01",
       "updated": "2026-08-14",
       "license": {
@@ -1491,12 +1491,12 @@
       "category": "shotguns",
       "categoryLabel": "Shotguns",
       "featured": null,
-      "rating": 100,
+      "rating": 88,
       "version": "1.0.0",
       "gameVersion": "1.7.0.41",
       "sizeLabel": "2.85 KB",
       "sizeBytes": 2918,
-      "downloads": 31674,
+      "downloads": 31796,
       "created": "2026-06-03",
       "updated": "2026-06-03",
       "license": {
@@ -1569,7 +1569,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "11.68 MB",
       "sizeBytes": 12247368,
-      "downloads": 16425,
+      "downloads": 16493,
       "created": "2026-07-06",
       "updated": "2026-08-14",
       "license": {
@@ -1690,7 +1690,7 @@
       "gameVersion": "1.6.0.119",
       "sizeLabel": "746.18 KB",
       "sizeBytes": 764088,
-      "downloads": 14758,
+      "downloads": 14966,
       "created": "2026-05-09",
       "updated": "2026-05-22",
       "license": {
@@ -1766,7 +1766,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "7.41 KB",
       "sizeBytes": 7588,
-      "downloads": 11001,
+      "downloads": 11033,
       "created": "2026-07-10",
       "updated": "2026-07-26",
       "license": {
@@ -1857,7 +1857,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "119.86 MB",
       "sizeBytes": 125682319,
-      "downloads": 1206,
+      "downloads": 1228,
       "created": "2026-07-29",
       "updated": "2026-08-28",
       "license": {
@@ -1938,7 +1938,7 @@
       "gameVersion": "1.6.0.95",
       "sizeLabel": "17.18 MB",
       "sizeBytes": 18014536,
-      "downloads": 1031,
+      "downloads": 1035,
       "created": "2025-12-09",
       "updated": "2025-12-12",
       "license": {
@@ -2041,7 +2041,7 @@
       "gameVersion": "1.7.0.49",
       "sizeLabel": "546.25 KB",
       "sizeBytes": 559360,
-      "downloads": 856,
+      "downloads": 862,
       "created": "2026-06-11",
       "updated": "2026-06-12",
       "license": {
@@ -2107,7 +2107,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "445.88 KB",
       "sizeBytes": 456581,
-      "downloads": 800,
+      "downloads": 808,
       "created": "2026-06-27",
       "updated": "2026-08-11",
       "license": {
@@ -2270,7 +2270,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "42.69 MB",
       "sizeBytes": 44763709,
-      "downloads": 735,
+      "downloads": 752,
       "created": "2026-07-31",
       "updated": "2026-08-16",
       "license": {
@@ -2414,7 +2414,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "89.06 MB",
       "sizeBytes": 93386179,
-      "downloads": 590,
+      "downloads": 636,
       "created": "2026-08-27",
       "updated": "2026-08-28",
       "license": {
@@ -2558,7 +2558,7 @@
       "gameVersion": "1.6.0.95",
       "sizeLabel": "283.93 MB",
       "sizeBytes": 297722184,
-      "downloads": 546,
+      "downloads": 550,
       "created": "2025-12-14",
       "updated": "2025-12-19",
       "license": {
@@ -2706,7 +2706,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "7.48 KB",
       "sizeBytes": 7660,
-      "downloads": 490,
+      "downloads": 496,
       "created": "2026-08-11",
       "updated": "2026-08-11",
       "license": {
@@ -2797,7 +2797,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "12.01 MB",
       "sizeBytes": 12593398,
-      "downloads": 486,
+      "downloads": 494,
       "created": "2026-07-27",
       "updated": "2026-08-14",
       "license": {
@@ -2946,7 +2946,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "199.18 MB",
       "sizeBytes": 208855368,
-      "downloads": 430,
+      "downloads": 471,
       "created": "2026-08-27",
       "updated": "2026-08-27",
       "license": {
@@ -3026,7 +3026,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "143.97 MB",
       "sizeBytes": 150963487,
-      "downloads": 298,
+      "downloads": 304,
       "created": "2026-07-31",
       "updated": "2026-07-31",
       "license": {
@@ -3140,7 +3140,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "70.82 MB",
       "sizeBytes": 74260152,
-      "downloads": 167,
+      "downloads": 168,
       "created": "2026-07-31",
       "updated": "2026-07-31",
       "license": {
@@ -3313,7 +3313,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "15.55 MB",
       "sizeBytes": 16305357,
-      "downloads": 67,
+      "downloads": 72,
       "created": "2026-07-27",
       "updated": "2026-08-14",
       "license": {
