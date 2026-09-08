@@ -2,7 +2,7 @@
   "$schema": "https://bravofiveniner.com/schema/mods.v1.json",
   "author": "BravoFiveNine",
   "authorWorkshopSearch": "https://reforger.armaplatform.com/workshop?search=BravoFiveNine",
-  "generatedAt": "2026-09-07T13:45:49.058Z",
+  "generatedAt": "2026-09-08T12:20:56.572Z",
   "generatedBy": "scripts/sync-workshop.mjs",
   "imagesRehosted": true,
   "categories": [
@@ -52,7 +52,7 @@
       "audio": 2,
       "gameplay": 2
     },
-    "totalDownloads": 1911146
+    "totalDownloads": 1915847
   },
   "mods": [
     {
@@ -132,7 +132,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "133.28 MB",
       "sizeBytes": 139754209,
-      "downloads": 167056,
+      "downloads": 168046,
       "created": "2025-06-07",
       "updated": "2026-08-12",
       "license": {
@@ -277,7 +277,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "90.75 MB",
       "sizeBytes": 95158272,
-      "downloads": 163050,
+      "downloads": 164561,
       "created": "2025-10-31",
       "updated": "2026-08-28",
       "license": {
@@ -759,7 +759,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "81.53 MB",
       "sizeBytes": 85490401,
-      "downloads": 142721,
+      "downloads": 142832,
       "created": "2025-01-18",
       "updated": "2026-08-23",
       "license": {
@@ -902,7 +902,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "69.18 MB",
       "sizeBytes": 72540488,
-      "downloads": 133941,
+      "downloads": 134116,
       "created": "2025-04-20",
       "updated": "2026-07-26",
       "license": {
@@ -1153,7 +1153,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "7.91 MB",
       "sizeBytes": 8294236,
-      "downloads": 123589,
+      "downloads": 125227,
       "created": "2025-11-16",
       "updated": "2026-08-28",
       "license": {
@@ -1690,7 +1690,7 @@
       "gameVersion": "1.6.0.119",
       "sizeLabel": "746.18 KB",
       "sizeBytes": 764088,
-      "downloads": 14966,
+      "downloads": 15151,
       "created": "2026-05-09",
       "updated": "2026-05-22",
       "license": {
@@ -1857,7 +1857,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "119.86 MB",
       "sizeBytes": 125682319,
-      "downloads": 1228,
+      "downloads": 1249,
       "created": "2026-07-29",
       "updated": "2026-08-28",
       "license": {
@@ -2270,7 +2270,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "42.69 MB",
       "sizeBytes": 44763709,
-      "downloads": 752,
+      "downloads": 766,
       "created": "2026-07-31",
       "updated": "2026-08-16",
       "license": {
@@ -2693,97 +2693,6 @@
       "detailSynced": true
     },
     {
-      "id": "6A163BDEF70809E0",
-      "name": "BravoCore for BaconM4",
-      "slug": "6A163BDEF70809E0-BravoCoreforBaconM4",
-      "workshopUrl": "https://reforger.armaplatform.com/workshop/6A163BDEF70809E0-BravoCoreforBaconM4",
-      "author": "BravoFiveNine",
-      "category": "rifles",
-      "categoryLabel": null,
-      "featured": null,
-      "rating": 100,
-      "version": "1.0.2",
-      "gameVersion": "1.7.0.54",
-      "sizeLabel": "7.48 KB",
-      "sizeBytes": 7660,
-      "downloads": 496,
-      "created": "2026-08-11",
-      "updated": "2026-08-11",
-      "license": {
-        "name": "Arma Public License (APL)",
-        "short": "APL"
-      },
-      "summary": "Compatibility mod for BravoCore animations and CEO_of_Bacon's M4 Block II and URG-I weapon pack.",
-      "description": "Resolves compatibility issue between BravoCore animations and Bacon M4's.",
-      "tags": [
-        "B59",
-        "BACON",
-        "BLOCK",
-        "II",
-        "M4",
-        "URG-I",
-        "WEAPONS"
-      ],
-      "dependencies": [
-        "RHS - Content Pack 01",
-        "RHS - Status Quo",
-        "Bacon Suppressors",
-        "M4 Block II and URG-I",
-        "RIS Laser Attachments",
-        "WCS_NATO",
-        "WCS_RU",
-        "WCS_Attachments",
-        "TacticalAnimationOverhaul TEST",
-        "WCS_Scopes",
-        "WCS_Sounds",
-        "Attachment Framework",
-        "WCS_Weapons",
-        "WCS_RHS_Weapons",
-        "ARMA-RY CORE",
-        "ARMA-RY CLAW MOUNT",
-        "Attachment Framework-Core",
-        "B59 - BravoCore",
-        "WCS_Weapon_Scripts",
-        "B59 - Bravocore for WCS & RHS",
-        "RHS - Content Pack 02"
-      ],
-      "images": [
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/4404/5b95c11e1b836377ba910f5f3cd20ceb163e04e12acd7ec8cacade92861c/255878.jpg",
-          "hash": "fb4d4b62adab",
-          "local": "/mods/6A163BDEF70809E0/00-fb4d4b62adab.webp",
-          "thumb": "/mods/6A163BDEF70809E0/00-fb4d4b62adab-640.webp",
-          "width": 1600,
-          "height": 855
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/87a3/bf177e7c35348325d18d60ee7daf3e6502d61215ed385f05baf5a4e41b54/112325.jpg",
-          "hash": "d3f81a8ba0bf",
-          "local": "/mods/6A163BDEF70809E0/01-d3f81a8ba0bf.webp",
-          "thumb": "/mods/6A163BDEF70809E0/01-d3f81a8ba0bf-640.webp",
-          "width": 1152,
-          "height": 648
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/1a32/ca178c179d3897a0bf2a2235034dda76a2ae13508720ac5cba51cc81ca2d/32930.jpg",
-          "hash": "df2df4600996",
-          "local": "/mods/6A163BDEF70809E0/02-df2df4600996.webp",
-          "thumb": "/mods/6A163BDEF70809E0/02-df2df4600996-640.webp",
-          "width": 576,
-          "height": 324
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/54d9/ffc545233f8a0c4f57d75730da75c3a0fcfa0d0b0cb117eacd8e1ad38b04/9712.jpg",
-          "hash": "64f0d973372d",
-          "local": "/mods/6A163BDEF70809E0/03-64f0d973372d.webp",
-          "thumb": "/mods/6A163BDEF70809E0/03-64f0d973372d-640.webp",
-          "width": 288,
-          "height": 162
-        }
-      ],
-      "detailSynced": true
-    },
-    {
       "id": "69F68714C36FB183",
       "name": "B59 - MK12",
       "slug": "69F68714C36FB183-B59-MK12",
@@ -2797,7 +2706,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "12.01 MB",
       "sizeBytes": 12593398,
-      "downloads": 494,
+      "downloads": 507,
       "created": "2026-07-27",
       "updated": "2026-08-14",
       "license": {
@@ -2933,6 +2842,97 @@
       "detailSynced": true
     },
     {
+      "id": "6A163BDEF70809E0",
+      "name": "BravoCore for BaconM4",
+      "slug": "6A163BDEF70809E0-BravoCoreforBaconM4",
+      "workshopUrl": "https://reforger.armaplatform.com/workshop/6A163BDEF70809E0-BravoCoreforBaconM4",
+      "author": "BravoFiveNine",
+      "category": "rifles",
+      "categoryLabel": null,
+      "featured": null,
+      "rating": 100,
+      "version": "1.0.2",
+      "gameVersion": "1.7.0.54",
+      "sizeLabel": "7.48 KB",
+      "sizeBytes": 7660,
+      "downloads": 505,
+      "created": "2026-08-11",
+      "updated": "2026-08-11",
+      "license": {
+        "name": "Arma Public License (APL)",
+        "short": "APL"
+      },
+      "summary": "Compatibility mod for BravoCore animations and CEO_of_Bacon's M4 Block II and URG-I weapon pack.",
+      "description": "Resolves compatibility issue between BravoCore animations and Bacon M4's.",
+      "tags": [
+        "B59",
+        "BACON",
+        "BLOCK",
+        "II",
+        "M4",
+        "URG-I",
+        "WEAPONS"
+      ],
+      "dependencies": [
+        "RHS - Content Pack 01",
+        "RHS - Status Quo",
+        "Bacon Suppressors",
+        "M4 Block II and URG-I",
+        "RIS Laser Attachments",
+        "WCS_NATO",
+        "WCS_RU",
+        "WCS_Attachments",
+        "TacticalAnimationOverhaul TEST",
+        "WCS_Scopes",
+        "WCS_Sounds",
+        "Attachment Framework",
+        "WCS_Weapons",
+        "WCS_RHS_Weapons",
+        "ARMA-RY CORE",
+        "ARMA-RY CLAW MOUNT",
+        "Attachment Framework-Core",
+        "B59 - BravoCore",
+        "WCS_Weapon_Scripts",
+        "B59 - Bravocore for WCS & RHS",
+        "RHS - Content Pack 02"
+      ],
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/4404/5b95c11e1b836377ba910f5f3cd20ceb163e04e12acd7ec8cacade92861c/255878.jpg",
+          "hash": "fb4d4b62adab",
+          "local": "/mods/6A163BDEF70809E0/00-fb4d4b62adab.webp",
+          "thumb": "/mods/6A163BDEF70809E0/00-fb4d4b62adab-640.webp",
+          "width": 1600,
+          "height": 855
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/87a3/bf177e7c35348325d18d60ee7daf3e6502d61215ed385f05baf5a4e41b54/112325.jpg",
+          "hash": "d3f81a8ba0bf",
+          "local": "/mods/6A163BDEF70809E0/01-d3f81a8ba0bf.webp",
+          "thumb": "/mods/6A163BDEF70809E0/01-d3f81a8ba0bf-640.webp",
+          "width": 1152,
+          "height": 648
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/1a32/ca178c179d3897a0bf2a2235034dda76a2ae13508720ac5cba51cc81ca2d/32930.jpg",
+          "hash": "df2df4600996",
+          "local": "/mods/6A163BDEF70809E0/02-df2df4600996.webp",
+          "thumb": "/mods/6A163BDEF70809E0/02-df2df4600996-640.webp",
+          "width": 576,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/54d9/ffc545233f8a0c4f57d75730da75c3a0fcfa0d0b0cb117eacd8e1ad38b04/9712.jpg",
+          "hash": "64f0d973372d",
+          "local": "/mods/6A163BDEF70809E0/03-64f0d973372d.webp",
+          "thumb": "/mods/6A163BDEF70809E0/03-64f0d973372d-640.webp",
+          "width": 288,
+          "height": 162
+        }
+      ],
+      "detailSynced": true
+    },
+    {
       "id": "6A36349CDBDB371E",
       "name": "B59 - M416 - HD Textures",
       "slug": "6A36349CDBDB371E-B59-M416-HDTextures",
@@ -2946,7 +2946,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "199.18 MB",
       "sizeBytes": 208855368,
-      "downloads": 471,
+      "downloads": 500,
       "created": "2026-08-27",
       "updated": "2026-08-27",
       "license": {
@@ -3026,7 +3026,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "143.97 MB",
       "sizeBytes": 150963487,
-      "downloads": 304,
+      "downloads": 307,
       "created": "2026-07-31",
       "updated": "2026-07-31",
       "license": {
@@ -3224,7 +3224,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "42.05 KB",
       "sizeBytes": 43059,
-      "downloads": 100,
+      "downloads": 102,
       "created": "2026-08-11",
       "updated": "2026-08-11",
       "license": {
