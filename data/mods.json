@@ -2,7 +2,7 @@
   "$schema": "https://bravofiveniner.com/schema/mods.v1.json",
   "author": "BravoFiveNine",
   "authorWorkshopSearch": "https://reforger.armaplatform.com/workshop?search=BravoFiveNine",
-  "generatedAt": "2026-09-10T12:26:19.188Z",
+  "generatedAt": "2026-09-11T12:24:48.203Z",
   "generatedBy": "scripts/sync-workshop.mjs",
   "imagesRehosted": true,
   "categories": [
@@ -52,7 +52,7 @@
       "audio": 2,
       "gameplay": 2
     },
-    "totalDownloads": 1928857
+    "totalDownloads": 1932645
   },
   "mods": [
     {
@@ -64,12 +64,12 @@
       "category": "audio",
       "categoryLabel": "Sound & effects",
       "featured": null,
-      "rating": 92,
+      "rating": 93,
       "version": "1.0.28",
       "gameVersion": "1.7.0.54",
       "sizeLabel": "1.30 MB",
       "sizeBytes": 1363149,
-      "downloads": 287102,
+      "downloads": 287358,
       "created": "2025-04-20",
       "updated": "2026-07-30",
       "license": {
@@ -277,7 +277,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "90.75 MB",
       "sizeBytes": 95158272,
-      "downloads": 167087,
+      "downloads": 168115,
       "created": "2025-10-31",
       "updated": "2026-08-28",
       "license": {
@@ -405,7 +405,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "34.08 MB",
       "sizeBytes": 35735470,
-      "downloads": 158172,
+      "downloads": 158405,
       "created": "2025-05-07",
       "updated": "2026-08-14",
       "license": {
@@ -510,7 +510,7 @@
       "gameVersion": "1.6.0.95",
       "sizeLabel": "123.83 MB",
       "sizeBytes": 129845166,
-      "downloads": 157486,
+      "downloads": 157497,
       "created": "2025-03-17",
       "updated": "2025-12-20",
       "license": {
@@ -622,7 +622,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "4.57 MB",
       "sizeBytes": 4791992,
-      "downloads": 147419,
+      "downloads": 147436,
       "created": "2025-02-04",
       "updated": "2026-07-20",
       "license": {
@@ -902,7 +902,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "69.18 MB",
       "sizeBytes": 72540488,
-      "downloads": 134231,
+      "downloads": 134411,
       "created": "2025-04-20",
       "updated": "2026-07-26",
       "license": {
@@ -1042,7 +1042,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "10.14 MB",
       "sizeBytes": 10632561,
-      "downloads": 129702,
+      "downloads": 131318,
       "created": "2026-04-08",
       "updated": "2026-08-27",
       "license": {
@@ -1216,7 +1216,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "43.95 MB",
       "sizeBytes": 46084915,
-      "downloads": 56180,
+      "downloads": 56223,
       "created": "2026-05-20",
       "updated": "2026-08-14",
       "license": {
@@ -1356,7 +1356,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "100.11 MB",
       "sizeBytes": 104972943,
-      "downloads": 41837,
+      "downloads": 41854,
       "created": "2025-11-01",
       "updated": "2026-08-14",
       "license": {
@@ -1569,7 +1569,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "11.68 MB",
       "sizeBytes": 12247368,
-      "downloads": 16596,
+      "downloads": 16636,
       "created": "2026-07-06",
       "updated": "2026-08-14",
       "license": {
@@ -1690,7 +1690,7 @@
       "gameVersion": "1.6.0.119",
       "sizeLabel": "746.18 KB",
       "sizeBytes": 764088,
-      "downloads": 15284,
+      "downloads": 15507,
       "created": "2026-05-09",
       "updated": "2026-05-22",
       "license": {
@@ -1766,7 +1766,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "7.41 KB",
       "sizeBytes": 7588,
-      "downloads": 11068,
+      "downloads": 11094,
       "created": "2026-07-10",
       "updated": "2026-07-26",
       "license": {
@@ -1938,7 +1938,7 @@
       "gameVersion": "1.6.0.95",
       "sizeLabel": "17.18 MB",
       "sizeBytes": 18014536,
-      "downloads": 1040,
+      "downloads": 1041,
       "created": "2025-12-09",
       "updated": "2025-12-12",
       "license": {
@@ -2041,7 +2041,7 @@
       "gameVersion": "1.7.0.49",
       "sizeLabel": "546.25 KB",
       "sizeBytes": 559360,
-      "downloads": 867,
+      "downloads": 878,
       "created": "2026-06-11",
       "updated": "2026-06-12",
       "license": {
@@ -2107,7 +2107,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "445.88 KB",
       "sizeBytes": 456581,
-      "downloads": 829,
+      "downloads": 832,
       "created": "2026-06-27",
       "updated": "2026-08-11",
       "license": {
@@ -2270,7 +2270,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "42.69 MB",
       "sizeBytes": 44763709,
-      "downloads": 781,
+      "downloads": 797,
       "created": "2026-07-31",
       "updated": "2026-08-16",
       "license": {
@@ -2414,7 +2414,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "89.06 MB",
       "sizeBytes": 93386179,
-      "downloads": 711,
+      "downloads": 740,
       "created": "2026-08-27",
       "updated": "2026-08-28",
       "license": {
@@ -2540,6 +2540,86 @@
           "thumb": "/mods/6A2744B7B34AB79A/11-19de1fdd8685-640.webp",
           "width": 1600,
           "height": 855
+        }
+      ],
+      "detailSynced": true
+    },
+    {
+      "id": "6A36349CDBDB371E",
+      "name": "B59 - M416 - HD Textures",
+      "slug": "6A36349CDBDB371E-B59-M416-HDTextures",
+      "workshopUrl": "https://reforger.armaplatform.com/workshop/6A36349CDBDB371E-B59-M416-HDTextures",
+      "author": "BravoFiveNine",
+      "category": "rifles",
+      "categoryLabel": null,
+      "featured": null,
+      "rating": 100,
+      "version": "0.0.1",
+      "gameVersion": "1.8.0.10",
+      "sizeLabel": "199.18 MB",
+      "sizeBytes": 208855368,
+      "downloads": 556,
+      "created": "2026-08-27",
+      "updated": "2026-08-27",
+      "license": {
+        "name": "Arma Public License Share Alike (APL-SA)",
+        "short": "APL-SA"
+      },
+      "summary": "2048x2048 PC textures for M416 pack: [https://reforger.armaplatform.com/workshop/6A2744B7B34AB79A-B59-M416\n]",
+      "description": "Model and Textures:\nMattias H (Tiggis) → https://www.cgtrader.com/designers/tiggis\n3d Military Assets → https://www.3dmilitaryassets.com/\nCody Cudmore (Parallax Game Studios) → https://www.cgtrader.com/designers/parallaxgamestudios\nTurbojet-3d → https://www.cgtrader.com/designers/turbojet-3d\nhttps://www.bravofiveniner.com",
+      "tags": [
+        "416",
+        "417",
+        "B59",
+        "HK",
+        "HK416",
+        "HK417",
+        "M27",
+        "M416",
+        "M417",
+        "WEAPONS"
+      ],
+      "dependencies": [
+        "TacticalAnimationOverhaul TEST",
+        "Attachment Framework",
+        "B59 Attachments",
+        "B59 - SoundFX",
+        "Attachment Framework-Core",
+        "B59 - BravoCore",
+        "B59 - M416"
+      ],
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/caab/bbf40d09ea367bde6430e948d3fae0bc9da578f4cfff96a38fd3ce3da371/300582.jpg",
+          "hash": "16cb126557e3",
+          "local": "/mods/6A36349CDBDB371E/00-16cb126557e3.webp",
+          "thumb": "/mods/6A36349CDBDB371E/00-16cb126557e3-640.webp",
+          "width": 1600,
+          "height": 860
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/b950/4e210cd4e8bec1b7214a58b0b857a87680363e62c4eaf6d531da2c77356c/130388.jpg",
+          "hash": "e47678605c3e",
+          "local": "/mods/6A36349CDBDB371E/01-e47678605c3e.webp",
+          "thumb": "/mods/6A36349CDBDB371E/01-e47678605c3e-640.webp",
+          "width": 1152,
+          "height": 648
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/c515/fa37e523d6f3b37de98148ad171af57550523a5885260e0c1457ae456c36/36827.jpg",
+          "hash": "1999940eb3a0",
+          "local": "/mods/6A36349CDBDB371E/02-1999940eb3a0.webp",
+          "thumb": "/mods/6A36349CDBDB371E/02-1999940eb3a0-640.webp",
+          "width": 576,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/ea5f/550a18669db9075416873b1a1f392d912466bc613739915bf766d60f80ac/10104.jpg",
+          "hash": "b02b11e60979",
+          "local": "/mods/6A36349CDBDB371E/03-b02b11e60979.webp",
+          "thumb": "/mods/6A36349CDBDB371E/03-b02b11e60979-640.webp",
+          "width": 288,
+          "height": 162
         }
       ],
       "detailSynced": true
@@ -2693,86 +2773,6 @@
       "detailSynced": true
     },
     {
-      "id": "6A36349CDBDB371E",
-      "name": "B59 - M416 - HD Textures",
-      "slug": "6A36349CDBDB371E-B59-M416-HDTextures",
-      "workshopUrl": "https://reforger.armaplatform.com/workshop/6A36349CDBDB371E-B59-M416-HDTextures",
-      "author": "BravoFiveNine",
-      "category": "rifles",
-      "categoryLabel": null,
-      "featured": null,
-      "rating": 100,
-      "version": "0.0.1",
-      "gameVersion": "1.8.0.10",
-      "sizeLabel": "199.18 MB",
-      "sizeBytes": 208855368,
-      "downloads": 536,
-      "created": "2026-08-27",
-      "updated": "2026-08-27",
-      "license": {
-        "name": "Arma Public License Share Alike (APL-SA)",
-        "short": "APL-SA"
-      },
-      "summary": "2048x2048 PC textures for M416 pack: [https://reforger.armaplatform.com/workshop/6A2744B7B34AB79A-B59-M416\n]",
-      "description": "Model and Textures:\nMattias H (Tiggis) → https://www.cgtrader.com/designers/tiggis\n3d Military Assets → https://www.3dmilitaryassets.com/\nCody Cudmore (Parallax Game Studios) → https://www.cgtrader.com/designers/parallaxgamestudios\nTurbojet-3d → https://www.cgtrader.com/designers/turbojet-3d\nhttps://www.bravofiveniner.com",
-      "tags": [
-        "416",
-        "417",
-        "B59",
-        "HK",
-        "HK416",
-        "HK417",
-        "M27",
-        "M416",
-        "M417",
-        "WEAPONS"
-      ],
-      "dependencies": [
-        "TacticalAnimationOverhaul TEST",
-        "Attachment Framework",
-        "B59 Attachments",
-        "B59 - SoundFX",
-        "Attachment Framework-Core",
-        "B59 - BravoCore",
-        "B59 - M416"
-      ],
-      "images": [
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/caab/bbf40d09ea367bde6430e948d3fae0bc9da578f4cfff96a38fd3ce3da371/300582.jpg",
-          "hash": "16cb126557e3",
-          "local": "/mods/6A36349CDBDB371E/00-16cb126557e3.webp",
-          "thumb": "/mods/6A36349CDBDB371E/00-16cb126557e3-640.webp",
-          "width": 1600,
-          "height": 860
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/b950/4e210cd4e8bec1b7214a58b0b857a87680363e62c4eaf6d531da2c77356c/130388.jpg",
-          "hash": "e47678605c3e",
-          "local": "/mods/6A36349CDBDB371E/01-e47678605c3e.webp",
-          "thumb": "/mods/6A36349CDBDB371E/01-e47678605c3e-640.webp",
-          "width": 1152,
-          "height": 648
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/c515/fa37e523d6f3b37de98148ad171af57550523a5885260e0c1457ae456c36/36827.jpg",
-          "hash": "1999940eb3a0",
-          "local": "/mods/6A36349CDBDB371E/02-1999940eb3a0.webp",
-          "thumb": "/mods/6A36349CDBDB371E/02-1999940eb3a0-640.webp",
-          "width": 576,
-          "height": 324
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/ea5f/550a18669db9075416873b1a1f392d912466bc613739915bf766d60f80ac/10104.jpg",
-          "hash": "b02b11e60979",
-          "local": "/mods/6A36349CDBDB371E/03-b02b11e60979.webp",
-          "thumb": "/mods/6A36349CDBDB371E/03-b02b11e60979-640.webp",
-          "width": 288,
-          "height": 162
-        }
-      ],
-      "detailSynced": true
-    },
-    {
       "id": "69F68714C36FB183",
       "name": "B59 - MK12",
       "slug": "69F68714C36FB183-B59-MK12",
@@ -2786,7 +2786,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "12.01 MB",
       "sizeBytes": 12593398,
-      "downloads": 515,
+      "downloads": 521,
       "created": "2026-07-27",
       "updated": "2026-08-14",
       "license": {
@@ -2935,7 +2935,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "7.48 KB",
       "sizeBytes": 7660,
-      "downloads": 511,
+      "downloads": 514,
       "created": "2026-08-11",
       "updated": "2026-08-11",
       "license": {
@@ -3026,7 +3026,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "143.97 MB",
       "sizeBytes": 150963487,
-      "downloads": 310,
+      "downloads": 315,
       "created": "2026-07-31",
       "updated": "2026-07-31",
       "license": {
@@ -3224,7 +3224,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "42.05 KB",
       "sizeBytes": 43059,
-      "downloads": 102,
+      "downloads": 103,
       "created": "2026-08-11",
       "updated": "2026-08-11",
       "license": {
@@ -3313,7 +3313,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "15.55 MB",
       "sizeBytes": 16305357,
-      "downloads": 76,
+      "downloads": 79,
       "created": "2026-07-27",
       "updated": "2026-08-14",
       "license": {
