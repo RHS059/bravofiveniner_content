@@ -2,7 +2,7 @@
   "$schema": "https://bravofiveniner.com/schema/mods.v1.json",
   "author": "BravoFiveNine",
   "authorWorkshopSearch": "https://reforger.armaplatform.com/workshop?search=BravoFiveNine",
-  "generatedAt": "2026-09-15T12:57:15.010Z",
+  "generatedAt": "2026-09-16T12:54:57.179Z",
   "generatedBy": "scripts/sync-workshop.mjs",
   "imagesRehosted": true,
   "categories": [
@@ -52,7 +52,7 @@
       "audio": 2,
       "gameplay": 2
     },
-    "totalDownloads": 1960719
+    "totalDownloads": 1966036
   },
   "mods": [
     {
@@ -69,7 +69,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "1.30 MB",
       "sizeBytes": 1363149,
-      "downloads": 288252,
+      "downloads": 288485,
       "created": "2025-04-20",
       "updated": "2026-07-30",
       "license": {
@@ -277,7 +277,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "90.75 MB",
       "sizeBytes": 95158272,
-      "downloads": 172474,
+      "downloads": 173824,
       "created": "2025-10-31",
       "updated": "2026-08-28",
       "license": {
@@ -405,7 +405,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "34.08 MB",
       "sizeBytes": 35735470,
-      "downloads": 159849,
+      "downloads": 160263,
       "created": "2025-05-07",
       "updated": "2026-08-14",
       "license": {
@@ -510,7 +510,7 @@
       "gameVersion": "1.6.0.95",
       "sizeLabel": "123.83 MB",
       "sizeBytes": 129845166,
-      "downloads": 157533,
+      "downloads": 157541,
       "created": "2025-03-17",
       "updated": "2025-12-20",
       "license": {
@@ -622,7 +622,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "4.57 MB",
       "sizeBytes": 4791992,
-      "downloads": 147481,
+      "downloads": 147490,
       "created": "2025-02-04",
       "updated": "2026-07-20",
       "license": {
@@ -759,7 +759,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "81.53 MB",
       "sizeBytes": 85490401,
-      "downloads": 144101,
+      "downloads": 144378,
       "created": "2025-01-18",
       "updated": "2026-08-23",
       "license": {
@@ -902,7 +902,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "10.14 MB",
       "sizeBytes": 10632561,
-      "downloads": 136727,
+      "downloads": 138002,
       "created": "2026-04-08",
       "updated": "2026-08-27",
       "license": {
@@ -949,6 +949,69 @@
           "hash": "b22bdda76754",
           "local": "/mods/68C89DDCDD0AC147/03-b22bdda76754.webp",
           "thumb": "/mods/68C89DDCDD0AC147/03-b22bdda76754-640.webp",
+          "width": 288,
+          "height": 162
+        }
+      ],
+      "detailSynced": true
+    },
+    {
+      "id": "66E0B5D0C13D2C00",
+      "name": "B59 - SoundFX",
+      "slug": "66E0B5D0C13D2C00-B59-SoundFX",
+      "workshopUrl": "https://reforger.armaplatform.com/workshop/66E0B5D0C13D2C00-B59-SoundFX",
+      "author": "BravoFiveNine",
+      "category": "audio",
+      "categoryLabel": "Sound & effects",
+      "featured": null,
+      "rating": 67,
+      "version": "1.0.18",
+      "gameVersion": "1.8.0.10",
+      "sizeLabel": "7.91 MB",
+      "sizeBytes": 8294236,
+      "downloads": 135448,
+      "created": "2025-11-16",
+      "updated": "2026-08-28",
+      "license": {
+        "name": "Arma Public License (APL)",
+        "short": "APL"
+      },
+      "summary": "Sound effects for B59/BravoFiveNiner mods",
+      "description": "G3 shot and reload sound effects.\nSCAR H shot sound effects.\nM4 shot sound effects.\nM249/M240B shot sound effects.\nMP5 shot sound effects.\nFAL shot sound effects.",
+      "tags": [
+        "EFFECTS"
+      ],
+      "dependencies": [],
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/8d1e/360fefee3c8f2465e1454707363415d3e8e802b833b7f1127187aad5a020/57868.jpg",
+          "hash": "c479df0e6434",
+          "local": "/mods/66E0B5D0C13D2C00/00-c479df0e6434.webp",
+          "thumb": "/mods/66E0B5D0C13D2C00/00-c479df0e6434-640.webp",
+          "width": 1448,
+          "height": 1086
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/273b/036e7bd20e47f00b2588184eed77a1d7147c1d9c57ea68da39f824286508/38769.jpg",
+          "hash": "d97aab87f98d",
+          "local": "/mods/66E0B5D0C13D2C00/01-d97aab87f98d.webp",
+          "thumb": "/mods/66E0B5D0C13D2C00/01-d97aab87f98d-640.webp",
+          "width": 1152,
+          "height": 648
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/6e67/285cb7709e8c6ce969dcba786e81b9a85e98c70fdd10bb510d9b4649b0ab/13887.jpg",
+          "hash": "ce34d0385371",
+          "local": "/mods/66E0B5D0C13D2C00/02-ce34d0385371.webp",
+          "thumb": "/mods/66E0B5D0C13D2C00/02-ce34d0385371-640.webp",
+          "width": 576,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/3d0e/e752a02e567f37946cbfab07a85b3d5730bd6b942eb45b1934ece910f8eb/4951.jpg",
+          "hash": "312671ec33fa",
+          "local": "/mods/66E0B5D0C13D2C00/03-312671ec33fa.webp",
+          "thumb": "/mods/66E0B5D0C13D2C00/03-312671ec33fa-640.webp",
           "width": 288,
           "height": 162
         }
@@ -1096,69 +1159,6 @@
       "detailSynced": true
     },
     {
-      "id": "66E0B5D0C13D2C00",
-      "name": "B59 - SoundFX",
-      "slug": "66E0B5D0C13D2C00-B59-SoundFX",
-      "workshopUrl": "https://reforger.armaplatform.com/workshop/66E0B5D0C13D2C00-B59-SoundFX",
-      "author": "BravoFiveNine",
-      "category": "audio",
-      "categoryLabel": "Sound & effects",
-      "featured": null,
-      "rating": 67,
-      "version": "1.0.18",
-      "gameVersion": "1.8.0.10",
-      "sizeLabel": "7.91 MB",
-      "sizeBytes": 8294236,
-      "downloads": 134195,
-      "created": "2025-11-16",
-      "updated": "2026-08-28",
-      "license": {
-        "name": "Arma Public License (APL)",
-        "short": "APL"
-      },
-      "summary": "Sound effects for B59/BravoFiveNiner mods",
-      "description": "G3 shot and reload sound effects.\nSCAR H shot sound effects.\nM4 shot sound effects.\nM249/M240B shot sound effects.\nMP5 shot sound effects.\nFAL shot sound effects.",
-      "tags": [
-        "EFFECTS"
-      ],
-      "dependencies": [],
-      "images": [
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/8d1e/360fefee3c8f2465e1454707363415d3e8e802b833b7f1127187aad5a020/57868.jpg",
-          "hash": "c479df0e6434",
-          "local": "/mods/66E0B5D0C13D2C00/00-c479df0e6434.webp",
-          "thumb": "/mods/66E0B5D0C13D2C00/00-c479df0e6434-640.webp",
-          "width": 1448,
-          "height": 1086
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/273b/036e7bd20e47f00b2588184eed77a1d7147c1d9c57ea68da39f824286508/38769.jpg",
-          "hash": "d97aab87f98d",
-          "local": "/mods/66E0B5D0C13D2C00/01-d97aab87f98d.webp",
-          "thumb": "/mods/66E0B5D0C13D2C00/01-d97aab87f98d-640.webp",
-          "width": 1152,
-          "height": 648
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/6e67/285cb7709e8c6ce969dcba786e81b9a85e98c70fdd10bb510d9b4649b0ab/13887.jpg",
-          "hash": "ce34d0385371",
-          "local": "/mods/66E0B5D0C13D2C00/02-ce34d0385371.webp",
-          "thumb": "/mods/66E0B5D0C13D2C00/02-ce34d0385371-640.webp",
-          "width": 576,
-          "height": 324
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/3d0e/e752a02e567f37946cbfab07a85b3d5730bd6b942eb45b1934ece910f8eb/4951.jpg",
-          "hash": "312671ec33fa",
-          "local": "/mods/66E0B5D0C13D2C00/03-312671ec33fa.webp",
-          "thumb": "/mods/66E0B5D0C13D2C00/03-312671ec33fa-640.webp",
-          "width": 288,
-          "height": 162
-        }
-      ],
-      "detailSynced": true
-    },
-    {
       "id": "65643574C746E825",
       "name": "Armaconflict.com - INS items",
       "slug": "65643574C746E825-Armaconflict.com-INSitems",
@@ -1172,7 +1172,7 @@
       "gameVersion": "1.4.0.45",
       "sizeLabel": "8.58 MB",
       "sizeBytes": 8996782,
-      "downloads": 126102,
+      "downloads": 126157,
       "created": "2025-06-21",
       "updated": "2025-06-21",
       "license": {
@@ -1216,7 +1216,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "43.95 MB",
       "sizeBytes": 46084915,
-      "downloads": 56373,
+      "downloads": 56396,
       "created": "2026-05-20",
       "updated": "2026-08-14",
       "license": {
@@ -1569,7 +1569,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "11.68 MB",
       "sizeBytes": 12247368,
-      "downloads": 17631,
+      "downloads": 17787,
       "created": "2026-07-06",
       "updated": "2026-08-14",
       "license": {
@@ -1690,7 +1690,7 @@
       "gameVersion": "1.6.0.119",
       "sizeLabel": "746.18 KB",
       "sizeBytes": 764088,
-      "downloads": 15908,
+      "downloads": 16050,
       "created": "2026-05-09",
       "updated": "2026-05-22",
       "license": {
@@ -1766,7 +1766,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "7.41 KB",
       "sizeBytes": 7588,
-      "downloads": 11191,
+      "downloads": 11206,
       "created": "2026-07-10",
       "updated": "2026-07-26",
       "license": {
@@ -1857,7 +1857,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "119.86 MB",
       "sizeBytes": 125682319,
-      "downloads": 1320,
+      "downloads": 1333,
       "created": "2026-07-29",
       "updated": "2026-08-28",
       "license": {
@@ -1938,7 +1938,7 @@
       "gameVersion": "1.6.0.95",
       "sizeLabel": "17.18 MB",
       "sizeBytes": 18014536,
-      "downloads": 1056,
+      "downloads": 1057,
       "created": "2025-12-09",
       "updated": "2025-12-12",
       "license": {
@@ -2041,7 +2041,7 @@
       "gameVersion": "1.7.0.49",
       "sizeLabel": "546.25 KB",
       "sizeBytes": 559360,
-      "downloads": 885,
+      "downloads": 889,
       "created": "2026-06-11",
       "updated": "2026-06-12",
       "license": {
@@ -2107,7 +2107,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "445.88 KB",
       "sizeBytes": 456581,
-      "downloads": 873,
+      "downloads": 882,
       "created": "2026-06-27",
       "updated": "2026-08-11",
       "license": {
@@ -2270,7 +2270,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "42.69 MB",
       "sizeBytes": 44763709,
-      "downloads": 849,
+      "downloads": 870,
       "created": "2026-07-31",
       "updated": "2026-08-16",
       "license": {
@@ -2414,7 +2414,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "89.06 MB",
       "sizeBytes": 93386179,
-      "downloads": 829,
+      "downloads": 854,
       "created": "2026-08-27",
       "updated": "2026-08-28",
       "license": {
@@ -2558,7 +2558,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "199.18 MB",
       "sizeBytes": 208855368,
-      "downloads": 630,
+      "downloads": 645,
       "created": "2026-08-27",
       "updated": "2026-08-27",
       "license": {
@@ -2638,7 +2638,7 @@
       "gameVersion": "1.6.0.95",
       "sizeLabel": "283.93 MB",
       "sizeBytes": 297722184,
-      "downloads": 567,
+      "downloads": 569,
       "created": "2025-12-14",
       "updated": "2025-12-19",
       "license": {
@@ -2786,7 +2786,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "12.01 MB",
       "sizeBytes": 12593398,
-      "downloads": 542,
+      "downloads": 553,
       "created": "2026-07-27",
       "updated": "2026-08-14",
       "license": {
@@ -2935,7 +2935,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "7.48 KB",
       "sizeBytes": 7660,
-      "downloads": 540,
+      "downloads": 543,
       "created": "2026-08-11",
       "updated": "2026-08-11",
       "license": {
@@ -3026,7 +3026,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "143.97 MB",
       "sizeBytes": 150963487,
-      "downloads": 330,
+      "downloads": 331,
       "created": "2026-07-31",
       "updated": "2026-07-31",
       "license": {
@@ -3224,7 +3224,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "42.05 KB",
       "sizeBytes": 43059,
-      "downloads": 105,
+      "downloads": 107,
       "created": "2026-08-11",
       "updated": "2026-08-11",
       "license": {
