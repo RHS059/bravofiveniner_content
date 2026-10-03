@@ -2,7 +2,7 @@
   "$schema": "https://bravofiveniner.com/schema/mods.v1.json",
   "author": "BravoFiveNine",
   "authorWorkshopSearch": "https://reforger.armaplatform.com/workshop?search=BravoFiveNine",
-  "generatedAt": "2026-10-02T14:15:25.418Z",
+  "generatedAt": "2026-10-03T12:48:44.691Z",
   "generatedBy": "scripts/sync-workshop.mjs",
   "imagesRehosted": true,
   "categories": [
@@ -52,7 +52,7 @@
       "audio": 2,
       "gameplay": 2
     },
-    "totalDownloads": 2051865
+    "totalDownloads": 2055769
   },
   "mods": [
     {
@@ -69,7 +69,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "1.30 MB",
       "sizeBytes": 1363149,
-      "downloads": 291986,
+      "downloads": 292203,
       "created": "2025-04-20",
       "updated": "2026-07-30",
       "license": {
@@ -132,7 +132,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "90.75 MB",
       "sizeBytes": 95158272,
-      "downloads": 188271,
+      "downloads": 188806,
       "created": "2025-10-31",
       "updated": "2026-08-28",
       "license": {
@@ -260,7 +260,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "133.28 MB",
       "sizeBytes": 139754209,
-      "downloads": 185708,
+      "downloads": 186006,
       "created": "2025-06-07",
       "updated": "2026-08-12",
       "license": {
@@ -405,7 +405,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "34.08 MB",
       "sizeBytes": 35735470,
-      "downloads": 165073,
+      "downloads": 165439,
       "created": "2025-05-07",
       "updated": "2026-08-14",
       "license": {
@@ -497,6 +497,73 @@
       "detailSynced": true
     },
     {
+      "id": "68C89DDCDD0AC147",
+      "name": "B59 - BravoCore",
+      "slug": "68C89DDCDD0AC147-B59-BravoCore",
+      "workshopUrl": "https://reforger.armaplatform.com/workshop/68C89DDCDD0AC147-B59-BravoCore",
+      "author": "BravoFiveNine",
+      "category": "core",
+      "categoryLabel": "Attachments & core",
+      "featured": null,
+      "rating": 88,
+      "version": "1.0.32",
+      "gameVersion": "1.8.0.10",
+      "sizeLabel": "10.14 MB",
+      "sizeBytes": 10632561,
+      "downloads": 157988,
+      "created": "2026-04-08",
+      "updated": "2026-08-27",
+      "license": {
+        "name": "Arma Public License Share Alike (APL-SA)",
+        "short": "APL-SA"
+      },
+      "summary": "Contains shared aimation assets for my mods.",
+      "description": "Weapon animations:\nFNSCAR16\nFNSCAR17\nAR15\nMp5\nACR\nG3\nFAL\nM1014\n870",
+      "tags": [
+        "ANIMATION",
+        "WEAPONS"
+      ],
+      "dependencies": [
+        "Attachment Framework",
+        "Attachment Framework-Core"
+      ],
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/59b0/81a15b8ff7b603b9844a3e0400b1a6b501f85bf3be3085b0cb7542d5be14/55197.jpg",
+          "hash": "9fbee438e4a3",
+          "local": "/mods/68C89DDCDD0AC147/00-9fbee438e4a3.webp",
+          "thumb": "/mods/68C89DDCDD0AC147/00-9fbee438e4a3-640.webp",
+          "width": 1448,
+          "height": 1086
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/efa0/e761f1d1987bcf2a6b35bd861e4b8cdca474972f7613eab7c63b23c16ff8/36086.jpg",
+          "hash": "291391e5b06b",
+          "local": "/mods/68C89DDCDD0AC147/01-291391e5b06b.webp",
+          "thumb": "/mods/68C89DDCDD0AC147/01-291391e5b06b-640.webp",
+          "width": 1152,
+          "height": 648
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/666c/25b53644a9b93aadc2aaa537a8736be0a2fc444474cb1db9e33b8eaeb449/12868.jpg",
+          "hash": "18b180a80caf",
+          "local": "/mods/68C89DDCDD0AC147/02-18b180a80caf.webp",
+          "thumb": "/mods/68C89DDCDD0AC147/02-18b180a80caf-640.webp",
+          "width": 576,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/edd7/52b37a5ff0aab628583bb2d7c90fe4a5c8afb86d8d7eadddb446da0a3c12/4370.jpg",
+          "hash": "b22bdda76754",
+          "local": "/mods/68C89DDCDD0AC147/03-b22bdda76754.webp",
+          "thumb": "/mods/68C89DDCDD0AC147/03-b22bdda76754-640.webp",
+          "width": 288,
+          "height": 162
+        }
+      ],
+      "detailSynced": true
+    },
+    {
       "id": "64D81B5099CCA662",
       "name": "Armaconflict.com - SCAR",
       "slug": "64D81B5099CCA662-Armaconflict.com-SCAR",
@@ -510,7 +577,7 @@
       "gameVersion": "1.6.0.95",
       "sizeLabel": "123.83 MB",
       "sizeBytes": 129845166,
-      "downloads": 157633,
+      "downloads": 157642,
       "created": "2025-03-17",
       "updated": "2025-12-20",
       "license": {
@@ -609,73 +676,6 @@
       "detailSynced": true
     },
     {
-      "id": "68C89DDCDD0AC147",
-      "name": "B59 - BravoCore",
-      "slug": "68C89DDCDD0AC147-B59-BravoCore",
-      "workshopUrl": "https://reforger.armaplatform.com/workshop/68C89DDCDD0AC147-B59-BravoCore",
-      "author": "BravoFiveNine",
-      "category": "core",
-      "categoryLabel": "Attachments & core",
-      "featured": null,
-      "rating": 88,
-      "version": "1.0.32",
-      "gameVersion": "1.8.0.10",
-      "sizeLabel": "10.14 MB",
-      "sizeBytes": 10632561,
-      "downloads": 157097,
-      "created": "2026-04-08",
-      "updated": "2026-08-27",
-      "license": {
-        "name": "Arma Public License Share Alike (APL-SA)",
-        "short": "APL-SA"
-      },
-      "summary": "Contains shared aimation assets for my mods.",
-      "description": "Weapon animations:\nFNSCAR16\nFNSCAR17\nAR15\nMp5\nACR\nG3\nFAL\nM1014\n870",
-      "tags": [
-        "ANIMATION",
-        "WEAPONS"
-      ],
-      "dependencies": [
-        "Attachment Framework",
-        "Attachment Framework-Core"
-      ],
-      "images": [
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/59b0/81a15b8ff7b603b9844a3e0400b1a6b501f85bf3be3085b0cb7542d5be14/55197.jpg",
-          "hash": "9fbee438e4a3",
-          "local": "/mods/68C89DDCDD0AC147/00-9fbee438e4a3.webp",
-          "thumb": "/mods/68C89DDCDD0AC147/00-9fbee438e4a3-640.webp",
-          "width": 1448,
-          "height": 1086
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/efa0/e761f1d1987bcf2a6b35bd861e4b8cdca474972f7613eab7c63b23c16ff8/36086.jpg",
-          "hash": "291391e5b06b",
-          "local": "/mods/68C89DDCDD0AC147/01-291391e5b06b.webp",
-          "thumb": "/mods/68C89DDCDD0AC147/01-291391e5b06b-640.webp",
-          "width": 1152,
-          "height": 648
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/666c/25b53644a9b93aadc2aaa537a8736be0a2fc444474cb1db9e33b8eaeb449/12868.jpg",
-          "hash": "18b180a80caf",
-          "local": "/mods/68C89DDCDD0AC147/02-18b180a80caf.webp",
-          "thumb": "/mods/68C89DDCDD0AC147/02-18b180a80caf-640.webp",
-          "width": 576,
-          "height": 324
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/edd7/52b37a5ff0aab628583bb2d7c90fe4a5c8afb86d8d7eadddb446da0a3c12/4370.jpg",
-          "hash": "b22bdda76754",
-          "local": "/mods/68C89DDCDD0AC147/03-b22bdda76754.webp",
-          "thumb": "/mods/68C89DDCDD0AC147/03-b22bdda76754-640.webp",
-          "width": 288,
-          "height": 162
-        }
-      ],
-      "detailSynced": true
-    },
-    {
       "id": "66E0B5D0C13D2C00",
       "name": "B59 - SoundFX",
       "slug": "66E0B5D0C13D2C00-B59-SoundFX",
@@ -689,7 +689,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "7.91 MB",
       "sizeBytes": 8294236,
-      "downloads": 151352,
+      "downloads": 151963,
       "created": "2025-11-16",
       "updated": "2026-08-28",
       "license": {
@@ -1032,7 +1032,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "69.18 MB",
       "sizeBytes": 72540488,
-      "downloads": 138807,
+      "downloads": 139023,
       "created": "2025-04-20",
       "updated": "2026-07-26",
       "license": {
@@ -1172,7 +1172,7 @@
       "gameVersion": "1.4.0.45",
       "sizeLabel": "8.58 MB",
       "sizeBytes": 8996782,
-      "downloads": 127232,
+      "downloads": 127295,
       "created": "2025-06-21",
       "updated": "2025-06-21",
       "license": {
@@ -1356,7 +1356,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "100.11 MB",
       "sizeBytes": 104972943,
-      "downloads": 42147,
+      "downloads": 42162,
       "created": "2025-11-01",
       "updated": "2026-08-14",
       "license": {
@@ -1496,7 +1496,7 @@
       "gameVersion": "1.7.0.41",
       "sizeLabel": "2.85 KB",
       "sizeBytes": 2918,
-      "downloads": 35402,
+      "downloads": 35579,
       "created": "2026-06-03",
       "updated": "2026-06-03",
       "license": {
@@ -1569,7 +1569,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "11.68 MB",
       "sizeBytes": 12247368,
-      "downloads": 20224,
+      "downloads": 20383,
       "created": "2026-07-06",
       "updated": "2026-08-14",
       "license": {
@@ -1690,7 +1690,7 @@
       "gameVersion": "1.6.0.119",
       "sizeLabel": "746.18 KB",
       "sizeBytes": 764088,
-      "downloads": 17125,
+      "downloads": 17242,
       "created": "2026-05-09",
       "updated": "2026-05-22",
       "license": {
@@ -1766,7 +1766,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "7.41 KB",
       "sizeBytes": 7588,
-      "downloads": 11404,
+      "downloads": 11424,
       "created": "2026-07-10",
       "updated": "2026-07-26",
       "license": {
@@ -1857,7 +1857,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "119.86 MB",
       "sizeBytes": 125682319,
-      "downloads": 1468,
+      "downloads": 1516,
       "created": "2026-07-29",
       "updated": "2026-08-28",
       "license": {
@@ -1938,7 +1938,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "89.06 MB",
       "sizeBytes": 93386179,
-      "downloads": 1207,
+      "downloads": 1270,
       "created": "2026-08-27",
       "updated": "2026-08-28",
       "license": {
@@ -2069,109 +2069,6 @@
       "detailSynced": true
     },
     {
-      "id": "6713491DFC06B4C5",
-      "name": "ArmaConflict - XM177E2 Addons",
-      "slug": "6713491DFC06B4C5-ArmaConflict-XM177E2Addons",
-      "workshopUrl": "https://reforger.armaplatform.com/workshop/6713491DFC06B4C5-ArmaConflict-XM177E2Addons",
-      "author": "BravoFiveNine",
-      "category": "rifles",
-      "categoryLabel": "Battle rifles & carbines",
-      "featured": null,
-      "rating": 87,
-      "version": "0.0.2",
-      "gameVersion": "1.6.0.95",
-      "sizeLabel": "17.18 MB",
-      "sizeBytes": 18014536,
-      "downloads": 1091,
-      "created": "2025-12-09",
-      "updated": "2025-12-12",
-      "license": {
-        "name": "Arma Public License No Derivatives (APL-ND)",
-        "short": "APL-ND"
-      },
-      "summary": "For Armaconflict.com\nVietnam '67\nAdds vertical grip and M203 variants for XM117E2",
-      "description": "Initial upload.",
-      "tags": [
-        "CAR-15",
-        "M203",
-        "WEAPONS",
-        "XM117",
-        "XM177E2"
-      ],
-      "dependencies": [
-        "Chungus Rifles",
-        "B59 - BravoEFX",
-        "B59 Attachments"
-      ],
-      "images": [
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/677d/3af050267cc36f7977684e584c3ace11d33d9404ee7f69e9b60c627b4bc4/101571.jpg",
-          "hash": "c04243d72a35",
-          "local": "/mods/6713491DFC06B4C5/00-c04243d72a35.webp",
-          "thumb": "/mods/6713491DFC06B4C5/00-c04243d72a35-640.webp",
-          "width": 1600,
-          "height": 824
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/0e12/e753e29a4a87f1dd6deba7cf64a35102ccb9bf21ffa4e01d661b04b49b48/50646.jpg",
-          "hash": "09f58f9d1fc9",
-          "local": "/mods/6713491DFC06B4C5/01-09f58f9d1fc9.webp",
-          "thumb": "/mods/6713491DFC06B4C5/01-09f58f9d1fc9-640.webp",
-          "width": 1152,
-          "height": 648
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/d557/a5d0ee6124e4db1b6056a38d5e280e68ef6f49b9a52850f36d32b3d154e2/10985.jpg",
-          "hash": "8aaa5cde97a9",
-          "local": "/mods/6713491DFC06B4C5/02-8aaa5cde97a9.webp",
-          "thumb": "/mods/6713491DFC06B4C5/02-8aaa5cde97a9-640.webp",
-          "width": 388,
-          "height": 218
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/f3eb/547b6550eb5da46b19cc81ae81618036eee6102b230ba33d92897a1406b0/18427.jpg",
-          "hash": "3cea1f13e936",
-          "local": "/mods/6713491DFC06B4C5/03-3cea1f13e936.webp",
-          "thumb": "/mods/6713491DFC06B4C5/03-3cea1f13e936-640.webp",
-          "width": 576,
-          "height": 324
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/9a21/4ceb16e9cc394c4a23ded28cb37345d435ad3bd2d357fa7e7abf94b014c1/6552.jpg",
-          "hash": "bc0d007b3a94",
-          "local": "/mods/6713491DFC06B4C5/04-bc0d007b3a94.webp",
-          "thumb": "/mods/6713491DFC06B4C5/04-bc0d007b3a94-640.webp",
-          "width": 288,
-          "height": 162
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/8560/aa2253d6ec7a23916ca00137734e545c6cf7c2079efa7af61d06709b7451/114225.jpg",
-          "hash": "203708e9916e",
-          "local": "/mods/6713491DFC06B4C5/05-203708e9916e.webp",
-          "thumb": "/mods/6713491DFC06B4C5/05-203708e9916e-640.webp",
-          "width": 1600,
-          "height": 825
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/d3e7/bb09f6f691fd742b187a16a694e736b71dce07a9953778ecc888b7f1f679/82793.jpg",
-          "hash": "c6e5e2885b5b",
-          "local": "/mods/6713491DFC06B4C5/06-c6e5e2885b5b.webp",
-          "thumb": "/mods/6713491DFC06B4C5/06-c6e5e2885b5b-640.webp",
-          "width": 1480,
-          "height": 832
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/1ed6/c8d9a503e3e08e35fe3c177192a2a767cbcba9935347b0f16164722c67ba/31497.jpg",
-          "hash": "f9565bd8df22",
-          "local": "/mods/6713491DFC06B4C5/07-f9565bd8df22.webp",
-          "thumb": "/mods/6713491DFC06B4C5/07-f9565bd8df22-640.webp",
-          "width": 776,
-          "height": 436
-        }
-      ],
-      "detailSynced": true
-    },
-    {
       "id": "69F60DF1F74542C1",
       "name": "B59 - MP5K",
       "slug": "69F60DF1F74542C1-B59-MP5K",
@@ -2185,7 +2082,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "42.69 MB",
       "sizeBytes": 44763709,
-      "downloads": 1053,
+      "downloads": 1136,
       "created": "2026-07-31",
       "updated": "2026-08-16",
       "license": {
@@ -2316,6 +2213,109 @@
       "detailSynced": true
     },
     {
+      "id": "6713491DFC06B4C5",
+      "name": "ArmaConflict - XM177E2 Addons",
+      "slug": "6713491DFC06B4C5-ArmaConflict-XM177E2Addons",
+      "workshopUrl": "https://reforger.armaplatform.com/workshop/6713491DFC06B4C5-ArmaConflict-XM177E2Addons",
+      "author": "BravoFiveNine",
+      "category": "rifles",
+      "categoryLabel": "Battle rifles & carbines",
+      "featured": null,
+      "rating": 87,
+      "version": "0.0.2",
+      "gameVersion": "1.6.0.95",
+      "sizeLabel": "17.18 MB",
+      "sizeBytes": 18014536,
+      "downloads": 1091,
+      "created": "2025-12-09",
+      "updated": "2025-12-12",
+      "license": {
+        "name": "Arma Public License No Derivatives (APL-ND)",
+        "short": "APL-ND"
+      },
+      "summary": "For Armaconflict.com\nVietnam '67\nAdds vertical grip and M203 variants for XM117E2",
+      "description": "Initial upload.",
+      "tags": [
+        "CAR-15",
+        "M203",
+        "WEAPONS",
+        "XM117",
+        "XM177E2"
+      ],
+      "dependencies": [
+        "Chungus Rifles",
+        "B59 - BravoEFX",
+        "B59 Attachments"
+      ],
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/677d/3af050267cc36f7977684e584c3ace11d33d9404ee7f69e9b60c627b4bc4/101571.jpg",
+          "hash": "c04243d72a35",
+          "local": "/mods/6713491DFC06B4C5/00-c04243d72a35.webp",
+          "thumb": "/mods/6713491DFC06B4C5/00-c04243d72a35-640.webp",
+          "width": 1600,
+          "height": 824
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/0e12/e753e29a4a87f1dd6deba7cf64a35102ccb9bf21ffa4e01d661b04b49b48/50646.jpg",
+          "hash": "09f58f9d1fc9",
+          "local": "/mods/6713491DFC06B4C5/01-09f58f9d1fc9.webp",
+          "thumb": "/mods/6713491DFC06B4C5/01-09f58f9d1fc9-640.webp",
+          "width": 1152,
+          "height": 648
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/d557/a5d0ee6124e4db1b6056a38d5e280e68ef6f49b9a52850f36d32b3d154e2/10985.jpg",
+          "hash": "8aaa5cde97a9",
+          "local": "/mods/6713491DFC06B4C5/02-8aaa5cde97a9.webp",
+          "thumb": "/mods/6713491DFC06B4C5/02-8aaa5cde97a9-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/f3eb/547b6550eb5da46b19cc81ae81618036eee6102b230ba33d92897a1406b0/18427.jpg",
+          "hash": "3cea1f13e936",
+          "local": "/mods/6713491DFC06B4C5/03-3cea1f13e936.webp",
+          "thumb": "/mods/6713491DFC06B4C5/03-3cea1f13e936-640.webp",
+          "width": 576,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/9a21/4ceb16e9cc394c4a23ded28cb37345d435ad3bd2d357fa7e7abf94b014c1/6552.jpg",
+          "hash": "bc0d007b3a94",
+          "local": "/mods/6713491DFC06B4C5/04-bc0d007b3a94.webp",
+          "thumb": "/mods/6713491DFC06B4C5/04-bc0d007b3a94-640.webp",
+          "width": 288,
+          "height": 162
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/8560/aa2253d6ec7a23916ca00137734e545c6cf7c2079efa7af61d06709b7451/114225.jpg",
+          "hash": "203708e9916e",
+          "local": "/mods/6713491DFC06B4C5/05-203708e9916e.webp",
+          "thumb": "/mods/6713491DFC06B4C5/05-203708e9916e-640.webp",
+          "width": 1600,
+          "height": 825
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/d3e7/bb09f6f691fd742b187a16a694e736b71dce07a9953778ecc888b7f1f679/82793.jpg",
+          "hash": "c6e5e2885b5b",
+          "local": "/mods/6713491DFC06B4C5/06-c6e5e2885b5b.webp",
+          "thumb": "/mods/6713491DFC06B4C5/06-c6e5e2885b5b-640.webp",
+          "width": 1480,
+          "height": 832
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/1ed6/c8d9a503e3e08e35fe3c177192a2a767cbcba9935347b0f16164722c67ba/31497.jpg",
+          "hash": "f9565bd8df22",
+          "local": "/mods/6713491DFC06B4C5/07-f9565bd8df22.webp",
+          "thumb": "/mods/6713491DFC06B4C5/07-f9565bd8df22-640.webp",
+          "width": 776,
+          "height": 436
+        }
+      ],
+      "detailSynced": true
+    },
+    {
       "id": "69AD0E46F208250A",
       "name": "B59 - Bravocore for WCS & RHS",
       "slug": "69AD0E46F208250A-B59-BravocoreforWCS%2526RHS",
@@ -2329,7 +2329,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "445.88 KB",
       "sizeBytes": 456581,
-      "downloads": 994,
+      "downloads": 1001,
       "created": "2026-06-27",
       "updated": "2026-08-11",
       "license": {
@@ -2492,7 +2492,7 @@
       "gameVersion": "1.7.0.49",
       "sizeLabel": "546.25 KB",
       "sizeBytes": 559360,
-      "downloads": 914,
+      "downloads": 915,
       "created": "2026-06-11",
       "updated": "2026-06-12",
       "license": {
@@ -2787,7 +2787,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "7.48 KB",
       "sizeBytes": 7660,
-      "downloads": 630,
+      "downloads": 632,
       "created": "2026-08-11",
       "updated": "2026-08-11",
       "license": {
@@ -3026,7 +3026,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "143.97 MB",
       "sizeBytes": 150963487,
-      "downloads": 369,
+      "downloads": 373,
       "created": "2026-07-31",
       "updated": "2026-07-31",
       "license": {
@@ -3140,7 +3140,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "70.82 MB",
       "sizeBytes": 74260152,
-      "downloads": 189,
+      "downloads": 191,
       "created": "2026-07-31",
       "updated": "2026-07-31",
       "license": {
