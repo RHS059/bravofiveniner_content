@@ -2,7 +2,7 @@
   "$schema": "https://bravofiveniner.com/schema/mods.v1.json",
   "author": "BravoFiveNine",
   "authorWorkshopSearch": "https://reforger.armaplatform.com/workshop?search=BravoFiveNine",
-  "generatedAt": "2026-10-03T12:48:44.691Z",
+  "generatedAt": "2026-10-04T13:32:17.025Z",
   "generatedBy": "scripts/sync-workshop.mjs",
   "imagesRehosted": true,
   "categories": [
@@ -52,7 +52,7 @@
       "audio": 2,
       "gameplay": 2
     },
-    "totalDownloads": 2055769
+    "totalDownloads": 2060946
   },
   "mods": [
     {
@@ -69,7 +69,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "1.30 MB",
       "sizeBytes": 1363149,
-      "downloads": 292203,
+      "downloads": 292424,
       "created": "2025-04-20",
       "updated": "2026-07-30",
       "license": {
@@ -132,7 +132,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "90.75 MB",
       "sizeBytes": 95158272,
-      "downloads": 188806,
+      "downloads": 189464,
       "created": "2025-10-31",
       "updated": "2026-08-28",
       "license": {
@@ -260,7 +260,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "133.28 MB",
       "sizeBytes": 139754209,
-      "downloads": 186006,
+      "downloads": 186458,
       "created": "2025-06-07",
       "updated": "2026-08-12",
       "license": {
@@ -405,7 +405,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "34.08 MB",
       "sizeBytes": 35735470,
-      "downloads": 165439,
+      "downloads": 165868,
       "created": "2025-05-07",
       "updated": "2026-08-14",
       "license": {
@@ -510,7 +510,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "10.14 MB",
       "sizeBytes": 10632561,
-      "downloads": 157988,
+      "downloads": 158833,
       "created": "2026-04-08",
       "updated": "2026-08-27",
       "license": {
@@ -577,7 +577,7 @@
       "gameVersion": "1.6.0.95",
       "sizeLabel": "123.83 MB",
       "sizeBytes": 129845166,
-      "downloads": 157642,
+      "downloads": 157653,
       "created": "2025-03-17",
       "updated": "2025-12-20",
       "license": {
@@ -689,7 +689,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "7.91 MB",
       "sizeBytes": 8294236,
-      "downloads": 151963,
+      "downloads": 152838,
       "created": "2025-11-16",
       "updated": "2026-08-28",
       "license": {
@@ -739,143 +739,6 @@
       "detailSynced": true
     },
     {
-      "id": "648911F6D87D80A7",
-      "name": "M21 with KAC Rail",
-      "slug": "648911F6D87D80A7-M21withKACRail",
-      "workshopUrl": "https://reforger.armaplatform.com/workshop/648911F6D87D80A7-M21withKACRail",
-      "author": "BravoFiveNine",
-      "category": "precision",
-      "categoryLabel": "Precision rifles",
-      "featured": null,
-      "rating": 94,
-      "version": "1.0.15",
-      "gameVersion": "1.7.0.54",
-      "sizeLabel": "4.57 MB",
-      "sizeBytes": 4791992,
-      "downloads": 147639,
-      "created": "2025-02-04",
-      "updated": "2026-07-20",
-      "license": {
-        "name": "Arma Public License No Derivatives (APL-ND)",
-        "short": "APL-ND"
-      },
-      "summary": "Adds a KAC Rail to the M21 for modern optics.\nRifle_M21_KAC",
-      "description": "Credits:\nKAC Rail Model and Textures: https://www.cgtrader.com/designers/\n8siandude\nMk14 stock: https://www.cgtrader.com/designers/armory3d",
-      "tags": [
-        "KAC",
-        "M21",
-        "RAIL",
-        "WEAPONS"
-      ],
-      "dependencies": [
-        "Attachment Framework",
-        "B59 - BravoEFX",
-        "B59 Attachments",
-        "B59 - SoundFX",
-        "Attachment Framework-Core",
-        "B59 - BravoCore"
-      ],
-      "images": [
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/b031/1dfe98753e98a0b5cf5c26a7a07031906f62c7736d479075c7e5057758ea/101601.jpg",
-          "hash": "8b1ff401a708",
-          "local": "/mods/648911F6D87D80A7/00-8b1ff401a708.webp",
-          "thumb": "/mods/648911F6D87D80A7/00-8b1ff401a708-640.webp",
-          "width": 1600,
-          "height": 863
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/7428/cfe855477ce7dbd17935cb50300e826755c7f720631aba5d948a41ebde79/44286.jpg",
-          "hash": "b03ac21ce34a",
-          "local": "/mods/648911F6D87D80A7/01-b03ac21ce34a.webp",
-          "thumb": "/mods/648911F6D87D80A7/01-b03ac21ce34a-640.webp",
-          "width": 1152,
-          "height": 648
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/e687/f08458385b40c07f58a06fd5b9a130c25d50c870232fbd82562053cb9fdf/11192.jpg",
-          "hash": "383f99b44afb",
-          "local": "/mods/648911F6D87D80A7/02-383f99b44afb.webp",
-          "thumb": "/mods/648911F6D87D80A7/02-383f99b44afb-640.webp",
-          "width": 388,
-          "height": 218
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/171c/18346a4b216db3966735202c20418ffe4e8ddf779d20e10513271b027d60/10012.jpg",
-          "hash": "6cddc3972198",
-          "local": "/mods/648911F6D87D80A7/03-6cddc3972198.webp",
-          "thumb": "/mods/648911F6D87D80A7/03-6cddc3972198-640.webp",
-          "width": 388,
-          "height": 218
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/97e4/4cc5abfbcf8f688c176fb6ead8b877f8d8ea109f94b4879eab94cf90d827/9935.jpg",
-          "hash": "bfec572fe788",
-          "local": "/mods/648911F6D87D80A7/04-bfec572fe788.webp",
-          "thumb": "/mods/648911F6D87D80A7/04-bfec572fe788-640.webp",
-          "width": 388,
-          "height": 218
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/39fa/84c7ab8ac0a86acd2857ee65088c67bcdc3052fe46bec5a371ba9838f23c/14000.jpg",
-          "hash": "99fb21747b22",
-          "local": "/mods/648911F6D87D80A7/05-99fb21747b22.webp",
-          "thumb": "/mods/648911F6D87D80A7/05-99fb21747b22-640.webp",
-          "width": 576,
-          "height": 324
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/3fc0/764de22fc1c48b20d5ec2a8005ed385c444d2a31383078f19e8fafe0aad4/4746.jpg",
-          "hash": "f035bcdb77f7",
-          "local": "/mods/648911F6D87D80A7/06-f035bcdb77f7.webp",
-          "thumb": "/mods/648911F6D87D80A7/06-f035bcdb77f7-640.webp",
-          "width": 288,
-          "height": 162
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/5948/4ab9a784b6e9dad1bc38dc74c910ace7c789a2bdda70c3637fdaa0e6ffb2/113271.jpg",
-          "hash": "801a68078b1b",
-          "local": "/mods/648911F6D87D80A7/07-801a68078b1b.webp",
-          "thumb": "/mods/648911F6D87D80A7/07-801a68078b1b-640.webp",
-          "width": 1600,
-          "height": 825
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/3e28/891fbf639554c50edbc5a14ffa29abc646004619aff7a91fe7e1f5f13597/83209.jpg",
-          "hash": "cb958d6c0988",
-          "local": "/mods/648911F6D87D80A7/08-cb958d6c0988.webp",
-          "thumb": "/mods/648911F6D87D80A7/08-cb958d6c0988-640.webp",
-          "width": 1480,
-          "height": 832
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/be50/0a8fe140bbff239091ff34b761322439f3ff1766419f8fe70a5f00c448e1/31901.jpg",
-          "hash": "6cf5adf74b3b",
-          "local": "/mods/648911F6D87D80A7/09-6cf5adf74b3b.webp",
-          "thumb": "/mods/648911F6D87D80A7/09-6cf5adf74b3b-640.webp",
-          "width": 776,
-          "height": 436
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/329d/19ab654f0cc2135bf7bee25a8a259ec8cafc5509418fe4d5fadda21d499e/97771.jpg",
-          "hash": "5d45b1f3ebdc",
-          "local": "/mods/648911F6D87D80A7/10-5d45b1f3ebdc.webp",
-          "thumb": "/mods/648911F6D87D80A7/10-5d45b1f3ebdc-640.webp",
-          "width": 1600,
-          "height": 834
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/0707/0635d72990a0c5efc370fc2b97d392fa5cb29617fb090f7d362dedb48afe/71012.jpg",
-          "hash": "57a018b30ef0",
-          "local": "/mods/648911F6D87D80A7/11-57a018b30ef0.webp",
-          "thumb": "/mods/648911F6D87D80A7/11-57a018b30ef0-640.webp",
-          "width": 1480,
-          "height": 832
-        }
-      ],
-      "detailSynced": true
-    },
-    {
       "id": "64515006D4EC4776",
       "name": "B59 - Mp5",
       "slug": "64515006D4EC4776-B59-Mp5",
@@ -889,7 +752,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "81.53 MB",
       "sizeBytes": 85490401,
-      "downloads": 147552,
+      "downloads": 147846,
       "created": "2025-01-18",
       "updated": "2026-08-23",
       "license": {
@@ -1019,6 +882,143 @@
       "detailSynced": true
     },
     {
+      "id": "648911F6D87D80A7",
+      "name": "M21 with KAC Rail",
+      "slug": "648911F6D87D80A7-M21withKACRail",
+      "workshopUrl": "https://reforger.armaplatform.com/workshop/648911F6D87D80A7-M21withKACRail",
+      "author": "BravoFiveNine",
+      "category": "precision",
+      "categoryLabel": "Precision rifles",
+      "featured": null,
+      "rating": 94,
+      "version": "1.0.15",
+      "gameVersion": "1.7.0.54",
+      "sizeLabel": "4.57 MB",
+      "sizeBytes": 4791992,
+      "downloads": 147642,
+      "created": "2025-02-04",
+      "updated": "2026-07-20",
+      "license": {
+        "name": "Arma Public License No Derivatives (APL-ND)",
+        "short": "APL-ND"
+      },
+      "summary": "Adds a KAC Rail to the M21 for modern optics.\nRifle_M21_KAC",
+      "description": "Credits:\nKAC Rail Model and Textures: https://www.cgtrader.com/designers/\n8siandude\nMk14 stock: https://www.cgtrader.com/designers/armory3d",
+      "tags": [
+        "KAC",
+        "M21",
+        "RAIL",
+        "WEAPONS"
+      ],
+      "dependencies": [
+        "Attachment Framework",
+        "B59 - BravoEFX",
+        "B59 Attachments",
+        "B59 - SoundFX",
+        "Attachment Framework-Core",
+        "B59 - BravoCore"
+      ],
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/b031/1dfe98753e98a0b5cf5c26a7a07031906f62c7736d479075c7e5057758ea/101601.jpg",
+          "hash": "8b1ff401a708",
+          "local": "/mods/648911F6D87D80A7/00-8b1ff401a708.webp",
+          "thumb": "/mods/648911F6D87D80A7/00-8b1ff401a708-640.webp",
+          "width": 1600,
+          "height": 863
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/7428/cfe855477ce7dbd17935cb50300e826755c7f720631aba5d948a41ebde79/44286.jpg",
+          "hash": "b03ac21ce34a",
+          "local": "/mods/648911F6D87D80A7/01-b03ac21ce34a.webp",
+          "thumb": "/mods/648911F6D87D80A7/01-b03ac21ce34a-640.webp",
+          "width": 1152,
+          "height": 648
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/e687/f08458385b40c07f58a06fd5b9a130c25d50c870232fbd82562053cb9fdf/11192.jpg",
+          "hash": "383f99b44afb",
+          "local": "/mods/648911F6D87D80A7/02-383f99b44afb.webp",
+          "thumb": "/mods/648911F6D87D80A7/02-383f99b44afb-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/171c/18346a4b216db3966735202c20418ffe4e8ddf779d20e10513271b027d60/10012.jpg",
+          "hash": "6cddc3972198",
+          "local": "/mods/648911F6D87D80A7/03-6cddc3972198.webp",
+          "thumb": "/mods/648911F6D87D80A7/03-6cddc3972198-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/97e4/4cc5abfbcf8f688c176fb6ead8b877f8d8ea109f94b4879eab94cf90d827/9935.jpg",
+          "hash": "bfec572fe788",
+          "local": "/mods/648911F6D87D80A7/04-bfec572fe788.webp",
+          "thumb": "/mods/648911F6D87D80A7/04-bfec572fe788-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/39fa/84c7ab8ac0a86acd2857ee65088c67bcdc3052fe46bec5a371ba9838f23c/14000.jpg",
+          "hash": "99fb21747b22",
+          "local": "/mods/648911F6D87D80A7/05-99fb21747b22.webp",
+          "thumb": "/mods/648911F6D87D80A7/05-99fb21747b22-640.webp",
+          "width": 576,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/3fc0/764de22fc1c48b20d5ec2a8005ed385c444d2a31383078f19e8fafe0aad4/4746.jpg",
+          "hash": "f035bcdb77f7",
+          "local": "/mods/648911F6D87D80A7/06-f035bcdb77f7.webp",
+          "thumb": "/mods/648911F6D87D80A7/06-f035bcdb77f7-640.webp",
+          "width": 288,
+          "height": 162
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/5948/4ab9a784b6e9dad1bc38dc74c910ace7c789a2bdda70c3637fdaa0e6ffb2/113271.jpg",
+          "hash": "801a68078b1b",
+          "local": "/mods/648911F6D87D80A7/07-801a68078b1b.webp",
+          "thumb": "/mods/648911F6D87D80A7/07-801a68078b1b-640.webp",
+          "width": 1600,
+          "height": 825
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/3e28/891fbf639554c50edbc5a14ffa29abc646004619aff7a91fe7e1f5f13597/83209.jpg",
+          "hash": "cb958d6c0988",
+          "local": "/mods/648911F6D87D80A7/08-cb958d6c0988.webp",
+          "thumb": "/mods/648911F6D87D80A7/08-cb958d6c0988-640.webp",
+          "width": 1480,
+          "height": 832
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/be50/0a8fe140bbff239091ff34b761322439f3ff1766419f8fe70a5f00c448e1/31901.jpg",
+          "hash": "6cf5adf74b3b",
+          "local": "/mods/648911F6D87D80A7/09-6cf5adf74b3b.webp",
+          "thumb": "/mods/648911F6D87D80A7/09-6cf5adf74b3b-640.webp",
+          "width": 776,
+          "height": 436
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/329d/19ab654f0cc2135bf7bee25a8a259ec8cafc5509418fe4d5fadda21d499e/97771.jpg",
+          "hash": "5d45b1f3ebdc",
+          "local": "/mods/648911F6D87D80A7/10-5d45b1f3ebdc.webp",
+          "thumb": "/mods/648911F6D87D80A7/10-5d45b1f3ebdc-640.webp",
+          "width": 1600,
+          "height": 834
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/0707/0635d72990a0c5efc370fc2b97d392fa5cb29617fb090f7d362dedb48afe/71012.jpg",
+          "hash": "57a018b30ef0",
+          "local": "/mods/648911F6D87D80A7/11-57a018b30ef0.webp",
+          "thumb": "/mods/648911F6D87D80A7/11-57a018b30ef0-640.webp",
+          "width": 1480,
+          "height": 832
+        }
+      ],
+      "detailSynced": true
+    },
+    {
       "id": "651D71B6C09E3A84",
       "name": "B59 - FAL",
       "slug": "651D71B6C09E3A84-B59-FAL",
@@ -1032,7 +1032,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "69.18 MB",
       "sizeBytes": 72540488,
-      "downloads": 139023,
+      "downloads": 139218,
       "created": "2025-04-20",
       "updated": "2026-07-26",
       "license": {
@@ -1172,7 +1172,7 @@
       "gameVersion": "1.4.0.45",
       "sizeLabel": "8.58 MB",
       "sizeBytes": 8996782,
-      "downloads": 127295,
+      "downloads": 127346,
       "created": "2025-06-21",
       "updated": "2025-06-21",
       "license": {
@@ -1216,7 +1216,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "43.95 MB",
       "sizeBytes": 46084915,
-      "downloads": 56930,
+      "downloads": 57023,
       "created": "2026-05-20",
       "updated": "2026-08-14",
       "license": {
@@ -1356,7 +1356,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "100.11 MB",
       "sizeBytes": 104972943,
-      "downloads": 42162,
+      "downloads": 42185,
       "created": "2025-11-01",
       "updated": "2026-08-14",
       "license": {
@@ -1496,7 +1496,7 @@
       "gameVersion": "1.7.0.41",
       "sizeLabel": "2.85 KB",
       "sizeBytes": 2918,
-      "downloads": 35579,
+      "downloads": 35801,
       "created": "2026-06-03",
       "updated": "2026-06-03",
       "license": {
@@ -1569,7 +1569,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "11.68 MB",
       "sizeBytes": 12247368,
-      "downloads": 20383,
+      "downloads": 20664,
       "created": "2026-07-06",
       "updated": "2026-08-14",
       "license": {
@@ -1690,7 +1690,7 @@
       "gameVersion": "1.6.0.119",
       "sizeLabel": "746.18 KB",
       "sizeBytes": 764088,
-      "downloads": 17242,
+      "downloads": 17344,
       "created": "2026-05-09",
       "updated": "2026-05-22",
       "license": {
@@ -1766,7 +1766,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "7.41 KB",
       "sizeBytes": 7588,
-      "downloads": 11424,
+      "downloads": 11436,
       "created": "2026-07-10",
       "updated": "2026-07-26",
       "license": {
@@ -1857,7 +1857,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "119.86 MB",
       "sizeBytes": 125682319,
-      "downloads": 1516,
+      "downloads": 1580,
       "created": "2026-07-29",
       "updated": "2026-08-28",
       "license": {
@@ -1938,7 +1938,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "89.06 MB",
       "sizeBytes": 93386179,
-      "downloads": 1270,
+      "downloads": 1368,
       "created": "2026-08-27",
       "updated": "2026-08-28",
       "license": {
@@ -2082,7 +2082,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "42.69 MB",
       "sizeBytes": 44763709,
-      "downloads": 1136,
+      "downloads": 1190,
       "created": "2026-07-31",
       "updated": "2026-08-16",
       "license": {
@@ -2329,7 +2329,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "445.88 KB",
       "sizeBytes": 456581,
-      "downloads": 1001,
+      "downloads": 1004,
       "created": "2026-06-27",
       "updated": "2026-08-11",
       "license": {
@@ -2492,7 +2492,7 @@
       "gameVersion": "1.7.0.49",
       "sizeLabel": "546.25 KB",
       "sizeBytes": 559360,
-      "downloads": 915,
+      "downloads": 916,
       "created": "2026-06-11",
       "updated": "2026-06-12",
       "license": {
@@ -2558,7 +2558,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "199.18 MB",
       "sizeBytes": 208855368,
-      "downloads": 838,
+      "downloads": 863,
       "created": "2026-08-27",
       "updated": "2026-08-27",
       "license": {
@@ -2638,7 +2638,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "12.01 MB",
       "sizeBytes": 12593398,
-      "downloads": 642,
+      "downloads": 707,
       "created": "2026-07-27",
       "updated": "2026-08-14",
       "license": {
@@ -2787,7 +2787,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "7.48 KB",
       "sizeBytes": 7660,
-      "downloads": 632,
+      "downloads": 636,
       "created": "2026-08-11",
       "updated": "2026-08-11",
       "license": {
@@ -3026,7 +3026,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "143.97 MB",
       "sizeBytes": 150963487,
-      "downloads": 373,
+      "downloads": 375,
       "created": "2026-07-31",
       "updated": "2026-07-31",
       "license": {
@@ -3127,90 +3127,6 @@
       "detailSynced": true
     },
     {
-      "id": "69FE7241D54309E3",
-      "name": "B59 - MP5K - FDE",
-      "slug": "69FE7241D54309E3-B59-MP5K-FDE",
-      "workshopUrl": "https://reforger.armaplatform.com/workshop/69FE7241D54309E3-B59-MP5K-FDE",
-      "author": "BravoFiveNine",
-      "category": "smg",
-      "categoryLabel": "Submachine guns",
-      "featured": null,
-      "rating": 0,
-      "version": "0.0.2",
-      "gameVersion": "1.7.0.54",
-      "sizeLabel": "70.82 MB",
-      "sizeBytes": 74260152,
-      "downloads": 191,
-      "created": "2026-07-31",
-      "updated": "2026-07-31",
-      "license": {
-        "name": "Arma Public License Share Alike (APL-SA)",
-        "short": "APL-SA"
-      },
-      "summary": "A mod containing FDE variants of the MP5K [https://reforger.armaplatform.com/workshop/69F60DF1F74542C1-B59-MP5K\n].",
-      "description": "[Allowed modifications]\nYou may use this as a dependency.\nYou may modify the stats, add/modify textures, add attachments, change sounds, etc.\nModel and Textures:\nMattias H (Tiggis) → https://www.cgtrader.com/designers/tiggis",
-      "tags": [
-        "B59",
-        "FDE",
-        "GUN",
-        "HK",
-        "MACHINE",
-        "MACHINEGUN",
-        "MP5",
-        "MP5K",
-        "SMG",
-        "SUB",
-        "SUBMACHINEGUN",
-        "WEAPONS"
-      ],
-      "dependencies": [
-        "TacticalAnimationOverhaul TEST",
-        "Attachment Framework",
-        "B59 Attachments",
-        "ARMA-RY CORE",
-        "ARMA-RY CLAW MOUNT",
-        "B59 - SoundFX",
-        "Attachment Framework-Core",
-        "B59 - BravoCore",
-        "B59 - MP5K"
-      ],
-      "images": [
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/cc82/499ec3e7379317730f29559b8e6fc0f9e43d006d0d7a65b73d9f2cece182/204095.jpg",
-          "hash": "ac93fa5b2fe9",
-          "local": "/mods/69FE7241D54309E3/00-ac93fa5b2fe9.webp",
-          "thumb": "/mods/69FE7241D54309E3/00-ac93fa5b2fe9-640.webp",
-          "width": 1600,
-          "height": 850
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/bede/38e0c0349899642f8d2e3babc1e07abfdb0f2e02c57f61c792ccfd9f243a/93199.jpg",
-          "hash": "fdd94ac1533b",
-          "local": "/mods/69FE7241D54309E3/01-fdd94ac1533b.webp",
-          "thumb": "/mods/69FE7241D54309E3/01-fdd94ac1533b-640.webp",
-          "width": 1152,
-          "height": 648
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/c1f3/28a2b04489da422a0c16004dde1add4f21c1f37f1740a9bf9f24de9cabea/28261.jpg",
-          "hash": "ac015629c0a0",
-          "local": "/mods/69FE7241D54309E3/02-ac015629c0a0.webp",
-          "thumb": "/mods/69FE7241D54309E3/02-ac015629c0a0-640.webp",
-          "width": 576,
-          "height": 324
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/2692/04915906c6713bd8d2506fc145526ef26aefd757f67ce44ea79913633e3c/8620.jpg",
-          "hash": "4e3955f086f7",
-          "local": "/mods/69FE7241D54309E3/03-4e3955f086f7.webp",
-          "thumb": "/mods/69FE7241D54309E3/03-4e3955f086f7-640.webp",
-          "width": 288,
-          "height": 162
-        }
-      ],
-      "detailSynced": true
-    },
-    {
       "id": "69F686CFC9BB905F",
       "name": "B59 - AR9",
       "slug": "69F686CFC9BB905F-B59-AR9",
@@ -3224,7 +3140,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "15.55 MB",
       "sizeBytes": 16305357,
-      "downloads": 145,
+      "downloads": 235,
       "created": "2026-07-27",
       "updated": "2026-08-14",
       "license": {
@@ -3314,6 +3230,90 @@
           "thumb": "/mods/69F686CFC9BB905F/07-5e3adc09bc26-640.webp",
           "width": 776,
           "height": 436
+        }
+      ],
+      "detailSynced": true
+    },
+    {
+      "id": "69FE7241D54309E3",
+      "name": "B59 - MP5K - FDE",
+      "slug": "69FE7241D54309E3-B59-MP5K-FDE",
+      "workshopUrl": "https://reforger.armaplatform.com/workshop/69FE7241D54309E3-B59-MP5K-FDE",
+      "author": "BravoFiveNine",
+      "category": "smg",
+      "categoryLabel": "Submachine guns",
+      "featured": null,
+      "rating": 0,
+      "version": "0.0.2",
+      "gameVersion": "1.7.0.54",
+      "sizeLabel": "70.82 MB",
+      "sizeBytes": 74260152,
+      "downloads": 193,
+      "created": "2026-07-31",
+      "updated": "2026-07-31",
+      "license": {
+        "name": "Arma Public License Share Alike (APL-SA)",
+        "short": "APL-SA"
+      },
+      "summary": "A mod containing FDE variants of the MP5K [https://reforger.armaplatform.com/workshop/69F60DF1F74542C1-B59-MP5K\n].",
+      "description": "[Allowed modifications]\nYou may use this as a dependency.\nYou may modify the stats, add/modify textures, add attachments, change sounds, etc.\nModel and Textures:\nMattias H (Tiggis) → https://www.cgtrader.com/designers/tiggis",
+      "tags": [
+        "B59",
+        "FDE",
+        "GUN",
+        "HK",
+        "MACHINE",
+        "MACHINEGUN",
+        "MP5",
+        "MP5K",
+        "SMG",
+        "SUB",
+        "SUBMACHINEGUN",
+        "WEAPONS"
+      ],
+      "dependencies": [
+        "TacticalAnimationOverhaul TEST",
+        "Attachment Framework",
+        "B59 Attachments",
+        "ARMA-RY CORE",
+        "ARMA-RY CLAW MOUNT",
+        "B59 - SoundFX",
+        "Attachment Framework-Core",
+        "B59 - BravoCore",
+        "B59 - MP5K"
+      ],
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/cc82/499ec3e7379317730f29559b8e6fc0f9e43d006d0d7a65b73d9f2cece182/204095.jpg",
+          "hash": "ac93fa5b2fe9",
+          "local": "/mods/69FE7241D54309E3/00-ac93fa5b2fe9.webp",
+          "thumb": "/mods/69FE7241D54309E3/00-ac93fa5b2fe9-640.webp",
+          "width": 1600,
+          "height": 850
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/bede/38e0c0349899642f8d2e3babc1e07abfdb0f2e02c57f61c792ccfd9f243a/93199.jpg",
+          "hash": "fdd94ac1533b",
+          "local": "/mods/69FE7241D54309E3/01-fdd94ac1533b.webp",
+          "thumb": "/mods/69FE7241D54309E3/01-fdd94ac1533b-640.webp",
+          "width": 1152,
+          "height": 648
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/c1f3/28a2b04489da422a0c16004dde1add4f21c1f37f1740a9bf9f24de9cabea/28261.jpg",
+          "hash": "ac015629c0a0",
+          "local": "/mods/69FE7241D54309E3/02-ac015629c0a0.webp",
+          "thumb": "/mods/69FE7241D54309E3/02-ac015629c0a0-640.webp",
+          "width": 576,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/2692/04915906c6713bd8d2506fc145526ef26aefd757f67ce44ea79913633e3c/8620.jpg",
+          "hash": "4e3955f086f7",
+          "local": "/mods/69FE7241D54309E3/03-4e3955f086f7.webp",
+          "thumb": "/mods/69FE7241D54309E3/03-4e3955f086f7-640.webp",
+          "width": 288,
+          "height": 162
         }
       ],
       "detailSynced": true
@@ -3492,7 +3492,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "217.30 KB",
       "sizeBytes": 222515,
-      "downloads": 1,
+      "downloads": 3,
       "created": "2026-08-20",
       "updated": "2026-08-20",
       "license": {
