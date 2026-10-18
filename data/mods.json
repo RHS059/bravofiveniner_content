@@ -2,7 +2,7 @@
   "$schema": "https://bravofiveniner.com/schema/mods.v1.json",
   "author": "BravoFiveNine",
   "authorWorkshopSearch": "https://reforger.armaplatform.com/workshop?search=BravoFiveNine",
-  "generatedAt": "2026-10-17T11:48:48.127Z",
+  "generatedAt": "2026-10-18T12:14:43.448Z",
   "generatedBy": "scripts/sync-workshop.mjs",
   "imagesRehosted": true,
   "categories": [
@@ -52,7 +52,7 @@
       "audio": 2,
       "gameplay": 2
     },
-    "totalDownloads": 2097364
+    "totalDownloads": 2100633
   },
   "mods": [
     {
@@ -69,7 +69,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "1.30 MB",
       "sizeBytes": 1363149,
-      "downloads": 293858,
+      "downloads": 293978,
       "created": "2025-04-20",
       "updated": "2026-07-30",
       "license": {
@@ -132,7 +132,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "90.75 MB",
       "sizeBytes": 95158272,
-      "downloads": 194628,
+      "downloads": 195055,
       "created": "2025-10-31",
       "updated": "2026-08-28",
       "license": {
@@ -260,7 +260,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "133.28 MB",
       "sizeBytes": 139754209,
-      "downloads": 189769,
+      "downloads": 189974,
       "created": "2025-06-07",
       "updated": "2026-08-12",
       "license": {
@@ -405,7 +405,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "34.08 MB",
       "sizeBytes": 35735470,
-      "downloads": 168877,
+      "downloads": 169120,
       "created": "2025-05-07",
       "updated": "2026-08-14",
       "license": {
@@ -505,12 +505,12 @@
       "category": "core",
       "categoryLabel": "Attachments & core",
       "featured": null,
-      "rating": 88,
+      "rating": 89,
       "version": "1.0.32",
       "gameVersion": "1.8.0.10",
       "sizeLabel": "10.14 MB",
       "sizeBytes": 10632561,
-      "downloads": 165075,
+      "downloads": 165678,
       "created": "2026-04-08",
       "updated": "2026-08-27",
       "license": {
@@ -577,7 +577,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "7.91 MB",
       "sizeBytes": 8294236,
-      "downloads": 158840,
+      "downloads": 159394,
       "created": "2025-11-16",
       "updated": "2026-08-28",
       "license": {
@@ -640,7 +640,7 @@
       "gameVersion": "1.6.0.95",
       "sizeLabel": "123.83 MB",
       "sizeBytes": 129845166,
-      "downloads": 157713,
+      "downloads": 157718,
       "created": "2025-03-17",
       "updated": "2025-12-20",
       "license": {
@@ -752,7 +752,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "81.53 MB",
       "sizeBytes": 85490401,
-      "downloads": 150355,
+      "downloads": 150504,
       "created": "2025-01-18",
       "updated": "2026-08-23",
       "license": {
@@ -895,7 +895,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "4.57 MB",
       "sizeBytes": 4791992,
-      "downloads": 147709,
+      "downloads": 147720,
       "created": "2025-02-04",
       "updated": "2026-07-20",
       "license": {
@@ -1032,7 +1032,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "69.18 MB",
       "sizeBytes": 72540488,
-      "downloads": 140170,
+      "downloads": 140247,
       "created": "2025-04-20",
       "updated": "2026-07-26",
       "license": {
@@ -1172,7 +1172,7 @@
       "gameVersion": "1.4.0.45",
       "sizeLabel": "8.58 MB",
       "sizeBytes": 8996782,
-      "downloads": 127971,
+      "downloads": 128046,
       "created": "2025-06-21",
       "updated": "2025-06-21",
       "license": {
@@ -1216,7 +1216,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "43.95 MB",
       "sizeBytes": 46084915,
-      "downloads": 57687,
+      "downloads": 57847,
       "created": "2026-05-20",
       "updated": "2026-08-14",
       "license": {
@@ -1356,7 +1356,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "100.11 MB",
       "sizeBytes": 104972943,
-      "downloads": 42319,
+      "downloads": 42331,
       "created": "2025-11-01",
       "updated": "2026-08-14",
       "license": {
@@ -1496,7 +1496,7 @@
       "gameVersion": "1.7.0.41",
       "sizeLabel": "2.85 KB",
       "sizeBytes": 2918,
-      "downloads": 37386,
+      "downloads": 37496,
       "created": "2026-06-03",
       "updated": "2026-06-03",
       "license": {
@@ -1569,7 +1569,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "11.68 MB",
       "sizeBytes": 12247368,
-      "downloads": 22282,
+      "downloads": 22449,
       "created": "2026-07-06",
       "updated": "2026-08-14",
       "license": {
@@ -1690,7 +1690,7 @@
       "gameVersion": "1.6.0.119",
       "sizeLabel": "746.18 KB",
       "sizeBytes": 764088,
-      "downloads": 18040,
+      "downloads": 18148,
       "created": "2026-05-09",
       "updated": "2026-05-22",
       "license": {
@@ -1766,7 +1766,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "7.41 KB",
       "sizeBytes": 7588,
-      "downloads": 11564,
+      "downloads": 11574,
       "created": "2026-07-10",
       "updated": "2026-07-26",
       "license": {
@@ -1857,7 +1857,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "89.06 MB",
       "sizeBytes": 93386179,
-      "downloads": 2043,
+      "downloads": 2123,
       "created": "2026-08-27",
       "updated": "2026-08-28",
       "license": {
@@ -2001,7 +2001,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "119.86 MB",
       "sizeBytes": 125682319,
-      "downloads": 1944,
+      "downloads": 1974,
       "created": "2026-07-29",
       "updated": "2026-08-28",
       "license": {
@@ -2082,7 +2082,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "42.69 MB",
       "sizeBytes": 44763709,
-      "downloads": 1548,
+      "downloads": 1593,
       "created": "2026-07-31",
       "updated": "2026-08-16",
       "license": {
@@ -2226,7 +2226,7 @@
       "gameVersion": "1.6.0.95",
       "sizeLabel": "17.18 MB",
       "sizeBytes": 18014536,
-      "downloads": 1108,
+      "downloads": 1110,
       "created": "2025-12-09",
       "updated": "2025-12-12",
       "license": {
@@ -2316,6 +2316,155 @@
       "detailSynced": true
     },
     {
+      "id": "69F68714C36FB183",
+      "name": "B59 - MK12",
+      "slug": "69F68714C36FB183-B59-MK12",
+      "workshopUrl": "https://reforger.armaplatform.com/workshop/69F68714C36FB183-B59-MK12",
+      "author": "BravoFiveNine",
+      "category": "rifles",
+      "categoryLabel": "Battle rifles & carbines",
+      "featured": null,
+      "rating": 80,
+      "version": "0.0.6",
+      "gameVersion": "1.8.0.10",
+      "sizeLabel": "12.01 MB",
+      "sizeBytes": 12593398,
+      "downloads": 1055,
+      "created": "2026-07-27",
+      "updated": "2026-08-14",
+      "license": {
+        "name": "Arma Public License Share Alike (APL-SA)",
+        "short": "APL-SA"
+      },
+      "summary": "[Youtube Link]\n[One sentence descr]",
+      "description": "You have my permission to:\n✅ Make sound changes.\n✅ Make weapon config changes.\n✅ Add this to server config.\nEtc.\nModel and Textures:\nMattias H (Tiggis) → https://www.cgtrader.com/designers/tiggis",
+      "tags": [
+        "0",
+        "12",
+        "1M",
+        "B59",
+        "H",
+        "MK",
+        "MK-12",
+        "MK12",
+        "MOD",
+        "MOD-1",
+        "MOD-H",
+        "MOD0",
+        "MOD1",
+        "MODH",
+        "WEAPONS"
+      ],
+      "dependencies": [
+        "TacticalAnimationOverhaul TEST",
+        "Attachment Framework",
+        "B59 Attachments",
+        "B59 - SoundFX",
+        "Attachment Framework-Core",
+        "B59 - BravoCore",
+        "B59 - AR"
+      ],
+      "images": [
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/d23c/c6b8212618f3180f930f8cc0533e582451052d332bb4ad33fc1d647545be/249471.jpg",
+          "hash": "a1c7c7fb0ed7",
+          "local": "/mods/69F68714C36FB183/00-a1c7c7fb0ed7.webp",
+          "thumb": "/mods/69F68714C36FB183/00-a1c7c7fb0ed7-640.webp",
+          "width": 1600,
+          "height": 816
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/c79a/f109bdde3e937344c555a41280938566404e094c5f203d381e6a9056d1e7/116669.jpg",
+          "hash": "9913db0f1cc7",
+          "local": "/mods/69F68714C36FB183/01-9913db0f1cc7.webp",
+          "thumb": "/mods/69F68714C36FB183/01-9913db0f1cc7-640.webp",
+          "width": 1152,
+          "height": 648
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/36a8/9f533707d0f201f51ed934932bd65c4ef402ba9f8cfe7cd3b4b1c1113f33/17623.jpg",
+          "hash": "54abcc461a2d",
+          "local": "/mods/69F68714C36FB183/02-54abcc461a2d.webp",
+          "thumb": "/mods/69F68714C36FB183/02-54abcc461a2d-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/6da2/74ce7962421b7794fbf49c301b56441275be38b5bf6cbbec4e081e251674/17765.jpg",
+          "hash": "c6625fd3593e",
+          "local": "/mods/69F68714C36FB183/03-c6625fd3593e.webp",
+          "thumb": "/mods/69F68714C36FB183/03-c6625fd3593e-640.webp",
+          "width": 388,
+          "height": 218
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/cccb/a3eed93c1a19764e184b7b203a449a0e521d722ad90bec24a596bdd74741/33374.jpg",
+          "hash": "3952ed1741c9",
+          "local": "/mods/69F68714C36FB183/04-3952ed1741c9.webp",
+          "thumb": "/mods/69F68714C36FB183/04-3952ed1741c9-640.webp",
+          "width": 576,
+          "height": 324
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/938e/dd6b381f94ad102de33d1a2983313168cd6cc62b2dd3473f202053bf2912/9539.jpg",
+          "hash": "03ef40e2fc7c",
+          "local": "/mods/69F68714C36FB183/05-03ef40e2fc7c.webp",
+          "thumb": "/mods/69F68714C36FB183/05-03ef40e2fc7c-640.webp",
+          "width": 288,
+          "height": 162
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/0554/d1adca99d4294c389fe72d894c2a817df33dccdc3002313ef46457467dd6/296297.jpg",
+          "hash": "d973119107c6",
+          "local": "/mods/69F68714C36FB183/06-d973119107c6.webp",
+          "thumb": "/mods/69F68714C36FB183/06-d973119107c6-640.webp",
+          "width": 1600,
+          "height": 856
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/ead1/d530332fc570c42eefe2c9a98eebffdce46dead5502740dc6649f95e4b5a/197561.jpg",
+          "hash": "53fc0f83e322",
+          "local": "/mods/69F68714C36FB183/07-53fc0f83e322.webp",
+          "thumb": "/mods/69F68714C36FB183/07-53fc0f83e322-640.webp",
+          "width": 1480,
+          "height": 832
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/d9d9/38bee82c74b65d40521c1e170b32f3aa32b07005e8e68a4bd76e22f43061/62659.jpg",
+          "hash": "686a13de2cdd",
+          "local": "/mods/69F68714C36FB183/08-686a13de2cdd.webp",
+          "thumb": "/mods/69F68714C36FB183/08-686a13de2cdd-640.webp",
+          "width": 776,
+          "height": 436
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/8251/c81a3feb752b28901ed0d1ddf2c96d4b148de35791affb3990ec42c44567/282056.jpg",
+          "hash": "1bcc6d972b3f",
+          "local": "/mods/69F68714C36FB183/09-1bcc6d972b3f.webp",
+          "thumb": "/mods/69F68714C36FB183/09-1bcc6d972b3f-640.webp",
+          "width": 1600,
+          "height": 816
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/8480/0bca26f4a7c0f72b8c074eab072f31b3b67ea36bd388af79a3cc85e1bd11/197393.jpg",
+          "hash": "fdd3e96aa8ec",
+          "local": "/mods/69F68714C36FB183/10-fdd3e96aa8ec.webp",
+          "thumb": "/mods/69F68714C36FB183/10-fdd3e96aa8ec-640.webp",
+          "width": 1480,
+          "height": 832
+        },
+        {
+          "source": "https://ar-gcp-cdn.bistudio.com/image/96bb/ef07c68f580c7699695f24beb78abdde3734c5679232474d5948b467ae35/63101.jpg",
+          "hash": "bd525e3f1462",
+          "local": "/mods/69F68714C36FB183/11-bd525e3f1462.webp",
+          "thumb": "/mods/69F68714C36FB183/11-bd525e3f1462-640.webp",
+          "width": 776,
+          "height": 436
+        }
+      ],
+      "detailSynced": true
+    },
+    {
       "id": "69AD0E46F208250A",
       "name": "B59 - Bravocore for WCS & RHS",
       "slug": "69AD0E46F208250A-B59-BravocoreforWCS%2526RHS",
@@ -2329,7 +2478,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "445.88 KB",
       "sizeBytes": 456581,
-      "downloads": 1049,
+      "downloads": 1053,
       "created": "2026-06-27",
       "updated": "2026-08-11",
       "license": {
@@ -2481,155 +2630,6 @@
       "detailSynced": true
     },
     {
-      "id": "69F68714C36FB183",
-      "name": "B59 - MK12",
-      "slug": "69F68714C36FB183-B59-MK12",
-      "workshopUrl": "https://reforger.armaplatform.com/workshop/69F68714C36FB183-B59-MK12",
-      "author": "BravoFiveNine",
-      "category": "rifles",
-      "categoryLabel": "Battle rifles & carbines",
-      "featured": null,
-      "rating": 80,
-      "version": "0.0.6",
-      "gameVersion": "1.8.0.10",
-      "sizeLabel": "12.01 MB",
-      "sizeBytes": 12593398,
-      "downloads": 1034,
-      "created": "2026-07-27",
-      "updated": "2026-08-14",
-      "license": {
-        "name": "Arma Public License Share Alike (APL-SA)",
-        "short": "APL-SA"
-      },
-      "summary": "[Youtube Link]\n[One sentence descr]",
-      "description": "You have my permission to:\n✅ Make sound changes.\n✅ Make weapon config changes.\n✅ Add this to server config.\nEtc.\nModel and Textures:\nMattias H (Tiggis) → https://www.cgtrader.com/designers/tiggis",
-      "tags": [
-        "0",
-        "12",
-        "1M",
-        "B59",
-        "H",
-        "MK",
-        "MK-12",
-        "MK12",
-        "MOD",
-        "MOD-1",
-        "MOD-H",
-        "MOD0",
-        "MOD1",
-        "MODH",
-        "WEAPONS"
-      ],
-      "dependencies": [
-        "TacticalAnimationOverhaul TEST",
-        "Attachment Framework",
-        "B59 Attachments",
-        "B59 - SoundFX",
-        "Attachment Framework-Core",
-        "B59 - BravoCore",
-        "B59 - AR"
-      ],
-      "images": [
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/d23c/c6b8212618f3180f930f8cc0533e582451052d332bb4ad33fc1d647545be/249471.jpg",
-          "hash": "a1c7c7fb0ed7",
-          "local": "/mods/69F68714C36FB183/00-a1c7c7fb0ed7.webp",
-          "thumb": "/mods/69F68714C36FB183/00-a1c7c7fb0ed7-640.webp",
-          "width": 1600,
-          "height": 816
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/c79a/f109bdde3e937344c555a41280938566404e094c5f203d381e6a9056d1e7/116669.jpg",
-          "hash": "9913db0f1cc7",
-          "local": "/mods/69F68714C36FB183/01-9913db0f1cc7.webp",
-          "thumb": "/mods/69F68714C36FB183/01-9913db0f1cc7-640.webp",
-          "width": 1152,
-          "height": 648
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/36a8/9f533707d0f201f51ed934932bd65c4ef402ba9f8cfe7cd3b4b1c1113f33/17623.jpg",
-          "hash": "54abcc461a2d",
-          "local": "/mods/69F68714C36FB183/02-54abcc461a2d.webp",
-          "thumb": "/mods/69F68714C36FB183/02-54abcc461a2d-640.webp",
-          "width": 388,
-          "height": 218
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/6da2/74ce7962421b7794fbf49c301b56441275be38b5bf6cbbec4e081e251674/17765.jpg",
-          "hash": "c6625fd3593e",
-          "local": "/mods/69F68714C36FB183/03-c6625fd3593e.webp",
-          "thumb": "/mods/69F68714C36FB183/03-c6625fd3593e-640.webp",
-          "width": 388,
-          "height": 218
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/cccb/a3eed93c1a19764e184b7b203a449a0e521d722ad90bec24a596bdd74741/33374.jpg",
-          "hash": "3952ed1741c9",
-          "local": "/mods/69F68714C36FB183/04-3952ed1741c9.webp",
-          "thumb": "/mods/69F68714C36FB183/04-3952ed1741c9-640.webp",
-          "width": 576,
-          "height": 324
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/938e/dd6b381f94ad102de33d1a2983313168cd6cc62b2dd3473f202053bf2912/9539.jpg",
-          "hash": "03ef40e2fc7c",
-          "local": "/mods/69F68714C36FB183/05-03ef40e2fc7c.webp",
-          "thumb": "/mods/69F68714C36FB183/05-03ef40e2fc7c-640.webp",
-          "width": 288,
-          "height": 162
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/0554/d1adca99d4294c389fe72d894c2a817df33dccdc3002313ef46457467dd6/296297.jpg",
-          "hash": "d973119107c6",
-          "local": "/mods/69F68714C36FB183/06-d973119107c6.webp",
-          "thumb": "/mods/69F68714C36FB183/06-d973119107c6-640.webp",
-          "width": 1600,
-          "height": 856
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/ead1/d530332fc570c42eefe2c9a98eebffdce46dead5502740dc6649f95e4b5a/197561.jpg",
-          "hash": "53fc0f83e322",
-          "local": "/mods/69F68714C36FB183/07-53fc0f83e322.webp",
-          "thumb": "/mods/69F68714C36FB183/07-53fc0f83e322-640.webp",
-          "width": 1480,
-          "height": 832
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/d9d9/38bee82c74b65d40521c1e170b32f3aa32b07005e8e68a4bd76e22f43061/62659.jpg",
-          "hash": "686a13de2cdd",
-          "local": "/mods/69F68714C36FB183/08-686a13de2cdd.webp",
-          "thumb": "/mods/69F68714C36FB183/08-686a13de2cdd-640.webp",
-          "width": 776,
-          "height": 436
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/8251/c81a3feb752b28901ed0d1ddf2c96d4b148de35791affb3990ec42c44567/282056.jpg",
-          "hash": "1bcc6d972b3f",
-          "local": "/mods/69F68714C36FB183/09-1bcc6d972b3f.webp",
-          "thumb": "/mods/69F68714C36FB183/09-1bcc6d972b3f-640.webp",
-          "width": 1600,
-          "height": 816
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/8480/0bca26f4a7c0f72b8c074eab072f31b3b67ea36bd388af79a3cc85e1bd11/197393.jpg",
-          "hash": "fdd3e96aa8ec",
-          "local": "/mods/69F68714C36FB183/10-fdd3e96aa8ec.webp",
-          "thumb": "/mods/69F68714C36FB183/10-fdd3e96aa8ec-640.webp",
-          "width": 1480,
-          "height": 832
-        },
-        {
-          "source": "https://ar-gcp-cdn.bistudio.com/image/96bb/ef07c68f580c7699695f24beb78abdde3734c5679232474d5948b467ae35/63101.jpg",
-          "hash": "bd525e3f1462",
-          "local": "/mods/69F68714C36FB183/11-bd525e3f1462.webp",
-          "thumb": "/mods/69F68714C36FB183/11-bd525e3f1462-640.webp",
-          "width": 776,
-          "height": 436
-        }
-      ],
-      "detailSynced": true
-    },
-    {
       "id": "6A36349CDBDB371E",
       "name": "B59 - M416 - HD Textures",
       "slug": "6A36349CDBDB371E-B59-M416-HDTextures",
@@ -2643,7 +2643,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "199.18 MB",
       "sizeBytes": 208855368,
-      "downloads": 938,
+      "downloads": 962,
       "created": "2026-08-27",
       "updated": "2026-08-27",
       "license": {
@@ -2789,7 +2789,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "7.48 KB",
       "sizeBytes": 7660,
-      "downloads": 680,
+      "downloads": 684,
       "created": "2026-08-11",
       "updated": "2026-08-11",
       "license": {
@@ -3030,7 +3030,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "15.55 MB",
       "sizeBytes": 16305357,
-      "downloads": 492,
+      "downloads": 511,
       "created": "2026-07-27",
       "updated": "2026-08-14",
       "license": {
@@ -3138,7 +3138,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "143.97 MB",
       "sizeBytes": 150963487,
-      "downloads": 401,
+      "downloads": 403,
       "created": "2026-07-31",
       "updated": "2026-07-31",
       "license": {
@@ -3252,7 +3252,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "70.82 MB",
       "sizeBytes": 74260152,
-      "downloads": 200,
+      "downloads": 201,
       "created": "2026-07-31",
       "updated": "2026-07-31",
       "license": {
@@ -3498,7 +3498,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "217.30 KB",
       "sizeBytes": 222515,
-      "downloads": 4,
+      "downloads": 5,
       "created": "2026-08-20",
       "updated": "2026-08-20",
       "license": {
