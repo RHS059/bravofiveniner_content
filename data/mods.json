@@ -2,7 +2,7 @@
   "$schema": "https://bravofiveniner.com/schema/mods.v1.json",
   "author": "BravoFiveNine",
   "authorWorkshopSearch": "https://reforger.armaplatform.com/workshop?search=BravoFiveNine",
-  "generatedAt": "2026-11-06T15:27:18.969Z",
+  "generatedAt": "2026-11-07T14:28:50.270Z",
   "generatedBy": "scripts/sync-workshop.mjs",
   "imagesRehosted": true,
   "categories": [
@@ -52,7 +52,7 @@
       "audio": 2,
       "gameplay": 2
     },
-    "totalDownloads": 2136825
+    "totalDownloads": 2138671
   },
   "mods": [
     {
@@ -69,7 +69,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "1.30 MB",
       "sizeBytes": 1363149,
-      "downloads": 295748,
+      "downloads": 295871,
       "created": "2025-04-20",
       "updated": "2026-07-30",
       "license": {
@@ -132,7 +132,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "90.75 MB",
       "sizeBytes": 95158272,
-      "downloads": 199764,
+      "downloads": 200046,
       "created": "2025-10-31",
       "updated": "2026-08-28",
       "license": {
@@ -260,7 +260,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "133.28 MB",
       "sizeBytes": 139754209,
-      "downloads": 192977,
+      "downloads": 193110,
       "created": "2025-06-07",
       "updated": "2026-08-12",
       "license": {
@@ -406,7 +406,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "34.08 MB",
       "sizeBytes": 35735470,
-      "downloads": 172441,
+      "downloads": 172638,
       "created": "2025-05-07",
       "updated": "2026-08-14",
       "license": {
@@ -578,7 +578,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "7.91 MB",
       "sizeBytes": 8294236,
-      "downloads": 164924,
+      "downloads": 165252,
       "created": "2025-11-16",
       "updated": "2026-08-28",
       "license": {
@@ -641,7 +641,7 @@
       "gameVersion": "1.6.0.95",
       "sizeLabel": "123.83 MB",
       "sizeBytes": 129845166,
-      "downloads": 157796,
+      "downloads": 157803,
       "created": "2025-03-17",
       "updated": "2025-12-20",
       "license": {
@@ -753,7 +753,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "81.53 MB",
       "sizeBytes": 85490401,
-      "downloads": 152777,
+      "downloads": 153093,
       "created": "2025-01-18",
       "updated": "2026-08-23",
       "license": {
@@ -896,7 +896,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "4.57 MB",
       "sizeBytes": 4791992,
-      "downloads": 147816,
+      "downloads": 147831,
       "created": "2025-02-04",
       "updated": "2026-07-20",
       "license": {
@@ -1173,7 +1173,7 @@
       "gameVersion": "1.4.0.45",
       "sizeLabel": "8.58 MB",
       "sizeBytes": 8996782,
-      "downloads": 128864,
+      "downloads": 129015,
       "created": "2025-06-21",
       "updated": "2025-06-21",
       "license": {
@@ -1217,7 +1217,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "43.95 MB",
       "sizeBytes": 46084915,
-      "downloads": 58573,
+      "downloads": 58616,
       "created": "2026-05-20",
       "updated": "2026-08-14",
       "license": {
@@ -1497,7 +1497,7 @@
       "gameVersion": "1.7.0.41",
       "sizeLabel": "2.85 KB",
       "sizeBytes": 2918,
-      "downloads": 39092,
+      "downloads": 39160,
       "created": "2026-06-03",
       "updated": "2026-06-03",
       "license": {
@@ -1692,7 +1692,7 @@
       "gameVersion": "1.6.0.119",
       "sizeLabel": "746.18 KB",
       "sizeBytes": 764088,
-      "downloads": 18836,
+      "downloads": 18873,
       "created": "2026-05-09",
       "updated": "2026-05-22",
       "license": {
@@ -1768,7 +1768,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "7.41 KB",
       "sizeBytes": 7588,
-      "downloads": 11714,
+      "downloads": 11731,
       "created": "2026-07-10",
       "updated": "2026-07-26",
       "license": {
@@ -1859,7 +1859,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "89.06 MB",
       "sizeBytes": 93386179,
-      "downloads": 2818,
+      "downloads": 2871,
       "created": "2026-08-27",
       "updated": "2026-08-28",
       "license": {
@@ -2003,7 +2003,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "119.86 MB",
       "sizeBytes": 125682319,
-      "downloads": 2313,
+      "downloads": 2346,
       "created": "2026-07-29",
       "updated": "2026-08-28",
       "license": {
@@ -2228,7 +2228,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "12.01 MB",
       "sizeBytes": 12593398,
-      "downloads": 1392,
+      "downloads": 1416,
       "created": "2026-07-27",
       "updated": "2026-08-14",
       "license": {
@@ -2377,7 +2377,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "445.88 KB",
       "sizeBytes": 456581,
-      "downloads": 1152,
+      "downloads": 1154,
       "created": "2026-06-27",
       "updated": "2026-08-11",
       "license": {
@@ -2426,6 +2426,7 @@
         "B59 - BravoCore",
         "WCS_Weapon_Scripts",
         "WCS_RHS_Attachments",
+        "WCS_RHS_Sounds",
         "RHS - Content Pack 02"
       ],
       "images": [
@@ -2542,7 +2543,7 @@
       "gameVersion": "1.6.0.95",
       "sizeLabel": "17.18 MB",
       "sizeBytes": 18014536,
-      "downloads": 1138,
+      "downloads": 1142,
       "created": "2025-12-09",
       "updated": "2025-12-12",
       "license": {
@@ -2899,7 +2900,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "7.48 KB",
       "sizeBytes": 7660,
-      "downloads": 771,
+      "downloads": 778,
       "created": "2026-08-11",
       "updated": "2026-08-11",
       "license": {
@@ -2940,6 +2941,7 @@
         "WCS_Weapon_Scripts",
         "B59 - Bravocore for WCS & RHS",
         "WCS_RHS_Attachments",
+        "WCS_RHS_Sounds",
         "RHS - Content Pack 02"
       ],
       "images": [
@@ -3140,7 +3142,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "143.97 MB",
       "sizeBytes": 150963487,
-      "downloads": 429,
+      "downloads": 432,
       "created": "2026-07-31",
       "updated": "2026-07-31",
       "license": {
@@ -3254,7 +3256,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "70.82 MB",
       "sizeBytes": 74260152,
-      "downloads": 203,
+      "downloads": 205,
       "created": "2026-07-31",
       "updated": "2026-07-31",
       "license": {
@@ -3377,6 +3379,7 @@
         "WCS_Weapon_Scripts",
         "B59 - Bravocore for WCS & RHS",
         "WCS_RHS_Attachments",
+        "WCS_RHS_Sounds",
         "RHS - Content Pack 02"
       ],
       "images": [
@@ -3500,7 +3503,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "217.30 KB",
       "sizeBytes": 222515,
-      "downloads": 7,
+      "downloads": 8,
       "created": "2026-08-20",
       "updated": "2026-08-20",
       "license": {
