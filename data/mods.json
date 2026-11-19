@@ -2,7 +2,7 @@
   "$schema": "https://bravofiveniner.com/schema/mods.v1.json",
   "author": "BravoFiveNine",
   "authorWorkshopSearch": "https://reforger.armaplatform.com/workshop?search=BravoFiveNine",
-  "generatedAt": "2026-11-18T16:47:03.828Z",
+  "generatedAt": "2026-11-19T16:53:43.105Z",
   "generatedBy": "scripts/sync-workshop.mjs",
   "imagesRehosted": true,
   "categories": [
@@ -52,7 +52,7 @@
       "audio": 2,
       "gameplay": 2
     },
-    "totalDownloads": 2157846
+    "totalDownloads": 2159068
   },
   "mods": [
     {
@@ -69,7 +69,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "1.30 MB",
       "sizeBytes": 1363149,
-      "downloads": 296810,
+      "downloads": 296864,
       "created": "2025-04-20",
       "updated": "2026-07-30",
       "license": {
@@ -132,7 +132,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "90.75 MB",
       "sizeBytes": 95158272,
-      "downloads": 202767,
+      "downloads": 202900,
       "created": "2025-10-31",
       "updated": "2026-08-28",
       "license": {
@@ -260,7 +260,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "133.28 MB",
       "sizeBytes": 139754209,
-      "downloads": 194418,
+      "downloads": 194477,
       "created": "2025-06-07",
       "updated": "2026-08-12",
       "license": {
@@ -406,7 +406,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "10.14 MB",
       "sizeBytes": 10632561,
-      "downloads": 175202,
+      "downloads": 175342,
       "created": "2026-04-08",
       "updated": "2026-08-27",
       "license": {
@@ -473,7 +473,7 @@
       "gameVersion": "1.9.0.37",
       "sizeLabel": "34.08 MB",
       "sizeBytes": 35735470,
-      "downloads": 174884,
+      "downloads": 175177,
       "created": "2025-05-07",
       "updated": "2026-11-15",
       "license": {
@@ -578,7 +578,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "7.91 MB",
       "sizeBytes": 8294236,
-      "downloads": 168017,
+      "downloads": 168174,
       "created": "2025-11-16",
       "updated": "2026-08-28",
       "license": {
@@ -641,7 +641,7 @@
       "gameVersion": "1.6.0.95",
       "sizeLabel": "123.83 MB",
       "sizeBytes": 129845166,
-      "downloads": 157874,
+      "downloads": 157882,
       "created": "2025-03-17",
       "updated": "2025-12-20",
       "license": {
@@ -753,7 +753,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "81.53 MB",
       "sizeBytes": 85490401,
-      "downloads": 154500,
+      "downloads": 154612,
       "created": "2025-01-18",
       "updated": "2026-08-23",
       "license": {
@@ -896,7 +896,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "4.57 MB",
       "sizeBytes": 4791992,
-      "downloads": 147910,
+      "downloads": 147916,
       "created": "2025-02-04",
       "updated": "2026-07-20",
       "license": {
@@ -1033,7 +1033,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "69.18 MB",
       "sizeBytes": 72540488,
-      "downloads": 141300,
+      "downloads": 141322,
       "created": "2025-04-20",
       "updated": "2026-07-26",
       "license": {
@@ -1173,7 +1173,7 @@
       "gameVersion": "1.4.0.45",
       "sizeLabel": "8.58 MB",
       "sizeBytes": 8996782,
-      "downloads": 129537,
+      "downloads": 129568,
       "created": "2025-06-21",
       "updated": "2025-06-21",
       "license": {
@@ -1217,7 +1217,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "43.95 MB",
       "sizeBytes": 46084915,
-      "downloads": 59002,
+      "downloads": 59029,
       "created": "2026-05-20",
       "updated": "2026-08-14",
       "license": {
@@ -1357,7 +1357,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "100.11 MB",
       "sizeBytes": 104972943,
-      "downloads": 42593,
+      "downloads": 42596,
       "created": "2025-11-01",
       "updated": "2026-08-14",
       "license": {
@@ -1500,7 +1500,7 @@
       "gameVersion": "1.7.0.41",
       "sizeLabel": "2.85 KB",
       "sizeBytes": 2918,
-      "downloads": 39400,
+      "downloads": 39411,
       "created": "2026-06-03",
       "updated": "2026-06-03",
       "license": {
@@ -1574,7 +1574,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "11.68 MB",
       "sizeBytes": 12247368,
-      "downloads": 25292,
+      "downloads": 25356,
       "created": "2026-07-06",
       "updated": "2026-08-14",
       "license": {
@@ -1695,7 +1695,7 @@
       "gameVersion": "1.6.0.119",
       "sizeLabel": "746.18 KB",
       "sizeBytes": 764088,
-      "downloads": 18984,
+      "downloads": 18995,
       "created": "2026-05-09",
       "updated": "2026-05-22",
       "license": {
@@ -1771,7 +1771,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "7.41 KB",
       "sizeBytes": 7588,
-      "downloads": 11802,
+      "downloads": 11818,
       "created": "2026-07-10",
       "updated": "2026-07-26",
       "license": {
@@ -1862,7 +1862,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "89.06 MB",
       "sizeBytes": 93386179,
-      "downloads": 3342,
+      "downloads": 3351,
       "created": "2026-08-27",
       "updated": "2026-08-28",
       "license": {
@@ -2006,7 +2006,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "119.86 MB",
       "sizeBytes": 125682319,
-      "downloads": 2560,
+      "downloads": 2577,
       "created": "2026-07-29",
       "updated": "2026-08-28",
       "license": {
@@ -2087,7 +2087,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "42.69 MB",
       "sizeBytes": 44763709,
-      "downloads": 2246,
+      "downloads": 2253,
       "created": "2026-07-31",
       "updated": "2026-08-16",
       "license": {
@@ -2231,7 +2231,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "12.01 MB",
       "sizeBytes": 12593398,
-      "downloads": 1608,
+      "downloads": 1621,
       "created": "2026-07-27",
       "updated": "2026-08-14",
       "license": {
@@ -2460,7 +2460,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "445.88 KB",
       "sizeBytes": 456581,
-      "downloads": 1203,
+      "downloads": 1205,
       "created": "2026-06-27",
       "updated": "2026-08-11",
       "license": {
@@ -2626,7 +2626,7 @@
       "gameVersion": "1.6.0.95",
       "sizeLabel": "17.18 MB",
       "sizeBytes": 18014536,
-      "downloads": 1153,
+      "downloads": 1156,
       "created": "2025-12-09",
       "updated": "2025-12-12",
       "license": {
@@ -2729,7 +2729,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "15.55 MB",
       "sizeBytes": 16305357,
-      "downloads": 996,
+      "downloads": 1017,
       "created": "2026-07-27",
       "updated": "2026-08-14",
       "license": {
@@ -2903,7 +2903,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "7.48 KB",
       "sizeBytes": 7660,
-      "downloads": 834,
+      "downloads": 836,
       "created": "2026-08-11",
       "updated": "2026-08-11",
       "license": {
@@ -3343,7 +3343,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "42.05 KB",
       "sizeBytes": 43059,
-      "downloads": 136,
+      "downloads": 137,
       "created": "2026-08-11",
       "updated": "2026-08-11",
       "license": {
