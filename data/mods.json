@@ -2,7 +2,7 @@
   "$schema": "https://bravofiveniner.com/schema/mods.v1.json",
   "author": "BravoFiveNine",
   "authorWorkshopSearch": "https://reforger.armaplatform.com/workshop?search=BravoFiveNine",
-  "generatedAt": "2026-11-23T19:36:13.273Z",
+  "generatedAt": "2026-11-24T19:10:22.759Z",
   "generatedBy": "scripts/sync-workshop.mjs",
   "imagesRehosted": true,
   "categories": [
@@ -52,7 +52,7 @@
       "audio": 2,
       "gameplay": 2
     },
-    "totalDownloads": 2164053
+    "totalDownloads": 2164727
   },
   "mods": [
     {
@@ -69,7 +69,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "1.30 MB",
       "sizeBytes": 1363149,
-      "downloads": 297022,
+      "downloads": 297066,
       "created": "2025-04-20",
       "updated": "2026-07-30",
       "license": {
@@ -406,7 +406,7 @@
       "gameVersion": "1.9.0.37",
       "sizeLabel": "34.08 MB",
       "sizeBytes": 35735470,
-      "downloads": 176308,
+      "downloads": 176505,
       "created": "2025-05-07",
       "updated": "2026-11-15",
       "license": {
@@ -511,7 +511,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "10.14 MB",
       "sizeBytes": 10632561,
-      "downloads": 175934,
+      "downloads": 176073,
       "created": "2026-04-08",
       "updated": "2026-08-27",
       "license": {
@@ -578,7 +578,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "7.91 MB",
       "sizeBytes": 8294236,
-      "downloads": 168785,
+      "downloads": 168964,
       "created": "2025-11-16",
       "updated": "2026-08-28",
       "license": {
@@ -753,7 +753,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "81.53 MB",
       "sizeBytes": 85490401,
-      "downloads": 155139,
+      "downloads": 155222,
       "created": "2025-01-18",
       "updated": "2026-08-23",
       "license": {
@@ -1862,7 +1862,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "89.06 MB",
       "sizeBytes": 93386179,
-      "downloads": 3423,
+      "downloads": 3444,
       "created": "2026-08-27",
       "updated": "2026-08-28",
       "license": {
@@ -2087,7 +2087,7 @@
       "gameVersion": "1.8.0.10",
       "sizeLabel": "42.69 MB",
       "sizeBytes": 44763709,
-      "downloads": 2294,
+      "downloads": 2304,
       "created": "2026-07-31",
       "updated": "2026-08-16",
       "license": {
@@ -2903,7 +2903,7 @@
       "gameVersion": "1.7.0.54",
       "sizeLabel": "7.48 KB",
       "sizeBytes": 7660,
-      "downloads": 839,
+      "downloads": 840,
       "created": "2026-08-11",
       "updated": "2026-08-11",
       "license": {
